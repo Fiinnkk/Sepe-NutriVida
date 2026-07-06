@@ -89,8 +89,8 @@ Araquari, 22 de junho de 2026, às 14 horas.
  - Item 1: Término do Figma
  - Item 2: Início do CSS
  ### 3. Discussões e Deliberações
- - Sobre o Item 1: 
- - Sobre o Item 2:
+ - Sobre o Item 1: Quase terminamos as páginas do Figma, o que não conseguimos terminar em aula acabaremos em casa. Assim o Figma ficará pronto para semana que vem.
+ - Sobre o Item 2:  Começamos o HTML e o CSS.
 
 Araquari, 06 de julho de 2026, às 10 horas.
 
