@@ -1,4 +1,4 @@
-# Sepe
+ # Sepe
 
 
  ## ATA DA 1ª REUNIÃO 
@@ -17,6 +17,7 @@ Nada mais havendo a tratar, a Coordenadora encerrou os trabalhos. Eu, Luciana Fa
 
 Araquari, 1 de junho de 2026, às 14 horas e 30 minutos.
 
+---
 
  ## ATA DA 2ª REUNIÃO 
  ### 1. Presença
@@ -45,6 +46,7 @@ Araquari, 1 de junho de 2026, às 14 horas e 30 minutos.
 
 Araquari, 8 de junho de 2026, às 14 horas e 30 minutos.
 
+---
 
  ## ATA DA 3ª REUNIÃO 
  ### 1. Presença
@@ -60,6 +62,7 @@ Araquari, 8 de junho de 2026, às 14 horas e 30 minutos.
 
 Araquari, 15 de junho de 2026, às 14 horas e 30 minutos.
 
+---
 
  ## ATA DA 4ª REUNIÃO 
  ### 1. Presença
@@ -75,6 +78,7 @@ Araquari, 15 de junho de 2026, às 14 horas e 30 minutos.
 
 Araquari, 22 de junho de 2026, às 14 horas.
 
+---
 
  ## ATA DA 5ª REUNIÃO 
  ### 1. Presença
@@ -89,3 +93,5 @@ Araquari, 22 de junho de 2026, às 14 horas.
  - Sobre o Item 2:
 
 Araquari, 06 de julho de 2026, às 10 horas.
+
+---
