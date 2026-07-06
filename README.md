@@ -1,5 +1,6 @@
 # Sepe
 
+
  ## ATA DA 1ª REUNIÃO 
  ### 1. Presença
  - Presidente/Coordenador: Maria Lucia Feltrim
@@ -16,23 +17,12 @@ Nada mais havendo a tratar, a Coordenadora encerrou os trabalhos. Eu, Luciana Fa
 
 Araquari, 1 de junho de 2026, às 14 horas e 30 minutos.
 
+
  ## ATA DA 2ª REUNIÃO 
  ### 1. Presença
  - Presidente/Coordenador: Maria Lucia Feltrim
  - Secretário(a): Luciana Falk de Almeida
  - Membros presentes: Luciana Falk de Almeida, Maria Lucia F ATA DA 5ª REUNIÃO 
-1. Presença
-Presidente/Coordenador: Maria Lucia Feltrim.
-Secretário(a): Luciana Falk de Almeida.
-Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Alice Cristini, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
-2. Ordem do Dia (Assuntos)
-Item 1: Término do Figma
-Item 2: Início do CSS
-3. Discussões e Deliberações
-Sobre o Item 1: 
-Sobre o Item 2: 
-Araquari, 06 de julho de 2026, às 10 horas.
-eltrim, Alice Cristini, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
  ### 2. Ordem do Dia (Assuntos)
    Troca de integrantes: Saída de Henrique Torres; entrada de Felipe Gabriel Fink.
  - Item 1: Reunir todas as referências de sites, vídeos e pesquisas.
@@ -55,6 +45,7 @@ eltrim, Alice Cristini, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
 
 Araquari, 8 de junho de 2026, às 14 horas e 30 minutos.
 
+
  ## ATA DA 3ª REUNIÃO 
  ### 1. Presença
  - Presidente/Coordenador: Maria Lucia Feltrim.
@@ -69,6 +60,7 @@ Araquari, 8 de junho de 2026, às 14 horas e 30 minutos.
 
 Araquari, 15 de junho de 2026, às 14 horas e 30 minutos.
 
+
  ## ATA DA 4ª REUNIÃO 
  ### 1. Presença
  - 0Presidente/Coordenador: Maria Lucia Feltrim.
@@ -82,6 +74,7 @@ Araquari, 15 de junho de 2026, às 14 horas e 30 minutos.
  - Sobre o Item 2: O repositório oficial do projeto foi criado na plataforma GitHub. Ficou definido que o responsável pelo GitHub adicionará todos os integrantes da equipe como colaboradores. Também será enviado o convite de acesso ao professor orientador para que ele possa acompanhar as atualizações feitas e o avanço da programação.
 
 Araquari, 22 de junho de 2026, às 14 horas.
+
 
  ## ATA DA 5ª REUNIÃO 
  ### 1. Presença
