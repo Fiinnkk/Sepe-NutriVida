@@ -108,7 +108,7 @@ Araquari, 06 de julho de 2026, às 10 horas.
 - Sobre o Item 1: Comentários dos integrantes sobre o trabalho em equipe e andamento do projeto.
 - Sobre o Item 2: trabalhamos no HTML e o CSS.
 ### 4. Link do Figma
-- Link:
+- Link: https://www.figma.com/files/team/1608180435361839818/project/614329230?fuid=1608180431432470867
 
 Araquari, 13 de julho de 2026, às 14 horas e 30 minutos.
 
