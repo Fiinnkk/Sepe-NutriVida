@@ -38,11 +38,11 @@ Araquari, 1 de junho de 2026, às 14 horas e 30 minutos.
  - 2- https://www.humanrace.com/
  - 3- https://www.christyannejones.com/
  - 4- https://www.tartinebakery.com/
- - 5- https://www.bautz.com.br/
+ - 5- https://www.behance.net/gallery/252117491/Ecommerce-Shopify-Website-for-Organic-Food?tracking_source=search_projects|landing+page+food&l=6
  - 6- https://youtu.be/ywUuoTJJznA?si=G3Dx3977ArzLcpKE
  - 7- https://youtu.be/x5EwVBmVk8o?si=C-GajcoXuRdqBFy7
  - 8- https://youtu.be/Ltt6si2U39I?si8SFM6WSEoY4_akw-
- - 9- https://youtu.be/ql-6SjZ8Vml?si=TEGiMA95mmt_K2-I
+ - 9- https://youtu.be/ZbSPvwNX0GA?is=6h8oJRexbWEV5IR5
 
 Araquari, 8 de junho de 2026, às 14 horas e 30 minutos.
 
