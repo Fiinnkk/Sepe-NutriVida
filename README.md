@@ -95,3 +95,21 @@ Araquari, 22 de junho de 2026, às 14 horas.
 Araquari, 06 de julho de 2026, às 10 horas.
 
 ---
+
+## ATA DA 6ª REUNIÃO 
+### 1. Presença
+- Presidente/Coordenador: Maria Lucia Feltrim.
+- Secretário(a): Luciana Falk de Almeida.
+- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Alice Cristini, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
+### 2. Ordem do Dia (Assuntos)
+- Item 1: Avaliação dos grupos. 
+- Item 2: Andamento do HTML e CSS.
+### 3. Discussões e Deliberações
+- Sobre o Item 1: Comentários dos integrantes sobre o trabalho em equipe e andamento do projeto.
+- Sobre o Item 2: trabalhamos no HTML e o CSS.
+### 4. Link do Figma
+- Link:
+
+Araquari, 13 de julho de 2026, às 14 horas e 30 minutos.
+
+---
