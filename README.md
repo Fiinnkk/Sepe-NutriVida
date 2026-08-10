@@ -113,3 +113,18 @@ Araquari, 06 de julho de 2026, às 10 horas.
 Araquari, 13 de julho de 2026, às 14 horas e 30 minutos.
 
 ---
+
+## ATA DA 7ª REUNIÃO 
+### 1. Presença
+- Presidente/Coordenadora: Maria Lucia Feltrim.
+- Secretário(a): Luciana Falk de Almeida.
+- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
+- Membros ausentes: Alice Cristini.
+### 2. Ordem do Dia (Assuntos)
+- Item 1: Continuação dos códigos.
+### 3. Discussões e Deliberações
+- Sobre o Item 1: Aprendemos a configurar o formulário em JS.
+
+Araquari, 03 de agosto de 2026, às 11 horas e 55 minutos.
+
+---
