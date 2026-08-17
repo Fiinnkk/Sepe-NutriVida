@@ -140,5 +140,21 @@ Araquari, 03 de agosto de 2026, às 11 horas e 55 minutos.
 - Item 1: Continuação do html e CSS.
 - Item 2: Melhoria do Figma.
 ### 3. Discussões e Deliberações
-- Sobre o Item 1: 
+- Sobre o Item 1:
+
 Araquari, 10 de agosto de 2026, às 14 horas e 30 minutos.
+
+---
+
+## ATA DA 9ª REUNIÃO 
+### 1. Presença
+- Presidente/Coordenadora: Maria Lucia Feltrim.
+- Secretário(a): Luciana Falk de Almeida.
+- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Alice Cristini, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
+### 2. Ordem do Dia (Assuntos)
+- Item 1: Continuação do html e CSS.
+- Item 2: Melhoria do Figma.
+### 3. Discussões e Deliberações
+- Sobre o Item 1: 
+
+Araquari, 17 de agosto de 2026, às 14 horas e 30 minutos.
