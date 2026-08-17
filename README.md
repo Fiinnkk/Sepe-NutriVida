@@ -28,11 +28,11 @@ Araquari, 1 de junho de 2026, às 14 horas e 30 minutos.
    Troca de integrantes: Saída de Henrique Torres; entrada de Felipe Gabriel Fink.
  - Item 1: Reunir todas as referências de sites, vídeos e pesquisas.
  - Item 2: Definir quem será responsável pelo GitHub.
- - Item 3: Definir o layout das páginas.
+ - Item 3: Definir o layout das páginas (wireframe).
  ### 3. Discussões e Deliberações
  - Sobre o Item 1: Reunimos as referências e decidimos quais iremos usar.
  - Sobre o Item 2: Os integrantes que ficarão responsáveis pelo GitHub serão: Felipe Gabriel Fink e Pedro Barrim.
- - Sobre o Item 3: 
+ - Sobre o Item 3: Iniciamos as ideias para o layout e começamos o wireframe do site.
  ### 4. Sites e vídeos referências
  - 1- https://www.sundayinbrooklyn.com/
  - 2- https://www.humanrace.com/
@@ -54,11 +54,11 @@ Araquari, 8 de junho de 2026, às 14 horas e 30 minutos.
  - Secretário(a): Luciana Falk de Almeida.
  - Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Alice Cristini, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
  ### 2. Ordem do Dia (Assuntos)
- - Item 1: Repositório GitHub
- - Item 2: Layout Figma
+ - Item 1: Repositório GitHub.
+ - Item 2: Divisão Figma.
  ### 3. Discussões e Deliberações
  - Sobre o Item 1: Criação do repositório
- - Sobre o Item 2: Continuamos o layout do figma para começar a trabalhar no código.
+ - Sobre o Item 2: Matheus Hilário ficará com Benefícios, Pedro com a página IMC, Maria Lucia com Alimentação, Felipe Fink com Início, Alice Cristini com a página Receitas, e Luciana Falk com a página Contatos.
 
 Araquari, 15 de junho de 2026, às 14 horas e 30 minutos.
 
@@ -86,10 +86,10 @@ Araquari, 22 de junho de 2026, às 14 horas.
  - Secretário(a): Luciana Falk de Almeida.
  - Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Alice Cristini, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
  ### 2. Ordem do Dia (Assuntos)
- - Item 1: Término do Figma
- - Item 2: Início do CSS
+ - Item 1: Finalização do Figma.
+ - Item 2: Início do HTML e CSS.
  ### 3. Discussões e Deliberações
- - Sobre o Item 1: Quase terminamos as páginas do Figma, o que não conseguimos terminar em aula acabaremos em casa. Assim o Figma ficará pronto para semana que vem.
+ - Sobre o Item 1: A equipe revisou os desenhos do projeto no Figma. Foram feitos os ajustes finais nas cores do sistema, no estilo das letras e nos caminhos que a pessoa faz para mexer na tela. Todos concordaram com o visual final, e o endereço do modelo pronto foi enviado no chat da equipe para quem quiser olhar depois.
  - Sobre o Item 2:  Começamos o HTML e o CSS.
 
 Araquari, 06 de julho de 2026, às 10 horas.
