@@ -10,10 +10,8 @@
  - Item 1: Definir funções gerais.
  - Item 2: Definir funções da primeira semana.
  ### 3. Discussões e Deliberações
- - Sobre o Item 1: Após debates, ficou decidido por unanimidade que Maria Lucia será a líder, e Luciana Falk será a secretária. Os integrantes que ficarão com HTML e CSS serão Matheus, Luciana,    - Maria e Alice. Os responsáveis pelo backend serão Pedro e Henrique.
+ - Sobre o Item 1: Após debates, ficou decidido por unanimidade que Maria Lucia será a líder, e Luciana Falk será a secretária. Os integrantes que ficarão com HTML e CSS serão Matheus, Luciana, Maria e Alice. Os responsáveis pelo backend serão Pedro e Henrique.
  - Sobre o Item 2: Responsável por definir material de pesquisa: Pedro e Henrique. definir sites Alice e Luciana. definir vídeos Maria Lucia e Matheus.
- ### 4. Encerramento
-Nada mais havendo a tratar, a Coordenadora encerrou os trabalhos. Eu, Luciana Falk de Almeida, Secretária, lavrei a presente ata, que, lida e achada conforme pelo Presidente e pelos demais presentes. 
 
 Araquari, 1 de junho de 2026, às 14 horas e 30 minutos.
 
@@ -58,7 +56,7 @@ Araquari, 8 de junho de 2026, às 14 horas e 30 minutos.
  - Item 2: Divisão Figma.
  ### 3. Discussões e Deliberações
  - Sobre o Item 1: Criação do repositório
- - Sobre o Item 2: Matheus Hilário ficará com Benefícios, Pedro com a página IMC, Maria Lucia com Alimentação, Felipe Fink com Início, Alice Cristini com a página Receitas, e Luciana Falk com a página Contatos.
+ - Sobre o Item 2: Fizemos a divisão de quem ficará com cada página do figma e ficou decidido que: Matheus Hilário ficará com Benefícios, Pedro com a página IMC, Maria Lucia com Alimentação, Felipe Fink com Início, Alice Cristini com a página Receitas, e Luciana Falk com a página Contatos.
 
 Araquari, 15 de junho de 2026, às 14 horas e 30 minutos.
 
@@ -70,11 +68,11 @@ Araquari, 15 de junho de 2026, às 14 horas e 30 minutos.
  - Secretário(a): Luciana Falk de Almeida.
  - Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Alice Cristini, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
  ### 2. Ordem do Dia (Assuntos)
- - Item 1: Finalização do Figma.
+ - Item 1: Andamento do Figma.
  - Item 2: Adicionar o professor e os integrantes no repositório do GitHub.
  ### 3. Discussões e Deliberações
- - Sobre o Item 1: A equipe revisou os desenhos do projeto no Figma. Foram feitos os ajustes finais nas cores do sistema, no estilo das letras e nos caminhos que a pessoa faz para mexer na tela. Todos concordaram com o visual final, e o endereço do modelo pronto foi enviado no chat da equipe para quem quiser olhar depois.
- - Sobre o Item 2: O repositório oficial do projeto foi criado na plataforma GitHub. Ficou definido que o responsável pelo GitHub adicionará todos os integrantes da equipe como colaboradores. Também será enviado o convite de acesso ao professor orientador para que ele possa acompanhar as atualizações feitas e o avanço da programação.
+ - Sobre o Item 1: Continuamos a mexer no layout do Figma.
+ - Sobre o Item 2: Ficou definido que o responsável pelo GitHub adicionará todos os integrantes da equipe como colaboradores. Também será enviado o convite de acesso ao professor orientador para que ele possa acompanhar as atualizações feitas e o avanço da programação.
 
 Araquari, 22 de junho de 2026, às 14 horas.
 
@@ -106,7 +104,7 @@ Araquari, 06 de julho de 2026, às 10 horas.
 - Item 2: Andamento do HTML e CSS.
 ### 3. Discussões e Deliberações
 - Sobre o Item 1: Comentários dos integrantes sobre o trabalho em equipe e andamento do projeto.
-- Sobre o Item 2: trabalhamos no HTML e o CSS.
+- Sobre o Item 2: Trabalhamos no HTML e o CSS.
 ### 4. Link do Figma
 - Link: https://www.figma.com/files/team/1608180435361839818/project/614329230?fuid=1608180431432470867
 ### 5. Link da pasta HTML e CSS
