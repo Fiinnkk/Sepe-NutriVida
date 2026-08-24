@@ -1,0 +1,132 @@
+html {
+  font-size: clamp(0.9rem, calc(0.5rem + 1.6vw), 2.5rem);
+  font-family: "Heebo", sans-serif;
+}
+
+/* === Header === */
+
+header {
+  padding: 2vw;
+  border-bottom: 1px #00000033 solid;
+}
+
+header h1 {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+}
+
+header span {
+  color: #05ba78;
+}
+
+header nav {
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+header nav ul {
+  color: #717171;
+  gap: 15px;
+}
+
+header nav ul li {
+  margin: 1vw;
+  padding: 0.5vw 1vw;
+  border-radius: 50px;
+}
+
+.atual {
+  color: white !important;
+  background-color: #05ba78;
+  border-radius: 50px;
+  padding: 0.5vw 1vw;
+}
+
+.atual:hover {
+  color: rgb(69, 120, 55);
+  background-color: #000000;
+}
+
+.comeca {
+  display: inline-block;
+  color: white !important;
+  background-color: #1b5e20;
+  border: 1px solid #1b5e20;
+  border-radius: 50px;
+  padding: 0.5vw 1vw;
+  font-weight: 600;
+}
+
+/* === inicio === */
+
+.home {
+  text-align: center;
+  padding: 3vw;
+}
+
+.home h3 {
+  background-color: #05ba78;
+  padding: 1vw 3vw;
+  border-radius: 999px;
+  color: white;
+  margin: 2vw;
+  display: inline-block;
+}
+
+.home h1 {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.7rem;
+  color: black;
+}
+
+.home span {
+  color: #05ba78;
+}
+
+.home p {
+  margin: 2vw;
+  color: #717171;
+}
+
+.home img {
+  display: inline-block;
+  width: 75%;
+  margin: 3vw;
+}
+
+.home a {
+  display: inline-block;
+  padding: 2vw 3vw;
+  color: #1b5e20;
+  border: 2px #1b5e20 solid;
+  border-radius: 999px;
+}
+
+.home .green {
+  background-color: #1b5e20;
+  color: white;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+  header nav h1 {
+    font-size: 1.2rem;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.5rem;
+  }
+
+  header nav ul {
+    display: flex;
+    align-items: center;
+  }
+} 
