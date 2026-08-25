@@ -38,15 +38,11 @@ header nav ul li {
 }
 
 .atual {
-  color: white !important;
-  background-color: #05ba78;
-  border-radius: 50px;
-  padding: 0.5vw 1vw;
+  color: #05ba78 !important;
 }
 
 .atual:hover {
   color: rgb(69, 120, 55);
-  background-color: #000000;
 }
 
 .comeca {

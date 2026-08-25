@@ -5,6 +5,14 @@ header {
   height: 100%;
 }
 
+header ul li {
+  font-weight: bold;
+}
+
+header ul li a {
+  position: relative;
+}
+
 html {
     scrollbar-width: none;
 }
@@ -12,6 +20,57 @@ html {
 html::-webkit-scrollbar {
     display: none;
 }
+
+.comeca {
+  transition: 150ms;
+}
+
+.comeca:hover {
+  transform: scale(105%);
+}
+
+
+/* === header === */
+
+header ul li a:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: #05ba78;
+  transition: .5s;
+}
+
+header ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0%;
+  height: 3px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: #05ba78;
+  transition: .5s;
+}
+
+header ul li:hover a:before {
+  transform: translateX(99%);
+  width: 50%;
+
+}
+
+header ul li:hover a:after {
+  transform: translateX(-99%);
+  width: 50%;
+  
+}
+
+
 /*
   1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
   2. Remove default margins and padding
