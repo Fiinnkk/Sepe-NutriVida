@@ -57,7 +57,7 @@ header nav ul li {
 
 /* === inicio === */
 
-.home {
+main {
   text-align: center;
   padding: 3vw;
 }
@@ -66,6 +66,7 @@ header nav ul li {
   background-color: #05ba78;
   padding: 1vw 3vw;
   border-radius: 999px;
+  font-size: 0.8rem;
   color: white;
   margin: 2vw;
   display: inline-block;
@@ -74,7 +75,7 @@ header nav ul li {
 .home h1 {
   display: inline-block;
   font-weight: bold;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   color: black;
 }
 
@@ -96,9 +97,11 @@ header nav ul li {
 .home a {
   display: inline-block;
   padding: 2vw 3vw;
+  font-size: 0.8rem;
   color: #1b5e20;
-  border: 2px #1b5e20 solid;
+  border: 1px #1b5e20 solid;
   border-radius: 999px;
+  margin: 2vw;
 }
 
 .home .green {
@@ -106,10 +109,88 @@ header nav ul li {
   color: white;
 }
 
+.home2 h2 {
+  margin: 2vw;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
 
+.home2 h2 span {
+  color: #05ba78;
+}
+
+.home2 p {
+  font-size: 0.8rem;
+  margin: 2vw;
+  color: #717171;
+  display: inline-block;
+}
+
+.home2 ul li {
+  text-align: left;
+  border: solid 1px #ffd86a;
+  border-radius: 15px;
+  margin: 3vw 2vw;
+  background-color: #fff9e8;
+}
+
+.home2 ul li a {
+  display: inline-block;
+  padding: 2vw;
+  background-color: #ff8a00;
+  color: white;
+  border-radius: 999px;
+  margin: 2vw;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.home2 ul li div {
+  margin: 2vw;
+}
+
+.home2 ul li h4 {
+  margin: 2vw;
+  font-weight: bolder;
+}
+
+.home2 ul .verde {
+  border: 1px solid #a8e8d2;
+  background-color: #eafbf4;
+}
+
+.home2 ul .laranja {
+  border: 1px solid #ffd2a3;
+  background-color: #fff5eb;
+}
+
+.home2 ul .roxo {
+  border: 1px solid #d8ccff;
+  background-color: #f4f1ff;
+}
+
+.home2 ul .azul {
+  border: 1px solid #b8e1ff;
+  background-color: #edf8ff;
+}
+
+.home2 .azul a {
+  background-color:	#008FCC;
+}
+
+.home2 .roxo a {
+  background-color: #702CFF;
+}
+
+.home2 .laranja a {
+  background-color: #FF7200;
+}
+
+.home2 .verde a {
+  background-color: #00A36C;
+}
 
 @media only screen and (min-width: 600px) {
-
   header nav h1 {
     font-size: 1.2rem;
   }
@@ -125,4 +206,4 @@ header nav ul li {
     display: flex;
     align-items: center;
   }
-} 
+}
