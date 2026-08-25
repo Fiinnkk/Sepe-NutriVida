@@ -32,7 +32,7 @@ header nav ul {
 }
 
 header nav ul li {
-  margin: 1vw;
+  margin: 0.5vw;
   padding: 0.5vw 1vw;
   border-radius: 50px;
 }
@@ -110,15 +110,6 @@ header nav ul li {
   color: white;
 }
 
-/* === ALIMENTAÇÃO === */
-
-.alimentacao h1{
-    display: inline-block;
-  font-weight: bold;
-  font-size: 1.7rem;
-  color: black;
-}
-
 
 
 @media only screen and (min-width: 600px) {
@@ -129,7 +120,7 @@ header nav ul li {
 
   header nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-size: 0.5rem;
   }
