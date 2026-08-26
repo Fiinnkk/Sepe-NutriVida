@@ -1,85 +1,73 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-        <link rel="stylesheet" href="css/reset.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de IMC</title>
+    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/imc.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header class="main-container">
-      <nav class="nav">
-        <ul>
-          <li>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet" />
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
             <h1><span>Nutri</span>Vida</h1>
-          </li>
-          <li>
-            <a href="index.html">Início</a>
-          </li>
-          <li>
-            <a href="beneficios.html">Beneficios</a>
-          </li>
-          <li>
-            <a href="alimentacao.html">Alimentação</a>
-          </li>
-           <li>
-            <a href="imc.html" class="atual">Imc</a>
-          </li>
-          <li>
-            <a href="receitas.html">receitas</a>
-          </li>
-          <li>
-            <a href="dicas.html">Dicas</a>
-          </li>
-          <li>
-            <a href="contatos.html">contatos</a>
-          </li>
-          <li>
+            <ul>
+                <li>
+                    <a href="index.html">Início</a>
+                </li>
+                <li>
+                    <a href="beneficios.html">Beneficios</a>
+                </li>
+                <li>
+                    <a href="alimentacao.html">Alimentação</a>
+                </li>
+                <li>
+                    <a href="imc.html" class="atual">Imc</a>
+                </li>
+                <li>
+                    <a href="receitas.html">receitas</a>
+                </li>
+                <li>
+                    <a href="dicas.html">Dicas</a>
+                </li>
+                <li>
+                    <a href="contatos.html">contatos</a>
+                </li>
+                <li>
+                    <a href="sobre.html">Sobre Nós</a>
+                </li>
+            </ul>
             <a href="#" class="comeca">começar agora </a>
-          </li>
-        </ul>
-      </nav>
+        </nav>
     </header>
-    <main>
-      <section class="IMC">
-        <h2>Tabela IMC</h2>
-        <h1>Calcule seu IMC</h1>
-    <div class="formula-container">
-      <div class="formula-title"><h1>formula:</h1></div>
-      <div class="fraction">
-        <span class="numerator"><p>Peso </p></span>
-        <span class="denominator"><p>Altura² </p> </span>
-      </div>
-    </div>
-      </section>
-      <section class="formularioIMC">
-        <ul>
-          <li>
-              <label for="Peso">Peso (Kg)</label>
-              <input type="number" id="Peso" name="Peso" >
-          </li>
-          <li>
-              <label for="altura">Altura (metros)</label>
-              <input type="number" id="Altura" name="altura" >         
-          </li>
-          <li>
-              <button onclick="calcular()" id="calcIMC">Calcule</button>
-          </li>
-        </ul>
-      <div>
-      <h1 id="minhaResposta"></h1>
-    </div>
-      </section>
-    </main>
-    <script src="script.js"></script>
-  </body>
+
+    <section class="imc">
+        <h2>Calculadora de IMC</h2>
+
+        <form id="formIMC">
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" step="0.1" placeholder="Ex: 75.5" required>
+            <br><br>
+
+            <label for="altura">Altura (m):</label>
+            <input type="number" id="altura" step="0.01" placeholder="Ex: 1.75" required>
+            <br><br>
+
+            <button type="submit" id="btnCalcular">Calcular IMC</button>
+        </form>
+
+        <!-- O resultado será exibido aqui -->
+        <div id="resultado" style="margin-top: 20px; font-weight: bold;"></div>
+
+    </section>
+       <script src="js/imc.js"></script>
+
+</body>
 </html>
