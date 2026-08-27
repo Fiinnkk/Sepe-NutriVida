@@ -1,13 +1,11 @@
 html {
   font-size: clamp(0.9rem, calc(0.5rem + 1.6vw), 2.5rem);
-  font-family: "Heebo", sans-serif;
 }
 
 /* === Header === */
 
 header {
   padding: 2vw;
-  border-bottom: 1px #00000033 solid;
 }
 
 header h1 {
@@ -38,7 +36,7 @@ header nav ul li {
 }
 
 .atual {
-  color: #05ba78 !important;
+  color: #7fa653 !important;
 }
 
 .atual:hover {
@@ -59,6 +57,10 @@ header nav ul li {
 
 main {
   text-align: center;
+}
+
+.home {
+  background-color: #cfe8bc3a;
   padding: 3vw;
 }
 
@@ -80,12 +82,14 @@ main {
 }
 
 .home span {
-  color: #05ba78;
+  color: #7fa653;
 }
 
 .home p {
-  margin: 2vw;
+  display: inline-block;
+  margin: 3vw;
   color: #717171;
+  font-size: 0.8rem;
 }
 
 .home img {
@@ -97,15 +101,16 @@ main {
 .home a {
   display: inline-block;
   padding: 2vw 3vw;
-  font-size: 0.8rem;
-  color: #1b5e20;
-  border: 1px #1b5e20 solid;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: #63783D;
+  border: 1px #63783D solid;
   border-radius: 999px;
   margin: 2vw;
 }
 
 .home .green {
-  background-color: #1b5e20;
+  background-color: #63783D;
   color: white;
 }
 

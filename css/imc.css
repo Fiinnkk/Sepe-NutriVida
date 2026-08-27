@@ -4,56 +4,58 @@ html {
 }
 
 /* === Header === */
-header nav ul {
-  color: #717171;
-text-align: center;
-
+header {
+  padding: 2vw;
+  border-bottom: 1px #00000033 solid;
 }
 
-header nav ul li {
-  margin: 0 5px;
-  padding: 3vw 1vw 3vw 1vw;
-}
-
-.atual {
-  color: white !important;
-  background-color: #1b5e20;
-  border-radius: 50px;
-  padding: 12px 12px 12px 12px;
-}
-.atual:hover {
-  color: rgb(69, 120, 55);
-  background-color: #05ba78;
-}
-h1 {
+header h1 {
+  display: inline-block;
   font-weight: bold;
   font-size: 1.5rem;
   color: black;
 }
-span {
+
+header span {
   color: #05ba78;
 }
-header {
-  justify-content: center;
-  text-align: center;
 
+header nav {
+  text-align: center;
+  font-size: 0.8rem;
 }
 
+header nav ul {
+  color: #717171;
+  gap: 15px;
+}
+
+header nav ul li {
+  margin: 0.5vw;
+  padding: 0.5vw 1vw;
+  border-radius: 50px;
+}
+
+.atual {
+  color: #05ba78 !important;
+}
+
+.atual:hover {
+  color: rgb(69, 120, 55);
+}
 
 .comeca {
-  font-size: 1.2rem;
+  display: inline-block;
   color: white !important;
   background-color: #1b5e20;
   border: 1px solid #1b5e20;
   border-radius: 50px;
-  padding: 12px 12px 12px 12px;
-  font-weight:700;
-  transition: ease-out 150ms;
+  padding: 0.5vw 1vw;
+  font-weight: 600;
 }
-.comeca:hover{
-  transform: scale(0.9);
-  background-color: #05ba78;
-}
+
+/* === main === */
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -106,9 +108,11 @@ section.formularioIMC ul{
 text-align: center;
 padding:1vw 1vw 3vw 1vw;
 }
+
 section.formularioIMC h1{
   color: #1b5e20;
 }
+
 .calcIMC {
   background-color: #1b5e20;
   padding: 2rem 4vw; 
@@ -116,4 +120,23 @@ section.formularioIMC h1{
   max-width: 450px; 
   margin: 2rem auto; 
   box-sizing: border-box; 
+}
+
+
+@media only screen and (min-width: 600px) {
+  header nav h1 {
+    font-size: 1.2rem;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.5rem;
+  }
+
+  header nav ul {
+    display: flex;
+    align-items: center;
+  }
 }
