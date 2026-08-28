@@ -51,77 +51,122 @@ header nav ul li {
   border: 1px solid #1b5e20;
   border-radius: 50px;
   padding: 0.5vw 1vw;
+  
   font-weight: 600;
 }
 
-/* === main === */
-
-.main-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 60px 20px;
-}
-
-section.IMC{
-  text-align: center;
-  padding: 5vw 5vw 5vw 5vw;
-}
-
-
-
-
-
-.formula-container {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.formula-title {
-  color: var(--primary-color);
-  font-weight: bold;
+/* ===fórmula=== */
+h1 {
   font-size: 1.7rem;
-  margin-bottom: 10px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 20px;
 }
-
-.fraction {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.fraction .numerator {
-  padding-bottom: 4px;
-    font-size: 0.7rem;
-}
-
-.fraction .denominator {
-  border-top: 2px solid var(--text-color);
-  padding-top: 4px;
-    font-size: 0.7rem;
-}
-
-
-section.formularioIMC ul{
-text-align: center;
-padding:1vw 1vw 3vw 1vw;
-}
-
-section.formularioIMC h1{
+h2 {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-align: center;
   color: #1b5e20;
+  margin-bottom: 20px;
+}
+div.formula {
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+text-align: center;
+font-size: 1rem;
+}
+h3 {
+  text-align: center;
+  display: inline-block;
+  border-bottom: 5px  solid #000000;
+}
+h4 {
+padding-left: 10px;
+
 }
 
-.calcIMC {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===formulario=== */
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+
+legend {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+    background-color: #1b5e20;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 20px;
+  display: inline-block;
+}
+
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  
+}
+input {
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+button {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
   background-color: #1b5e20;
-  padding: 2rem 4vw; 
+  color: white;
   border-radius: 20px;
-  max-width: 450px; 
-  margin: 2rem auto; 
-  box-sizing: border-box; 
+  cursor: pointer;
 }
 
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+  header nav h1 {
+    font-size: 1.2rem;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.5rem;
+  }
+
+  header nav ul {
+    display: flex;
+    align-items: center;
+  }
+}
 
 @media only screen and (min-width: 600px) {
   header nav h1 {
