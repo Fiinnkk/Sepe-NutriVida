@@ -6,21 +6,10 @@ html {
 
 header {
   padding: 2vw;
-}
-
-header h1 {
-  display: inline-block;
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: black;
-}
-
-header span {
-  color: #05ba78;
+  text-align: center;
 }
 
 header nav {
-  text-align: center;
   font-size: 0.8rem;
 }
 
@@ -43,6 +32,15 @@ header nav ul li {
   color: rgb(69, 120, 55);
 }
 
+header nav a {
+  display: inline-block;
+}
+
+header img {
+  width: 70px;
+}
+
+/*
 .comeca {
   display: inline-block;
   color: white !important;
@@ -59,156 +57,110 @@ main {
   text-align: center;
 }
 
-.home {
-  background-color: #cfe8bc3a;
-  padding: 3vw;
-}
+section.home {
+    min-height: 350px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://file-cdn.mercyforanimals.org/mercy4animals.wpengine.com/sites/451/2021/10/Hero-ACB.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-.home h3 {
-  background-color: #05ba78;
-  padding: 1vw 3vw;
-  border-radius: 999px;
-  font-size: 0.8rem;
-  color: white;
-  margin: 2vw;
-  display: inline-block;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    font-weight: 700;
 }
 
 .home h1 {
-  display: inline-block;
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: black;
-}
-
-.home span {
-  color: #7fa653;
-}
-
-.home p {
-  display: inline-block;
-  margin: 3vw;
-  color: #717171;
-  font-size: 0.8rem;
-}
-
-.home img {
-  display: inline-block;
-  width: 75%;
-  margin: 3vw;
+  margin: 5vw;
+  font-size: 1.4rem;
 }
 
 .home a {
   display: inline-block;
+  margin: 3vw;
+  font-size: 0.9rem;
+  border: white solid 2px;
   padding: 2vw 3vw;
-  font-size: 0.7rem;
-  font-weight: bold;
-  color: #63783D;
-  border: 1px #63783D solid;
-  border-radius: 999px;
-  margin: 2vw;
+  border-radius: 10px;
+  transition: 0.3s;
 }
 
-.home .green {
-  background-color: #63783D;
-  color: white;
+.home a:hover {
+  background-color: white;
+  color: #7fa853;
 }
 
-.home2 h2 {
-  margin: 2vw;
-  font-size: 1.3rem;
-  font-weight: bold;
-}
 
-.home2 h2 span {
-  color: #05ba78;
-}
 
-.home2 p {
-  font-size: 0.8rem;
-  margin: 2vw;
-  color: #717171;
-  display: inline-block;
-}
 
-.home2 ul li {
-  text-align: left;
-  border: solid 1px #ffd86a;
-  border-radius: 15px;
-  margin: 3vw 2vw;
-  background-color: #fff9e8;
-}
 
-.home2 ul li a {
-  display: inline-block;
-  padding: 2vw;
-  background-color: #ff8a00;
-  color: white;
-  border-radius: 999px;
-  margin: 2vw;
-  font-size: 0.8rem;
-  font-weight: bold;
-}
 
-.home2 ul li div {
-  margin: 2vw;
-}
 
-.home2 ul li h4 {
-  margin: 2vw;
-  font-weight: bolder;
-}
-
-.home2 ul .verde {
-  border: 1px solid #a8e8d2;
-  background-color: #eafbf4;
-}
-
-.home2 ul .laranja {
-  border: 1px solid #ffd2a3;
-  background-color: #fff5eb;
-}
-
-.home2 ul .roxo {
-  border: 1px solid #d8ccff;
-  background-color: #f4f1ff;
-}
-
-.home2 ul .azul {
-  border: 1px solid #b8e1ff;
-  background-color: #edf8ff;
-}
-
-.home2 .azul a {
-  background-color:	#008FCC;
-}
-
-.home2 .roxo a {
-  background-color: #702CFF;
-}
-
-.home2 .laranja a {
-  background-color: #FF7200;
-}
-
-.home2 .verde a {
-  background-color: #00A36C;
-}
 
 @media only screen and (min-width: 600px) {
   header nav h1 {
     font-size: 1.2rem;
   }
 
-  header nav {
+  header img {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+  } 
+
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 0.5rem;
+    padding: 1vw 3vw;
+    margin-bottom: 0.3vw;
+  }
+
+  header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   header nav ul {
     display: flex;
     align-items: center;
+  }
+
+  header nav ul li {
+    margin: 0 1vw;
+    font-size: 0.4rem;
+    padding: 0;
+  }
+
+
+  /* home */
+
+  section.home {
+    min-height: 600px;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(https://file-cdn.mercyforanimals.org/mercy4animals.wpengine.com/sites/451/2021/10/Hero-ACB.png);
+
+    background-size: 100% auto;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+  .home h1 {
+    font-size: 1rem;
+  }
+
+  .home a {
+    font-size: 0.5rem;
+    padding: 1vw;
   }
 }
