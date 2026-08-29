@@ -25,7 +25,7 @@ header nav ul li {
 }
 
 .atual {
-  color: #7fa653 !important;
+  color: #7fa853 !important;
 }
 
 .atual:hover {
@@ -58,23 +58,24 @@ main {
 }
 
 section.home {
-    min-height: 350px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  min-height: 350px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://file-cdn.mercyforanimals.org/mercy4animals.wpengine.com/sites/451/2021/10/Hero-ACB.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 
-    color: white;
+  color: white;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    text-align: center;
+  text-align: center;
 
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .home h1 {
@@ -97,8 +98,93 @@ section.home {
   color: #7fa853;
 }
 
+/* home2 */
 
+section {
+  padding: 2vw;
+}
 
+h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 2vw;
+}
+
+h2 span,
+a span {
+  color: #7fa853;
+}
+
+p {
+  color: #686868;
+  font-size: 0.7rem;
+  margin: 3vw;
+}
+
+p span,
+ul span {
+  font-weight: 700;
+}
+
+.home3 {
+  background-color: #cfebc050;
+}
+
+.home3 div ul {
+  margin: 5vw;
+}
+
+.home3 div ul li {
+  list-style-type: disc !important;
+  list-style-position: inside !important; /* Coloca o ponto dentro da área visível */
+  padding-left: 20px;
+  text-align: left;
+  font-size: 0.7rem;
+  color: #686868;
+  margin: 3vw;
+}
+
+.home3 div a {
+  display: inline-block;
+  margin: 2vw;
+  font-size: 0.7rem;
+  color: #686868;
+}
+
+section.home4 {
+  padding: 2vw 0;
+}
+
+.home4 h2 {
+  margin: 3vw;
+}
+
+.home4 ul li {
+  background-color: #cfebc050;
+  margin: 3vw 0;
+}
+
+.home4 ul li div {
+  display: inline-block;
+  background-color: #63783d;
+  padding: 1vw;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin: 2vw 0 0 0;
+  width: 200px;
+  height: 200px;
+}
+
+.home4 ul li div p {
+  color: white;
+  font-weight: bold;
+  margin: 2vw;
+}
+
+.home4 ul li div img {
+  width: 75%;
+  margin: 3vw 1vw 0 1vw;
+}
 
 
 
@@ -113,7 +199,7 @@ section.home {
     width: 90px;
     margin: 0;
     padding: 0;
-  } 
+  }
 
   header {
     display: flex;
@@ -123,7 +209,7 @@ section.home {
     margin-bottom: 0.3vw;
   }
 
-  header nav{
+  header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -140,20 +226,19 @@ section.home {
     padding: 0;
   }
 
-
   /* home */
 
   section.home {
     min-height: 600px;
 
     background-image:
-        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(https://file-cdn.mercyforanimals.org/mercy4animals.wpengine.com/sites/451/2021/10/Hero-ACB.png);
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(https://file-cdn.mercyforanimals.org/mercy4animals.wpengine.com/sites/451/2021/10/Hero-ACB.png);
 
     background-size: 100% auto;
     background-position: top center;
     background-repeat: no-repeat;
-}
+  }
 
   .home h1 {
     font-size: 1rem;
