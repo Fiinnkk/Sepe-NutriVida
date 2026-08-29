@@ -21,7 +21,7 @@ const calcular = () => {
         } else if (imc < 41) {
             classification = "obesidade grau II";
         } else {
-            classification = "obesidade grau III";
+            classification = "obesidade Morbida";
         }
 
         resultado.innerText = `IMC: ${imc} (${classification})`;

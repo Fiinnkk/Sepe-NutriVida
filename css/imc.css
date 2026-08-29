@@ -1,187 +1,171 @@
 html {
-  font-size: clamp(0.9rem, calc(0.5rem + 1.6vw), 2.5rem);
-  font-family: "Heebo", sans-serif;
+    font-size: clamp(0.9rem, calc(0.5rem + 1.6vw), 2.5rem);
+    font-family: "Heebo", sans-serif;
 }
 
+
 /* === Header === */
+
 header {
-  padding: 2vw;
-  border-bottom: 1px #00000033 solid;
+    padding: 2vw;
+    border-bottom: 1px #00000033 solid;
 }
 
 header h1 {
-  display: inline-block;
-  font-weight: bold;
-  font-size: 1.5rem;
-  color: black;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
 }
 
 header span {
-  color: #05ba78;
+    color: #05ba78;
 }
 
 header nav {
-  text-align: center;
-  font-size: 0.8rem;
+    text-align: center;
+    font-size: 0.8rem;
 }
 
 header nav ul {
-  color: #717171;
-  gap: 15px;
+    color: #717171;
+    gap: 15px;
 }
 
 header nav ul li {
-  margin: 0.5vw;
-  padding: 0.5vw 1vw;
-  border-radius: 50px;
+    margin: 0.5vw;
+    padding: 0.5vw 1vw;
+    border-radius: 50px;
 }
 
 .atual {
-  color: #05ba78 !important;
+    color: #7fa653 !important;
 }
 
 .atual:hover {
-  color: rgb(69, 120, 55);
+    color: rgb(69, 120, 55);
 }
 
 .comeca {
-  display: inline-block;
-  color: white !important;
-  background-color: #1b5e20;
-  border: 1px solid #1b5e20;
-  border-radius: 50px;
-  padding: 0.5vw 1vw;
-  
-  font-weight: 600;
+    display: inline-block;
+    color: white !important;
+    background-color: #1b5e20;
+    border: 1px solid #1b5e20;
+    border-radius: 50px;
+    padding: 0.5vw 1vw;
+    font-weight: 600;
 }
+
 
 /* ===fórmula=== */
+
 h1 {
-  font-size: 1.7rem;
-  font-weight: bolder;
-  text-align: center;
-  margin-bottom: 20px;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 20px;
 }
+
 h2 {
-  font-size: 1.2rem;
-  font-weight: bolder;
-  text-align: center;
-  color: #1b5e20;
-  margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-align: center;
+    color: #1b5e20;
+    margin-bottom: 20px;
 }
+
 div.formula {
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 20px;
-text-align: center;
-font-size: 1rem;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1rem;
 }
+
 h3 {
-  text-align: center;
-  display: inline-block;
-  border-bottom: 5px  solid #000000;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 5px solid #000000;
 }
+
 h4 {
-padding-left: 10px;
-
+    padding-left: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ===formulario=== */
+
 fieldset {
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 5px;
-  max-width: 400px;
-  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
 }
 
-
 legend {
-  font-size: 1rem;
-  font-weight: bold;
-  margin-bottom: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
     background-color: #1b5e20;
     color: white;
     padding: 10px 50px;
     border-radius: 20px;
-  display: inline-block;
+    display: inline-block;
 }
-
 
 label {
-  display: block;
-  margin-bottom: 10px;
-  font-weight: bold;
-  
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
+
 input {
-  margin-bottom: 15px;
-  border: 1px solid #cccccc;
-  border-radius: 5px;
-  box-sizing: border-box;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
 }
+
 button {
-  display: block;
-  margin-top: 10px;
-  padding: 10px 20px;
-  background-color: #1b5e20;
-  color: white;
-  border-radius: 20px;
-  cursor: pointer;
-}
-
-
-
-
-
-
-@media only screen and (min-width: 600px) {
-  header nav h1 {
-    font-size: 1.2rem;
-  }
-
-  header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 0.5rem;
-  }
-
-  header nav ul {
-    display: flex;
-    align-items: center;
-  }
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #1b5e20;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
 }
 
 @media only screen and (min-width: 600px) {
-  header nav h1 {
-    font-size: 1.2rem;
-  }
+    header nav h1 {
+        font-size: 1.2rem;
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.5rem;
+    }
+    header nav ul {
+        display: flex;
+        align-items: center;
+    }
+}
 
-  header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 0.5rem;
-  }
-
-  header nav ul {
-    display: flex;
-    align-items: center;
-  }
+@media only screen and (min-width: 600px) {
+    header nav h1 {
+        font-size: 1.2rem;
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.5rem;
+    }
+    header nav ul {
+        display: flex;
+        align-items: center;
+    }
 }
