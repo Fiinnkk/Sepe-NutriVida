@@ -138,6 +138,11 @@ ul span {
   margin: 5vw;
 }
 
+.home3 img {
+  width: 75%;
+  margin: 4vh;
+}
+
 .home3 div ul li {
   list-style-type: disc !important;
   list-style-position: inside !important; /* Coloca o ponto dentro da área visível */
@@ -161,13 +166,13 @@ section.home4 {
 
 .home4 h2 {
   margin: 4vw;
+  margin-top: 5vh;
 }
 
 .home4 ul {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   padding: 5vw;
-  background: #cfe0bc5b;
 }
 
 .home4 ul li {
@@ -192,6 +197,13 @@ section.home4 {
 }
 
 
+.line {
+  background-color: white;
+  height: 1px;
+  border: 1px dashed rgba(0, 0, 0, 0.644);
+  margin: 20vh 0;
+}
+
 /* === footer === */
 
 footer {
@@ -209,8 +221,16 @@ footer h3 {
   display: inline;
   color: white;
   font-size: 1.2rem;
-  margin: 4vw;
+  margin: 4vw 0 4vw 3vw;
   font-weight: 600;
+}
+
+footer .paginas ul {
+  margin: 2vw;
+}
+
+footer .paginas ul li {
+  margin: 1vw;
 }
 
 footer .footer div {
@@ -233,7 +253,7 @@ footer .footer div .whats img{
 footer .sigaNos ul {
   display: flex;
   align-items: center;
-  margin: 2vw;
+  margin: 3vw;
 }
 
 footer span {
@@ -255,7 +275,7 @@ footer .direito {
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
     .home4 ul {
         grid-template-columns: 1fr;
     }
@@ -315,5 +335,47 @@ footer .direito {
 
   .home4 ul {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* home2 */
+
+  .home2 {
+    padding: 2vw 15vw;
+  }
+
+  .home2 h2 {
+    font-size: 1.1rem;
+  }
+
+  .home2 p {
+    font-size: 0.6rem;
+  }
+
+  /* home3 */
+
+  .home3 .maior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home3 h2 {
+    font-size: 1.1rem;
+  }
+
+  .home3 .maior div {
+    text-align: left;
+  }
+
+  .home3 .maior p , .home3 .maior div ul li, .home3 .maior a {
+    font-size: 0.6rem;
+  }
+
+  .home3 .maior ul {
+    margin: 2vw;
+  }
+
+  .home3 .maior ul li {
+    margin: 1.5vw;
   }
 }
