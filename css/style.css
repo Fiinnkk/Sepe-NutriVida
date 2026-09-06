@@ -145,7 +145,8 @@ ul span {
 
 .home3 div ul li {
   list-style-type: disc !important;
-  list-style-position: inside !important; /* Coloca o ponto dentro da área visível */
+  list-style-position: inside !important;
+  /* Coloca o ponto dentro da área visível */
   padding-left: 20px;
   text-align: left;
   font-size: 0.8rem;
@@ -211,7 +212,9 @@ footer {
   padding: 2vw;
 }
 
-footer p, footer a, footer span {
+footer p,
+footer a,
+footer span {
   color: white;
   font-size: 0.8rem;
   margin: 3vw;
@@ -246,7 +249,7 @@ footer .footer .sigaNos img {
   width: 20px;
 }
 
-footer .footer div .whats img{
+footer .footer div .whats img {
   width: 25px;
 }
 
@@ -270,15 +273,15 @@ footer .direito {
 
 
 @media (max-width: 768px) {
-    .home4 ul {
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .home4 ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media (max-width: 400px) {
-    .home4 ul {
-        grid-template-columns: 1fr;
-    }
+  .home4 ul {
+    grid-template-columns: 1fr;
+  }
 }
 
 
@@ -367,7 +370,9 @@ footer .direito {
     text-align: left;
   }
 
-  .home3 .maior p , .home3 .maior div ul li, .home3 .maior a {
+  .home3 .maior p,
+  .home3 .maior div ul li,
+  .home3 .maior a {
     font-size: 0.6rem;
   }
 
@@ -377,5 +382,73 @@ footer .direito {
 
   .home3 .maior ul li {
     margin: 1.5vw;
+  }
+
+  /* home4 */
+
+  .home4 {
+    h2 {
+      margin-top: 4vw;
+    }
+  }
+
+  .home4 ul li {
+    padding: 2vw 0.5vw;
+    margin: 2vw;
+
+    p {
+      font-size: 0.6rem;
+    }
+
+  }
+
+
+  /* footer */
+
+  footer {
+    
+    .footer {
+      display: flex;
+      justify-content: center;
+
+      h3 {
+        font-size: 0.8rem;
+      }
+
+      a,
+      p,
+      span {
+        font-size: 0.6rem;
+      }
+
+      .paginas ul {
+        margin: 1vw 0 0 1vw;
+
+        li {
+          margin: 0vw;
+        }
+      }
+
+      .sigaNos ul {
+        margin: 1vw 1vw 1vw 3vw;
+        gap: 0vw;
+
+        li a {
+          margin: 1vw;
+        }
+      }
+
+      .fala {
+        width: 600px;
+
+        img {
+          margin: 1vw
+        }
+      }
+    }
+
+    p {
+      font-size: 0.6rem;
+    }
   }
 }
