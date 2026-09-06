@@ -343,7 +343,9 @@ footer .direito {
   /* home2 */
 
   .home2 {
+    margin: auto;
     padding: 2vw 15vw;
+    height: 70vh;
   }
 
   .home2 h2 {
@@ -352,6 +354,7 @@ footer .direito {
 
   .home2 p {
     font-size: 0.6rem;
+    line-height: 1.5;
   }
 
   /* home3 */
@@ -406,7 +409,7 @@ footer .direito {
   /* footer */
 
   footer {
-    
+
     .footer {
       display: flex;
       justify-content: center;
