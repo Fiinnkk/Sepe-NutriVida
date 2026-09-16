@@ -4,6 +4,137 @@ html {
 }
 
 
+/* === HEADER === */
+
+header {
+    padding: 2vw;
+    border-bottom: 1px solid #00000033;
+}
+
+header nav {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+header nav h1 {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 0;
+}
+
+header span {
+    color: #05ba78;
+}
+
+header nav ul {
+    color: #717171;
+    gap: 15px;
+}
+
+header nav ul li {
+    margin: 0.5vw;
+    padding: 0.5vw 1vw;
+    border-radius: 50px;
+}
+
+.atual {
+    color: #7fa653 !important;
+}
+
+.atual:hover {
+    color: rgb(69, 120, 55);
+}
+
+
+/* === BOTÃO HAMBÚRGUER === */
+
+.menu-btn {
+    display: none;
+}
+
+
+/* === CELULAR === */
+
+@media only screen and (max-width: 599px) {
+
+    header nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .menu-btn {
+        display: block;
+
+        margin: 0;
+        padding: 0;
+
+        background: transparent;
+        border: none;
+
+        color: black;
+        font-size: 2rem;
+
+        cursor: pointer;
+    }
+
+    header nav ul {
+        display: none;
+
+        position: absolute;
+
+        top: 100%;
+        right: 0;
+
+        width: 200px;
+
+        background-color: white;
+
+        border: 1px solid #00000033;
+        border-radius: 10px;
+
+        padding: 10px;
+
+        z-index: 1000;
+    }
+
+    header nav ul.ativo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+    
+}
+
+
+/* === COMPUTADOR === */
+
+@media only screen and (min-width: 600px) {
+
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.5rem;
+    }
+
+    header nav ul {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+
 /* ===fórmula=== */
 
 h1 {
@@ -28,6 +159,19 @@ div.formula {
     text-align: center;
     font-size: 1rem;
 }
+.imc-banner{
+    text-align: center;
+}
+.imc-banner img{
+    width: 75%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+
+
 
 h3 {
     text-align: center;
@@ -86,5 +230,144 @@ button {
 }
 
 @media only screen and (min-width: 600px) {
-   
+    header nav h1 {
+        font-size: 1.2rem;
+    }
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 0.5rem;
+    }
+    header nav ul {
+        display: flex;
+        align-items: center;
+    }
 }
+
+@media only screen and (max-width: 599px) {
+    fieldset {
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 5px;
+        max-width: 40px;
+        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+        margin: 0 auto;
+    }
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+/* === footer === */
+footer {
+  background-color: #7fa853;
+  padding: 2vw;
+}
+
+footer p,
+footer a,
+footer span {
+  color: white;
+  font-size: 0.8rem;
+  margin: 3vw;
+}
+
+footer h3 {
+  display: inline;
+  color: white;
+  font-size: 1.2rem;
+  margin: 4vw 0 4vw 3vw;
+  font-weight: 600;
+}
+
+footer .paginas ul {
+  margin: 2vw;
+}
+
+footer .paginas ul li {
+  margin: 1vw;
+}
+
+footer .footer div {
+  margin: 5vw 2vw;
+}
+
+footer .footer div span {
+  color: white;
+  margin: 0;
+}
+
+footer .footer .sigaNos img {
+  width: 20px;
+}
+
+footer .footer div .whats img {
+  width: 25px;
+}
+
+footer .sigaNos ul {
+  display: flex;
+  align-items: center;
+  margin: 3vw;
+}
+
+footer span {
+  display: inline-block;
+  color: #ffffff5b;
+  margin: 3vw 4vw 4vw;
+}
+
+footer .direito {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.356);
+}
+@media only screen and (min-width: 600px) {
+      footer {
+
+    .footer {
+      display: flex;
+      justify-content: center;
+
+      h3 {
+        font-size: 0.8rem;
+      }
+
+      a,
+      p,
+      span {
+        font-size: 0.6rem;
+      }
+
+      .paginas ul {
+        margin: 1vw 0 0 1vw;
+
+        li {
+          margin: 0vw;
+        }
+      }
+
+      .sigaNos ul {
+        margin: 1vw 1vw 1vw 3vw;
+        gap: 0vw;
+
+        li a {
+          margin: 1vw;
+        }
+      }
+
+      .fala {
+        width: 600px;
+
+        img {
+          margin: 1vw
+        }
+      }
+    }
+
+    p {
+      font-size: 0.6rem;
+    }
+  }
+}
+
