@@ -1,55 +1,8 @@
 html {
   font-size: clamp(0.9rem, calc(0.5rem + 1.6vw), 2.5rem);
+  font-family: "Heebo", sans-serif;
 }
 
-/* === Header === */
-
-header {
-  padding: 2vw;
-  text-align: center;
-}
-
-header nav {
-  font-size: 0.8rem;
-}
-
-header nav ul {
-  color: #717171;
-  gap: 15px;
-}
-
-header nav ul li {
-  margin: 0.5vw;
-  padding: 0.5vw 1vw;
-  border-radius: 50px;
-}
-
-.atual {
-  color: #7fa853 !important;
-}
-
-.atual:hover {
-  color: rgb(69, 120, 55);
-}
-
-header nav a {
-  display: inline-block;
-}
-
-header img {
-  width: 70px;
-}
-
-/*
-.comeca {
-  display: inline-block;
-  color: white !important;
-  background-color: #1b5e20;
-  border: 1px solid #1b5e20;
-  border-radius: 50px;
-  padding: 0.5vw 1vw;
-  font-weight: 600;
-}
 
 /* === inicio === */
 
@@ -289,40 +242,6 @@ footer .direito {
 
 
 @media only screen and (min-width: 600px) {
-  header nav h1 {
-    font-size: 1.2rem;
-  }
-
-  header img {
-    width: 90px;
-    margin: 0;
-    padding: 0;
-  }
-
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1vw 3vw;
-    margin-bottom: 0.3vw;
-  }
-
-  header nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  header nav ul {
-    display: flex;
-    align-items: center;
-  }
-
-  header nav ul li {
-    margin: 0 1vw;
-    font-size: 0.4rem;
-    padding: 0;
-  }
 
   /* home */
 

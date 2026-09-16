@@ -6,6 +6,44 @@ a:hover {
   cursor: pointer;
 }
 
+/* === Header === */
+
+header {
+  padding: 2vw;
+  text-align: center;
+}
+
+header nav {
+  font-size: 0.8rem;
+}
+
+header nav ul {
+  color: #717171;
+  gap: 15px;
+}
+
+header nav ul li {
+  margin: 0.5vw;
+  padding: 0.5vw 1vw;
+  border-radius: 50px;
+}
+
+.atual {
+  color: #7fa853 !important;
+}
+
+.atual:hover {
+  color: rgb(69, 120, 55);
+}
+
+header nav a {
+  display: inline-block;
+}
+
+header img {
+  width: 70px;
+}
+
 header {
   width: 100%;
   height: 100%;
@@ -29,25 +67,15 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-.comeca {
-  transition: 150ms;
-}
-
-.comeca:hover {
-  transform: scale(105%);
-}
-
-/* === header === */
-
 header ul li a:before {
   content: "";
   position: absolute;
   bottom: 0;
   left: 0;
   width: 0%;
-  height: 3px;
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
+  height: 2px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
   background: #7fa853;
   transition: 0.5s;
 }
@@ -58,9 +86,9 @@ header ul li a::after {
   bottom: 0;
   right: 0;
   width: 0%;
-  height: 3px;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
+  height: 2px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   background: #7fa853;
   transition: 0.5s;
 }
@@ -73,6 +101,45 @@ header ul li:hover a:before {
 header ul li:hover a:after {
   transform: translateX(-99%);
   width: 50%;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+  header nav h1 {
+    font-size: 1.2rem;
+  }
+
+  header img {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw 3vw;
+    margin-bottom: 0.3vw;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header nav ul {
+    display: flex;
+    align-items: center;
+  }
+
+  header nav ul li {
+    margin: 0 1vw;
+    font-size: 0.4rem;
+    padding: 0;
+  }
 }
 
 /*
