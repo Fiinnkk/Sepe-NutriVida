@@ -8,6 +8,8 @@ a:hover {
 
 /* === Header === */
 
+
+
 header {
   padding: 2vw;
   text-align: center;
@@ -51,6 +53,10 @@ header {
   margin-bottom: 1vw; 
 }
 
+.menu-btn {
+    display: none;
+}
+
 header ul li {
   font-weight: bold;
 }
@@ -73,7 +79,7 @@ header ul li a:before {
   bottom: 0;
   left: 0;
   width: 0%;
-  height: 2px;
+  height: 3px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   background: #7fa853;
@@ -86,7 +92,7 @@ header ul li a::after {
   bottom: 0;
   right: 0;
   width: 0%;
-  height: 2px;
+  height: 3px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   background: #7fa853;

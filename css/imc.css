@@ -4,49 +4,6 @@ html {
 }
 
 
-/* === HEADER === */
-
-header {
-    padding: 2vw;
-    border-bottom: 1px solid #00000033;
-}
-
-header nav {
-    text-align: center;
-    font-size: 0.8rem;
-}
-
-header nav h1 {
-    display: inline-block;
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: black;
-    margin-bottom: 0;
-}
-
-header span {
-    color: #05ba78;
-}
-
-header nav ul {
-    color: #717171;
-    gap: 15px;
-}
-
-header nav ul li {
-    margin: 0.5vw;
-    padding: 0.5vw 1vw;
-    border-radius: 50px;
-}
-
-.atual {
-    color: #7fa653 !important;
-}
-
-.atual:hover {
-    color: rgb(69, 120, 55);
-}
-
 
 /* === BOTÃO HAMBÚRGUER === */
 
@@ -59,7 +16,7 @@ header nav ul li {
 
 @media only screen and (max-width: 599px) {
 
-    header nav {
+    header {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -173,7 +130,7 @@ div.formula {
 
 
 
-h3 {
+main h3 {
     text-align: center;
     display: inline-block;
     border-bottom: 5px solid #000000;
