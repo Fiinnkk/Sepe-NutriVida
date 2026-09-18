@@ -38,6 +38,7 @@ html {
         cursor: pointer;
     }
 
+
     header nav ul {
         display: none;
 
@@ -118,40 +119,41 @@ div.formula {
 }
 .imc-banner{
     text-align: center;
-}
-.imc-banner img{
+  }
+  .imc-banner img{
     width: 75%;
     max-width: 400px;
     height: auto;
     border-radius: 20px;
-}
-
-
-
-
-
-main h3 {
+  }
+  
+  
+  
+  
+  
+  main h3 {
     text-align: center;
     display: inline-block;
     border-bottom: 5px solid #000000;
-}
-
-h4 {
+  }
+  
+  h4 {
     padding-left: 10px;
-}
-
-
-/* ===formulario=== */
-
-fieldset {
+  }
+  
+  
+  /* ===formulario=== */
+  
+  fieldset {
+    background-color: #cfebc07a;
     border: 1px solid #ccc;
     padding: 20px;
     border-radius: 5px;
     max-width: 400px;
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
     margin: 0 auto;
-}
-
+  }
+  
 legend {
     font-size: 1rem;
     font-weight: bold;
@@ -184,6 +186,12 @@ button {
     color: white;
     border-radius: 20px;
     cursor: pointer;
+    transition: ease-out 250ms;
+}
+button:hover{
+  transform: scale(0.9);
+  background-color: white;
+  color: #1b5e20;
 }
 
 @media only screen and (min-width: 600px) {
