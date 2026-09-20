@@ -94,7 +94,7 @@
             Teremos prazer em receber sua mensagem.
           </p>
 
-          <form>
+          <form id = "formulario">
 
             <div class="form-row">
 
@@ -137,8 +137,17 @@
             </button>
 
           </form>
-
         </div>
+<div id="confirmacao" class="confirmacao">
+    <h2>Mensagem recebida!</h2>
+
+    <p>Obrigado pelo contato, <strong id="nome-confirmacao"></strong>!</p>
+
+    <p>
+        Recebemos sua mensagem e em breve enviaremos uma resposta
+        para o email:<strong id="email-confirmacao"></strong>
+    </p>
+</div>
 
         <!-- INFORMAÇÕES -->
 
@@ -272,6 +281,7 @@
   <!--Deixa esse script por ultimo-->
 
   <script src="js/menu.js"></script>
+  <script src="js/contatos.js"></script>
 </body>
 
 </html>
