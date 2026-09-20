@@ -60,9 +60,764 @@ html {
         text-align: center;
         margin: 5px 0;
     }
+
+    /* =========================
+   CONFIGURAÇÕES GERAIS
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f7f7f4;
+    color: #263626;
+}
+
+
+/* =========================
+   PÁGINA
+========================= */
+
+.pagina {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+
+/* =========================
+   CABEÇALHO
+========================= */
+
+.hero {
+    min-height: 230px;
+    background-color: #e4efd8;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 35px 70px;
+
+    overflow: hidden;
+}
+
+.hero-texto {
+    max-width: 470px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 18px;
+    color: #263526;
+}
+
+.hero h1 span {
+    color: #71855d;
+}
+
+.hero p {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #526148;
+    max-width: 390px;
+}
+
+.hero-imagem {
+    width: 220px;
+    height: 180px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+/* =========================
+   FILTROS
+========================= */
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    margin: 15px auto 20px;
+
+    width: fit-content;
+
+    background-color: #eeeeee;
+    border-radius: 20px;
+
+    padding: 5px 18px;
+}
+
+.filtros a {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+
+    font-size: 11px;
+    color: #45543d;
+
+    transition: 0.2s;
+}
+
+.filtros a:hover {
+    color: #6f8a61;
+}
+
+.filtros .ativo {
+    background-color: #7b956d;
+    color: white;
+
+    padding: 4px 10px;
+    border-radius: 15px;
+}
+
+
+/* =========================
+   CATEGORIAS
+========================= */
+
+.categoria {
+    padding: 0 70px;
+    margin-bottom: 25px;
+}
+
+.categoria h2 {
+    font-size: 17px;
+    font-weight: 500;
+
+    color: #647b57;
+
+    margin-bottom: 8px;
+}
+
+
+/* =========================
+   GRID DOS CARDS
+========================= */
+
+.grid-receitas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+
+/* =========================
+   CARD
+========================= */
+
+.card {
+    display: flex;
+
+    min-height: 150px;
+
+    background-color: #e8f8e4;
+
+    border-radius: 10px;
+
+    padding: 10px;
+
+    gap: 12px;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+
+    box-shadow: 0 5px 15px rgba(70, 90, 60, 0.12);
+}
+
+
+/* =========================
+   IMAGEM
+========================= */
+
+.imagem-receita {
+    width: 125px;
+    min-width: 125px;
+    height: 125px;
+
+    background-color: #d9d9d9;
+
+    border-radius: 5px;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-receita img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* =========================
+   CONTEÚDO DO CARD
+========================= */
+
+.conteudo-card {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+
+    padding: 3px 3px 3px 0;
+}
+
+.conteudo-card h3 {
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #293728;
+
+    margin-bottom: 8px;
+}
+
+.conteudo-card p {
+    font-family: Arial, sans-serif;
+
+    font-size: 10px;
+    line-height: 1.45;
+
+    color: #596654;
+
+    margin-bottom: auto;
+}
+
+
+/* =========================
+   BOTÃO
+========================= */
+
+.botao {
+    display: block;
+
+    width: 105px;
+
+    margin-top: 8px;
+
+    padding: 6px 8px;
+
+    border-radius: 15px;
+
+    background-color: #65845d;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 9px;
+
+    text-align: center;
+
+    transition: 0.2s;
+}
+
+.botao:hover {
+    background-color: #526f4b;
+}
+
+
+/* =========================
+   LANCHES E JANTAR
+========================= */
+
+.linha-receita {
+    display: grid;
+
+    grid-template-columns: 1fr 180px;
+
+    gap: 15px;
+
+    align-items: stretch;
+}
+
+.card-lanche,
+.card-jantar {
+    width: 100%;
+}
+
+
+/* =========================
+   FRASES DE DESTAQUE
+========================= */
+
+.frase {
+    background-color: #d8f3d3;
+
+    border-radius: 10px;
+
+    min-height: 150px;
+
+    padding: 20px 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.frase p {
+    font-size: 14px;
+    line-height: 1.45;
+
+    color: #4f684a;
+}
+
+.frase-jantar {
+    background-color: #f0f6ed;
+}
+
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 800px) {
+
+    .hero {
+        padding: 30px;
+    }
+
+    .categoria {
+        padding: 0 30px;
+    }
+
+    .grid-receitas {
+        grid-template-columns: 1fr;
+    }
+
+    .linha-receita {
+        grid-template-columns: 1fr;
+    }
+
+    .frase {
+        min-height: 100px;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+    .hero {
+        min-height: auto;
+
+        flex-direction: column;
+        text-align: center;
+
+        gap: 20px;
+
+        padding: 30px 20px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero p {
+        margin: 0 auto;
+    }
+
+    .hero-imagem {
+        width: 160px;
+        height: 130px;
+    }
+
+
+    .filtros {
+        width: calc(100% - 30px);
+
+        overflow-x: auto;
+        justify-content: flex-start;
+
+        gap: 15px;
+
+        padding: 7px 12px;
+    }
+
+    .filtros a {
+        white-space: nowrap;
+    }
+
+
+    .categoria {
+        padding: 0 20px;
+    }
+
+
+    .card {
+        min-height: 135px;
+    }
+
+    .imagem-receita {
+        width: 105px;
+        min-width: 105px;
+        height: 105px;
+    }
+
+    .conteudo-card h3 {
+        font-size: 13px;
+    }
+
+    .conteudo-card p {
+        font-size: 9px;
+    }
+
+}
     
 }
 
+
 @media only screen and (min-width: 600px) {
-    
+
+    /* ==============================
+       CONFIGURAÇÃO DA PÁGINA
+    ============================== */
+
+    .pagina {
+        width: 850px;
+        max-width: 100%;
+        margin: 0 auto;
+        background-color: #ffffff;
+    }
+
+
+    /* ==============================
+       CABEÇALHO
+    ============================== */
+
+    .hero {
+        height: 190px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 20px 45px;
+
+        background-color: #e5efd9;
+    }
+
+    .hero-texto {
+        width: 55%;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+        font-weight: 400;
+
+        margin-bottom: 12px;
+
+        color: #273526;
+    }
+
+    .hero h1 span {
+        color: #70845e;
+    }
+
+    .hero p {
+        width: 310px;
+
+        font-size: 10px;
+        line-height: 1.45;
+
+        color: #526047;
+    }
+
+    .hero-imagem {
+        width: 165px;
+        height: 145px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-imagem img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: contain;
+    }
+
+
+    /* ==============================
+       MENU / FILTROS
+    ============================== */
+
+    .filtros {
+        width: 330px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        gap: 15px;
+
+        margin: 8px auto 16px;
+
+        padding: 4px 10px;
+
+        background-color: #eeeeee;
+        border-radius: 15px;
+    }
+
+    .filtros a {
+        font-family: Arial, sans-serif;
+
+        font-size: 8px;
+
+        color: #4c5d45;
+
+        text-decoration: none;
+
+        white-space: nowrap;
+    }
+
+    .filtros .ativo {
+        padding: 3px 7px;
+
+        background-color: #79936c;
+        color: white;
+
+        border-radius: 10px;
+    }
+
+
+    /* ==============================
+       CATEGORIAS
+    ============================== */
+
+    .categoria {
+        padding: 0 45px;
+
+        margin-bottom: 13px;
+    }
+
+    .categoria h2 {
+        font-size: 12px;
+        font-weight: 400;
+
+        color: #687d5b;
+
+        margin-bottom: 6px;
+    }
+
+
+    /* ==============================
+       GRID - DUAS RECEITAS
+    ============================== */
+
+    .grid-receitas {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+
+        gap: 12px;
+    }
+
+
+    /* ==============================
+       CARD DE RECEITA
+    ============================== */
+
+    .card {
+        height: 115px;
+
+        display: flex;
+
+        padding: 7px;
+
+        gap: 8px;
+
+        background-color: #e7f8e3;
+
+        border-radius: 9px;
+
+        box-shadow: none;
+    }
+
+    .card:hover {
+        transform: none;
+        box-shadow: none;
+    }
+
+
+    /* ==============================
+       IMAGEM DOS CARDS
+    ============================== */
+
+    .imagem-receita {
+        width: 78px;
+        min-width: 78px;
+
+        height: 95px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #d9d9d9;
+
+        border-radius: 3px;
+
+        overflow: hidden;
+    }
+
+    .imagem-receita img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+
+
+    /* ==============================
+       CONTEÚDO DOS CARDS
+    ============================== */
+
+    .conteudo-card {
+        padding: 2px 2px 2px 0;
+    }
+
+    .conteudo-card h3 {
+        font-size: 9px;
+        font-weight: 600;
+
+        color: #293629;
+
+        margin-bottom: 5px;
+
+        text-transform: none;
+    }
+
+    .conteudo-card p {
+        font-family: Arial, sans-serif;
+
+        font-size: 6.5px;
+        line-height: 1.45;
+
+        color: #5b6756;
+
+        margin-bottom: 4px;
+    }
+
+
+    /* ==============================
+       BOTÃO
+    ============================== */
+
+    .botao {
+        width: 75px;
+
+        margin-top: auto;
+
+        padding: 4px 5px;
+
+        background-color: #63805b;
+
+        border-radius: 10px;
+
+        font-family: Arial, sans-serif;
+
+        font-size: 6px;
+
+        text-align: center;
+
+        color: #ffffff;
+
+        text-decoration: none;
+    }
+
+    .botao:hover {
+        background-color: #63805b;
+    }
+
+
+    /* ==============================
+       LANCHES E JANTAR
+    ============================== */
+
+    .linha-receita {
+        display: grid;
+
+        grid-template-columns: 1fr 105px;
+
+        gap: 10px;
+
+        align-items: stretch;
+    }
+
+    .card-lanche,
+    .card-jantar {
+        width: 100%;
+    }
+
+
+    /* ==============================
+       FRASES AO LADO
+    ============================== */
+
+    .frase {
+        min-height: 115px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 10px;
+
+        background-color: #d7f2d2;
+
+        border-radius: 9px;
+
+        text-align: center;
+    }
+
+    .frase p {
+        font-size: 9px;
+        line-height: 1.45;
+
+        color: #4f654a;
+    }
+
+    .frase-jantar {
+        background-color: #edf5ea;
+    }
+
 }

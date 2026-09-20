@@ -1,54 +1,277 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NutriVida - Contatos</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/contatos.css" />
- <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <header>
-      <a href="index.html"
-        ><img src="imagens/logo-nutrrivida1.png" alt="logo"
-      /></a>
-      <nav class="nav">
 
-        <button id="menu-btn" class="menu-btn">☰</button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NutriVida - Contatos</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/contatos.css" />
+  <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet" />
+</head>
 
-        <ul id="menu">
+<body>
+  <header>
+    <a href="index.html"><img src="imagens/logo-nutrrivida1.png" alt="logo" /></a>
+    <nav class="nav">
+
+      <button id="menu-btn" class="menu-btn">☰</button>
+
+      <ul id="menu">
+        <li>
+          <a href="index.html">Início</a>
+        </li>
+        <li>
+          <a href="beneficios.html">Beneficios</a>
+        </li>
+        <li>
+          <a href="alimentacao.html">Alimentação</a>
+        </li>
+        <li>
+          <a href="imc.html">Imc</a>
+        </li>
+        <li>
+          <a href="receitas.html">Receitas</a>
+        </li>
+        <li>
+          <a href="contatos.html" class="atual">Contatos</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="ajuda">
+
+      <div class="ajuda-texto">
+        <div>
+          <div class="tag">
+            Fale com a NutriVida
+          </div>
+
+          <h1>
+            Estamos aqui para
+            <span>ajudar</span>
+          </h1>
+
+          <p class="ajuda-paragrafo">
+            Dúvidas, sugestões ou apenas quer receber conteúdos
+            exclusivos? Entre em contato com a nossa equipe e
+            faça parte de uma jornada mais saudável.
+          </p>
+        </div>
+      </div>
+      <div class="ajuda-imagem">
+        <img src="imagens/foto.sepe.png" alt="imagem alimentos" />
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+
+    <section class="formulario">
+
+      <div class="contato-texto">
+        <h2>Entre em contato</h2>
+
+        <p>
+          Preencha o formulário e fale diretamente com a nossa equipe.
+        </p>
+      </div>
+
+      <div class="contato-conteudo">
+
+        <!-- FORMULÁRIO -->
+
+        <div class="contact-form">
+
+          <h3>Envie uma mensagem</h3>
+
+          <p>
+            Teremos prazer em receber sua mensagem.
+          </p>
+
+          <form>
+
+            <div class="form-row">
+
+              <div class="field">
+                <label for="nome">Nome</label>
+
+                <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+              </div>
+
+              <div class="field">
+                <label for="email">E-mail</label>
+
+                <input type="email" id="email" name="email" placeholder="Seu melhor e-mail" required>
+              </div>
+
+            </div>
+
+            <div class="field">
+
+              <label for="assunto">
+                Assunto
+              </label>
+
+              <input type="text" id="assunto" name="assunto" placeholder="Como podemos ajudar?">
+
+            </div>
+
+            <div class="field">
+
+              <label for="mensagem">
+                Mensagem
+              </label>
+
+              <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem..." required></textarea>
+
+            </div>
+
+            <button type="submit" class="submit-button">
+              Enviar mensagem
+            </button>
+
+          </form>
+
+        </div>
+
+        <!-- INFORMAÇÕES -->
+
+        <div class="info-column">
+
+          <div class="info-card">
+
+            <div class="info-icon">✉</div>
+
+            <div>
+              <h4>E-mail</h4>
+
+              <p>
+                contato@nutrivida.com.br<br>
+                Respondemos em até 24h.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="info-card">
+
+            <div class="info-icon">⌖</div>
+
+            <div>
+              <h4>Endereço</h4>
+
+              <p>
+                Rua das Flores, 120<br>
+                Centro — São Paulo, SP
+              </p>
+            </div>
+
+          </div>
+
+          <div class="info-card">
+
+            <div class="info-icon">◷</div>
+
+            <div>
+              <h4>Horário</h4>
+
+              <p>
+                Segunda a sexta<br>
+                9h às 18h
+              </p>
+            </div>
+
+          </div>
+
+          <div class="info-card">
+
+            <div class="info-icon">◎</div>
+
+            <div>
+              <h4>Redes Sociais</h4>
+
+              <p>
+                Acompanhe nossas dicas<br>
+                e novidades.
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- CTA -->
+
+    <section class="card">
+
+      <div>
+
+        <h2>
+          Cuide melhor da sua alimentação
+        </h2>
+
+        <p>
+          Descubra conteúdos e dicas para construir hábitos mais saudáveis.
+        </p>
+
+      </div>
+
+      <a href="#" class="card-button">
+        Conheça a NutriVita →
+      </a>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="fala">
+        <img src="imagens/logo-nutrrivida1.png" alt="logo" />
+        <p>
+          Educação nutricional <span>acessível</span> para quem quer viver com
+          mais <span>saúde</span> e <span>qualidade de vida</span>.
+        </p>
+      </div>
+      <div class="paginas">
+        <h3>Páginas</h3>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="beneficios.html">Benefícios</a></li>
+          <li><a href="alimentacao.html">Alimentação</a></li>
+          <li><a href="imc.html">Imc</a></li>
+          <li><a href="receitas.html">Receitas</a></li>
+          <li><a href="Contatos.html">Contatos</a></li>
+        </ul>
+      </div>
+      <div class="sigaNos">
+        <h3>Siga-nos</h3>
+        <ul>
           <li>
-            <a href="index.html">Início</a>
+            <a href="https://www.instagram.com/nutrivida_ifc?stkn=MW9kajV4MDNva3hpbw=="><img src="imagens/image24.svg" alt="instagram" /></a>
           </li>
           <li>
-            <a href="beneficios.html">Beneficios</a>
-          </li>
-          <li>
-            <a href="alimentacao.html">Alimentação</a>
-          </li>
-          <li>
-            <a href="imc.html">Imc</a>
-          </li>
-          <li>
-            <a href="receitas.html">Receitas</a>
-          </li>
-          <li>
-            <a href="contatos.html" class="atual">Contatos</a>
+            <a href="www.whatsapp.com" class="whats"><img src="imagens/image25.svg" alt="whatsapp" /></a>
           </li>
         </ul>
-      </nav>
-    </header>
+      </div>
+    </div>
+    <p class="direito">© 2026 NutriVida. Todos os direitos reservados.</p>
+  </footer>
 
+  <!--Deixa esse script por ultimo-->
 
-    <!--Deixa esse script por ultimo-->
+  <script src="js/menu.js"></script>
+</body>
 
-    <script src="js/menu.js"></script>
-  </body>
 </html>
