@@ -7,60 +7,60 @@ html {
 
 @media only screen and (max-width: 599px) {
 
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: relative;
-    }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
 
-    .menu-btn {
-        display: block;
+  .menu-btn {
+    display: block;
 
-        margin: 0;
-        padding: 0;
+    margin: 0;
+    padding: 0;
 
-        background: transparent;
-        border: none;
+    background: transparent;
+    border: none;
 
-        color: black;
-        font-size: 2rem;
+    color: black;
+    font-size: 2rem;
 
-        cursor: pointer;
-    }
+    cursor: pointer;
+  }
 
-    header nav ul {
-        display: none;
+  header nav ul {
+    display: none;
 
-        position: absolute;
+    position: absolute;
 
-        top: 100%;
-        right: 0;
+    top: 100%;
+    right: 0;
 
-        width: 200px;
+    width: 200px;
 
-        background-color: white;
+    background-color: white;
 
-        border: 1px solid #00000033;
-        border-radius: 10px;
+    border: 1px solid #00000033;
+    border-radius: 10px;
 
-        padding: 10px;
+    padding: 10px;
 
-        z-index: 1000;
-    }
+    z-index: 1000;
+  }
 
-    header nav ul.ativo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  header nav ul.ativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    header nav ul li {
-        width: 100%;
-        text-align: center;
-        margin: 5px 0;
-    }
-    
+  header nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
+
 }
 
 /* === inicio === */
@@ -194,6 +194,11 @@ section.home4 {
   padding: 4vw 1vw;
   border-radius: 20px;
   margin: 5vw;
+  transition: 0.4s;
+}
+
+.home4 ul li:hover {
+  transform: translateY(-3px);
 }
 
 .home4 ul li p {
@@ -208,6 +213,38 @@ section.home4 {
   width: 80%;
   border-radius: 20px;
 }
+
+
+/* === ações === */
+
+.acoes {
+  background-color: #cfebc050;
+  padding-top: 3vh;
+  padding-bottom: 4vh;
+
+  h3 {
+    color: #63783D;
+    font-weight: 600;
+  }
+
+  ul li {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2vw;
+    margin: 4vw 2vw;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.295);
+  }
+
+  a {
+    display: inline-block;
+    margin: 3vw;
+    color: #7fa853;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+}
+
+
 
 
 .line {
@@ -381,6 +418,30 @@ footer .direito {
       font-size: 0.6rem;
     }
 
+  }
+
+
+  /* === Acoes === */
+
+  .acoes {
+    padding: 4vw;
+
+    h3 {
+      text-align: left;
+      margin-left: 2vw;
+    }
+
+    ul li {
+      margin: 2vw;
+    }
+
+    p {
+      font-size: 0.7rem;
+    }
+
+    a {
+      font-size: 0.8rem;
+    }
   }
 
 
