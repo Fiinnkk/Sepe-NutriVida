@@ -252,6 +252,7 @@ textarea:focus {
 }
 
 .info-icon {
+  align-items: center;
   flex: 0 0 45px;
   height: 45px;
   display: grid;
