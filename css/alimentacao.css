@@ -63,31 +63,28 @@ html {
 
         /* HERO NO CELULAR */
 
-    .hero-section {
+    .inicio {
         flex-direction: column;
         padding: 40px 25px;
     }
 
-    .hero-conteudo {
+    .inicio-conteudo {
         max-width: 100%;
         text-align: center;
     }
 
-    .hero-imagem {
+    .inicio-imagem {
         width: 100%;
         margin-top: 25px;
     }
 
-    .hero-imagem img {
+    .inicio-imagem img {
         width: 100%;
         height: 250px;
         object-fit: cover;
     }
 
-
-    /* CARDS UM ABAIXO DO OUTRO */
-
-    .grid-container {
+    .grupos-alimentares {
         flex-direction: column;
         padding: 30px 25px;
         gap: 20px;
@@ -101,8 +98,8 @@ html {
 }
 
 
-/* Estilização do Banner (Hero) */
-.hero-section {
+    /*  INICIO  */
+.inicio {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -112,41 +109,42 @@ html {
 }
 
 
-.hero-conteudo {
+.inicio-conteudo {
     max-width: 50%;
 }
 
 
-.hero-conteudo h1 {
+.inicio-conteudo h1 {
     font-size: 48px;
     color: #2c4224;
     margin-bottom: 20px;
 }
 
 
-.hero-conteudo .destaque {
-    color: #7fa66d; /* Verde claro da palavra Nutrição */
+.inicio-conteudo .destaque {
+    color: #7fa66d; 
     font-style: italic;
 }
 
 
-.hero-conteudo p {
+.inicio-conteudo p {
     font-size: 16px;
     line-height: 1.6;
     color: #666;
 }
 
-/* 3. Estilização da imagem  */
+/* IMAGEM  */
 
-.hero-imagem img {
+.inicio-imagem img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
 
-/* 4. Estilização dos Cartões (Grid de 4 colunas) */
-.grid-container {
+/* SEÇÃO DE GRUPOS ALIMENTARES */
+
+.grupos-alimentares {
     display: flex;
     justify-content: space-between;
     padding: 40px 50px;
@@ -157,16 +155,17 @@ html {
 
 
 .card {
-    background-color: #ffffff;
+    background-color: #f1f8f3; 
+    border: 1px solid #e0ebd9;  
     padding: 30px 20px;
     border-radius: 8px;
     text-align: center;
-    flex: 1; /* Faz todos os cartões terem o mesmo tamanho */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05); /* Sombra leve */
+    flex: 1;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
 }
 
 
-.card-icone {
+.icone {
     font-size: 32px;
     margin-bottom: 15px;
 }
@@ -185,31 +184,63 @@ html {
     line-height: 1.4;
 }
 
-/* Container Principal do Banner */
+/* SEÇÃO PRATO SAUDÁVEL */
 
-.secao2{
-  align-items: center;
-  justify-content: center;
-}
+    .grupo-bolinhas {
+        width: 100%;
 
-.banner-container {
-    margin-bottom: 40px;
-    margin-left: 16vw;
-    background-color: #f1f8f3; /* Verde bem claro de fundo */
-    border: 1px solid #e0ebd9;
-    border-radius: 16px;
-    width: 100%;
-    max-width: 950px;
-    height: auto;
-    min-height: 280px;
-    display: flex;
-    overflow: hidden;
-    position: relative;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-}
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-/* Lado Esquerdo - Conteúdo */
-.info-side {
+        gap: 10px;
+    }
+
+    .separacao-bolinhas {
+        width: 80px;
+    }
+
+    .circulo {
+        width: 50px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+    .p-texto {
+        font-size: 12px;
+    }
+
+    .linha-divisao {
+        height: 55px;
+        flex-shrink: 0;
+    }
+
+    .prato-imagem {
+        width: 100%;
+        height: 180px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        box-sizing: border-box;
+
+        overflow: hidden;
+    }
+
+    .prato-imagem img {
+        width: 170px;
+        height: 170px;
+
+        max-width: 100%;
+        object-fit: contain;
+
+        margin: 0;
+    }
+
+
+/* LADO ESQUERDO -- IMAGEM DO PRATO */
+.regra-prato {
     flex: 1.2;
     padding: 40px 20px 40px 50px;
     display: flex;
@@ -217,43 +248,43 @@ html {
     justify-content: center;
 }
 
-.header-title {
+.secao2-titulo {
     display: flex;
     align-items: center;
     gap: 8px;
     margin-bottom: 6px;
 }
 
-.leaf-icon {
+.icone-folha {
     font-size: 24px;
     color: #4a7c59;
 }
 
-.header-title h1 {
+.secao2-titulo h1 {
     font-size: 28px;
     color: #2d3e2d;
     font-weight: 500;
 }
 
-.header-title h1 strong {
-    color: #619b6c; /* Verde médio do título */
+.secao2-titulo h1 strong {
+    color: #619b6c; 
     font-weight: 700;
 }
 
-.subtitle {
+.secao2-subtitulo {
     color: #556b55;
     font-size: 14px;
     margin-bottom: 30px;
 }
 
-/* Área das Frações Circulares */
-.fractions-container {
+/* CIRCULOS */
+.grupo-bolinhas{
     display: flex;
     align-items: center;
     gap: 25px;
 }
 
-.fraction-item {
+.separacao-bolinhas {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -261,8 +292,8 @@ html {
     width: 100px;
 }
 
-.circle {
-    background-color: #43814f; /* Verde escuro das bolinhas */
+.circulo {
+    background-color: #43814f; 
     color: #ffffff;
     width: 50px;
     height: 50px;
@@ -275,19 +306,20 @@ html {
     margin-bottom: 12px;
 }
 
-.label {
+.p-texto {
     color: #2d3e2d;
     font-size: 13px;
     font-weight: 500;
     line-height: 1.3;
 }
 
-/* Divisórias Verticais Finas */
-.divider {
+
+.linha-divisao {
     width: 1px;
     height: 60px;
     background-color: #d2e2cd;
 }
+
 
 /* === footer === */
 
@@ -355,8 +387,6 @@ footer .direito {
 }
 
 
-
-
 @media only screen and (min-width: 600px) {
     
 
@@ -374,7 +404,7 @@ footer .direito {
 
 /* === CARDS === */
 
-.grid-container {
+.grupos-alimentares {
     display: flex;
     justify-content: space-between;
     padding: 40px 50px;
@@ -383,10 +413,48 @@ footer .direito {
     gap: 20px;
 }
 
+.secao2 {
+    margin: 40px auto;
+    background-color: #f1f8f3;
+    border: 1px solid #e0ebd9;
+    border-radius: 16px;
+    width: calc(100% - 40px);
+    max-width: 950px;
+    min-height: 280px;
+
+    display: flex;
+    align-items: center;
+
+    overflow: hidden;
+    position: relative;
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.prato-imagem {
+    width: 45%;
+    height: 280px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+.prato-imagem img {
+    width: 270px;
+    height: 330px;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+
+
 
 
   /* footer */
 
+    
   footer {
 
     .footer {

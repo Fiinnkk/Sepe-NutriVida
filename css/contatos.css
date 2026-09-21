@@ -52,6 +52,7 @@ html {
 }
 
 /* === AJUDA === */
+
 .ajuda {
   background:
     radial-gradient(circle at 85% 20%,#50aa6226,transparent 30%),linear-gradient(135deg,#f5fbf5,#fff 65%);
@@ -113,6 +114,7 @@ html {
 }
 
 /* === FORMULARIO === */
+
 .formulario {
   max-width: 1180px;
   margin: 0 auto;
@@ -235,6 +237,7 @@ textarea:focus {
 }
 
 /* === INFORMAÇÕES === */
+
 .info-column {
   display: flex;
   flex-direction: column;
@@ -276,6 +279,7 @@ textarea:focus {
 }
 
 /* === CARD === */
+
 .card {
   max-width: 1124px;
   margin: 0 auto 75px;
@@ -345,6 +349,7 @@ textarea:focus {
 }
 
 @media (max-width: 900px) {
+
   .menu {
     display: none;
   }
@@ -376,6 +381,7 @@ textarea:focus {
 }
 
 @media (max-width: 600px) {
+
   .navbar {
     padding: 0 18px;
   }
@@ -414,6 +420,7 @@ textarea:focus {
 }
 
 /* === FOOTER === */
+
 footer {
   background-color: #7fa853;
   padding: 2vw;
@@ -478,6 +485,7 @@ footer .direito {
 }
 
 @media only screen and (min-width: 600px) {
+  
   .ajuda{
     display: flex;
     align-items: center;
