@@ -22,7 +22,6 @@ function filtrar(categoria, botao) {
         }
         else if (secao.id === categoria) {
             secao.style.display = "block";
-            botoes.style.color = "white";
         }
         else {
             secao.style.display = "none";
