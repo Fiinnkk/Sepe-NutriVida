@@ -70,11 +70,11 @@
 
         <!-- FILTROS -->
         <ul class="filtros">
-            <a href="#" class="ativo">Todos</a>
-            <a href="#cafe">Café da manhã</a>
-            <a href="#almoco">Almoço</a>
-            <a href="#lanches">Lanches</a>
-            <a href="#jantar">Jantar</a>
+            <a href="#" class="ativo" onclick="filtrar('todos', this)">Todos</a>
+            <a href="#" id="C" onclick="filtrar('cafe', this)">Café da manhã</a>
+            <a href="#" id="A" onclick="filtrar('almoco', this)">Almoço</a>
+            <a href="#" id="L" onclick="filtrar('lanches', this)">Lanches</a>
+            <a href="#" id="J" onclick="filtrar('jantar', this)">Jantar</a>
         </ul>
 
 
@@ -304,6 +304,7 @@
 
     <!--Deixa esse script por ultimo-->
 
+    <script src="js/receitas.js"></script>
     <script src="js/menu.js"></script>
 
   </body>

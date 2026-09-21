@@ -433,6 +433,11 @@ footer .direito {
       margin-left: 2vw;
     }
 
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
     ul li {
       margin: 2vw;
       padding: 1.5vw;
@@ -440,7 +445,9 @@ footer .direito {
 
     p {
       font-size: 0.7rem;
+      margin-top: 1.5vw;
       margin-bottom: 1vw;
+      text-align: justify;
     }
 
     a {
