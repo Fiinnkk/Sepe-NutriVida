@@ -341,6 +341,10 @@ footer .direito {
 
   /* home */
 
+  .home {
+    padding: 4vw 25vw;
+  }
+
 
   .home h1 {
     font-size: 1rem;
