@@ -55,14 +55,14 @@ html {
 .ajuda {
   background:
     radial-gradient(circle at 85% 20%,#50aa6226,transparent 30%),linear-gradient(135deg,#f5fbf5,#fff 65%);
-  padding: 72px 24px 55px;
+  padding: 72px 72px;
 }
 
 .ajuda-texto {
   max-width: 1180px;
   margin: auto;
-  display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 70px;
 }
@@ -106,11 +106,6 @@ html {
   line-height: 1.75;
 }
 
-.ajuda-imagem img{
-  width: 100%;
-  display: block;
-  margin-top: 50px;
-}
 
 /* === FORMULARIO === */
 .formulario {
@@ -359,12 +354,6 @@ textarea:focus {
     margin: auto;
   }
 
-  .ajuda-imagem {
-    min-height: 250px;
-    display: flex;
-    justify-content: center;
-  }
-
   .contact-grid {
     grid-template-columns: 1fr;
   }
@@ -479,6 +468,7 @@ footer .direito {
 }
 
 @media only screen and (min-width: 600px) {
+  
   .ajuda{
     display: flex;
     align-items: center;
@@ -490,14 +480,6 @@ footer .direito {
   }
   .ajuda-paragrafo {
     margin: 0;
-  }
-  .ajuda-imagem {
-    flex: 0 0 300px;
-  }
-  .ajuda-imagem img {
-    width: 100%;
-    min-height: 250px;
-    display: block;
   }
 
   footer {
