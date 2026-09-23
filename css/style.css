@@ -133,7 +133,7 @@ a span {
 
 p {
   color: #686868;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin: 3vw;
 }
 
@@ -161,7 +161,7 @@ ul span {
   /* Coloca o ponto dentro da área visível */
   padding-left: 20px;
   text-align: left;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #686868;
   margin: 3vw;
 }
@@ -169,7 +169,7 @@ ul span {
 .home3 div a {
   display: inline-block;
   margin: 2vw;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   color: #686868;
 }
 
@@ -233,11 +233,11 @@ section.home4 {
     padding: 2vw;
     margin: 4vw;
     box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.295);
-    transition: 150ms ease-in-out;
+    transition: 100ms ease-in-out;
   }
   
   ul li:hover {
-    transform: scale(1.1);
+    transform: scale(101%);
     box-shadow: 3px 4px 8px 10px rgba(0, 0, 0, 0.295);
   }
 
@@ -369,8 +369,7 @@ footer .direito {
 
   .home2 {
     margin: auto;
-    padding: 2vw 15vw;
-    height: 70vh;
+    padding: 3vw 15vw;
   }
 
   .home2 h2 {
@@ -380,6 +379,7 @@ footer .direito {
   .home2 p {
     font-size: 0.6rem;
     line-height: 1.5;
+    margin-bottom: 3vw;
   }
 
   /* home3 */
