@@ -27,7 +27,7 @@ ScrollReveal().reveal('.home2 h2, .home2 p', {
 
 ScrollReveal().reveal('.home3 h2, .home3 p, .home3 ul li', {
     ...configBase,
-    origin: "bottom",
+    origin: "left",
     scale: 0.95,
     interval: 200,
     delay: 200
@@ -43,7 +43,7 @@ ScrollReveal().reveal('.Alice, .Felipe, .Luciana, .Maria, .Matheus, .Pedro', {
 });
 
 
-ScrollReveal().reveal('.acoes h2, .acoes p, .acoes ul li, .acoes ul li p ', {
+ScrollReveal().reveal('.acoes h2, .acoes p, ', {
     ...configBase,
     origin: "bottom",
     scale: 0.95,
@@ -51,6 +51,23 @@ ScrollReveal().reveal('.acoes h2, .acoes p, .acoes ul li, .acoes ul li p ', {
     delay: 200
 });
 
+
+
+ScrollReveal().reveal('.acoes ul li', {
+    ...configBase,
+    origin: "right",
+    scale: 0.95,
+    interval: 200,
+    delay: 200
+});
+
+ScrollReveal().reveal('.acoes ul .esquerda', {
+    ...configBase,
+    origin: "left",
+    scale: 0.95,
+    interval: 200,
+    delay: 200
+});
 
 /* === Benefícios === */
 

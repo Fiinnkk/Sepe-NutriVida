@@ -222,44 +222,36 @@ section.home4 {
   background-color: #cfebc050;
   padding-top: 3vh;
   padding-bottom: 4vh;
-
-  h3 {
-    color: #63783D;
-    font-weight: 600;
-  }
-
-  ul li {
-    background-color: white;
-    border-radius: 10px;
-    padding: 2vw;
-    margin: 4vw;
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.295);
-    transition: 100ms ease-in-out;
-  }
-  
-  ul li:hover {
-    transform: scale(101%);
-    box-shadow: 3px 4px 8px 10px rgba(0, 0, 0, 0.295);
-  }
-
-  a {
-    display: inline-block;
-    margin: 3vw;
-    color: #7fa853;
-    text-decoration: underline;
-    font-weight: 600;
-  }
 }
 
+.acoes h3 {
+  color: #63783D;
+  font-weight: 600;
+}
 
-
-
-.line {
+.acoes ul li {
   background-color: white;
-  height: 1px;
-  border: 1px dashed rgba(0, 0, 0, 0.644);
-  margin: 20vh 0;
+  border-radius: 10px;
+  padding: 2vw;
+  margin: 4vw;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.295);
+  transition: 100ms ease-in-out;
 }
+
+.acoes ul li:hover {
+  transform: scale(101%);
+  box-shadow: 3px 4px 8px 10px rgba(0, 0, 0, 0.295);
+}
+
+.acoes a {
+  display: inline-block;
+  margin: 3vw;
+  color: #7fa853;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+
 
 /* === footer === */
 
@@ -417,103 +409,61 @@ footer .direito {
 
   .home4 {
     padding: 6vw;
+  }
 
-    h2 {
-      margin-top: 4vw;
-      margin-bottom: 0vw;
-    }
+  .home4 h2 {
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+  }
+
+  .home4 ul li p {
+    font-size: 0.6rem;
   }
 
   .home4 ul li {
     padding: 2vw 0.5vw;
     margin: 2vw;
-
-    p {
-      font-size: 0.6rem;
-    }
-
   }
+
+  .home4 p {
+    font-size: 0.6rem;
+  }
+
+
 
 
   /* === Acoes === */
 
   .acoes {
     padding: 6vw;
-
-    h3 {
-      text-align: left;
-      margin-left: 2vw;
-    }
-
-    ul {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    ul li {
-      margin: 2vw;
-      padding: 1.5vw;
-    }
-
-    p {
-      font-size: 0.7rem;
-      margin-top: 1.5vw;
-      margin-bottom: 1vw;
-      text-align: justify;
-    }
-
-    a {
-      font-size: 0.8rem;
-    }
   }
 
+  .acoes h3 {
+    text-align: left;
+    margin-left: 2vw;
+  }
 
-  /* footer */
+  .acoes ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 2vw;
+  }
 
-  footer {
+  .acoes ul li {
+    margin: 2vw;
+    padding: 1.5vw;
+  }
 
-    .footer {
-      display: flex;
-      justify-content: center;
+  .acoes p {
+    font-size: 0.7rem;
+    margin-top: 1.5vw;
+    margin-bottom: 1vw;
+    text-align: justify;
+  }
 
-      h3 {
-        font-size: 0.8rem;
-      }
-
-      a,
-      p,
-      span {
-        font-size: 0.6rem;
-      }
-
-      .paginas ul {
-        margin: 1vw 0 0 1vw;
-
-        li {
-          margin: 0vw;
-        }
-      }
-
-      .sigaNos ul {
-        margin: 1vw 1vw 1vw 3vw;
-        gap: 0vw;
-
-        li a {
-          margin: 1vw;
-        }
-      }
-
-      .fala {
-        width: 600px;
-
-        img {
-          margin: 1vw
-        }
-      }
-    }
-
-    p {
-      font-size: 0.6rem;
-    }
+  .acoes a {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-top: 3vw;
   }
 }
