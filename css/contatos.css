@@ -3,54 +3,6 @@ html {
   font-family: "Heebo", sans-serif;
 }
 
-/* === CELULAR === */
-@media only screen and (max-width: 599px) {
-
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-  }
-
-  .menu-btn {
-    display: block;
-    margin: 0;
-    padding: 0;
-    background: transparent;
-    border: none;
-    color: black;
-    font-size: 2rem;
-    cursor: pointer;
-  }
-
-  header nav ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 200px;
-    background-color: white;
-    border: 1px solid #00000033;
-    border-radius: 10px;
-    padding: 10px;
-    z-index: 1000;
-  }
-
-  header nav ul.ativo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  header nav ul li {
-    width: 100%;
-    text-align: center;
-    margin: 5px 0;
-  }
-
-}
-
 /* === AJUDA === */
 .ajuda {
   background:
@@ -87,7 +39,8 @@ html {
 
 .ajuda h1 {
   font-family: "Poppins", sans-serif;
-  font-size: clamp(34px, 4vw, 52px);
+  font-size: 2rem;
+  color: #000000;
   line-height: 1.13;
   letter-spacing: -1.3px;
   color: #000000;
@@ -122,13 +75,13 @@ html {
 .contato-texto h2 {
   font-family: "Poppins", sans-serif;
   color: #1B5E20;
-  font-size: 30px;
+  font-size: 32px;
   margin-bottom: 8px;
 }
 
 .contato-texto p {
   color: #000000;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .contact-grid {
@@ -149,14 +102,14 @@ html {
 
 .contact-form h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 21px;
+  font-size: 24px;
   color: #1B5E20;
   margin-bottom: 7px;
 }
 
 .contact-form>p {
   color: #000000;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 28px;
 }
 
@@ -172,7 +125,7 @@ html {
 
 label {
   display: block;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   margin-bottom: 7px;
   color: #35453c;
@@ -188,6 +141,7 @@ textarea {
   color: #000000;
   outline: none;
   transition: 0.2s ease;
+  font-size: 16px;
 }
 
 input {
@@ -202,6 +156,7 @@ textarea {
 input::placeholder,
 textarea::placeholder {
   color: #a3afa7;
+  font-size: 16px;
 }
 
 input:focus,
@@ -220,7 +175,7 @@ textarea:focus {
   padding: 14px;
   cursor: pointer;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   transition: 0.2s ease;
 }
 
@@ -255,19 +210,19 @@ textarea:focus {
   background: white;
   border-radius: 13px;
   color: #7FA853;
-  font-size: 25px;
+  font-size: 24px;
 }
 
 .info-card h4 {
   color: #1B5E20;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   margin-bottom: 3px;
 }
 
 .info-card p {
   color: #000000;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -293,7 +248,7 @@ textarea:focus {
 
 .card p {
   color: #cfe5d5;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .card-button {
@@ -302,7 +257,7 @@ textarea:focus {
   color: #1B5E20;
   padding: 13px 21px;
   border-radius: 50px;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   transition: 0.2s ease;
 }
@@ -365,7 +320,53 @@ textarea:focus {
 
 }
 
+/* === CELULAR === */
+
 @media (max-width: 600px) {
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .menu-btn {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  header nav ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    background-color: white;
+    border: 1px solid #00000033;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+  }
+
+  header nav ul.ativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
+
   .navbar {
     padding: 0 18px;
   }
