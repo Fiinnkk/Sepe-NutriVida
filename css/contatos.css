@@ -3,6 +3,59 @@ html {
   font-family: "Heebo", sans-serif;
 }
 
+<<<<<<< HEAD
+=======
+
+
+/* === CELULAR === */
+@media only screen and (max-width: 599px) {
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .menu-btn {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    color: black;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  header nav ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 200px;
+    background-color: white;
+    border: 1px solid #00000033;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+  }
+
+  header nav ul.ativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+}
+
+>>>>>>> f4a47918251ade22410740fa952d4b2a47363cc0
 /* === AJUDA === */
 .ajuda {
   background:
