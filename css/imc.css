@@ -119,6 +119,7 @@ div.formula {
 }
 .imc-banner{
     text-align: center;
+    padding: 10px;
   }
   .imc-banner img{
     width: 80%;
@@ -131,7 +132,9 @@ div.formula {
         border-radius: 20px;
         padding: 10px;
         box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+        margin: 2vw;
     }
+
   
   
   

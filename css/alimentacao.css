@@ -184,6 +184,21 @@ html {
     line-height: 1.4;
 }
 
+.porcentagem {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #79ad4d;
+  color: white;
+  border-radius: 50%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 /* SEÇÃO PRATO SAUDÁVEL */
 
     .grupo-bolinhas {
@@ -218,10 +233,7 @@ html {
     .prato-imagem {
         width: 100%;
         height: 180px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
+       
 
         box-sizing: border-box;
 
@@ -229,13 +241,14 @@ html {
     }
 
     .prato-imagem img {
-        width: 170px;
-        height: 170px;
-
-        max-width: 100%;
+        width: 100%;
+        height: 100%;
         object-fit: contain;
+        border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
-        margin: 0;
     }
 
 
@@ -320,6 +333,41 @@ html {
     background-color: #d2e2cd;
 }
 
+/*        novooooooo                */
+
+.pratoo {
+  background-color: #cfebc050;
+  padding-top: 3vh;
+  padding-bottom: 4vh;
+
+  h3 {
+    color: #63783D;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  h4 {
+    font-weight: 600;
+    text-align: center;
+  }
+
+  ul li {
+    background-color: white;
+    border-radius: 10px;
+    padding: 2vw;
+    margin: 4vw;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.295);
+  }
+
+  a {
+    display: inline-block;
+    margin: 3vw;
+    color: #7fa853;
+    text-decoration: underline;
+    font-weight: 600;
+  }
+}
+
 
 /* === footer === */
 
@@ -388,19 +436,6 @@ footer .direito {
 
 
 @media only screen and (min-width: 600px) {
-    
-
-  .hero-imagem {
-    width: 45%;
-}
-
-.hero-imagem img {
-    width: 100%;
-    height: 350px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
 
 /* === CARDS === */
 
@@ -449,6 +484,42 @@ footer .direito {
     margin-bottom: 20px;
 }
 
+.pratoo {
+    padding: 6vw;
+    margin-bottom: 2vw;
+    
+
+    h3 {
+      text-align: center;
+      margin-left: 2vw;
+    }
+
+      h4 {
+    font-weight: 600;
+    text-align: center;
+  }
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    ul li {
+      margin: 2vw;
+      padding: 1.5vw;
+    }
+
+    p {
+      font-size: 0.7rem;
+      margin-top: 1.5vw;
+      margin-bottom: 1vw;
+        text-align:left;
+    }
+
+    a {
+      font-size: 0.8rem;
+    }
+  }
 
 
 
@@ -503,3 +574,4 @@ footer .direito {
   }
 
 }
+

@@ -1,5 +1,6 @@
 html {
   font-family: 'inter', sans-serif;
+  scrollbar-width: none;
 }
 
 a:hover {
@@ -65,9 +66,6 @@ header ul li a {
   position: relative;
 }
 
-html {
-  scrollbar-width: none;
-}
 
 html::-webkit-scrollbar {
   display: none;
