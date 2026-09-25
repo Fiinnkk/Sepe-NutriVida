@@ -76,70 +76,6 @@ span {
   padding: 5px;
 }
 
-/* === footer === */
-
-footer {
-  background-color: #7fa853;
-  padding: 2vw;
-}
-
-footer p,
-footer a,
-footer span {
-  color: white;
-  font-size: 0.8rem;
-  margin: 3vw;
-}
-
-footer h3 {
-  display: inline;
-  color: white;
-  font-size: 1.2rem;
-  margin: 4vw 0 4vw 3vw;
-  font-weight: 600;
-}
-
-footer .paginas ul {
-  margin: 2vw;
-}
-
-footer .paginas ul li {
-  margin: 1vw;
-}
-
-footer .footer div {
-  margin: 5vw 2vw;
-}
-
-footer .footer div span {
-  color: white;
-  margin: 0;
-}
-
-footer .footer .sigaNos img {
-  width: 20px;
-}
-
-footer .footer div .whats img {
-  width: 25px;
-}
-
-footer .sigaNos ul {
-  display: flex;
-  align-items: center;
-  margin: 3vw;
-}
-
-footer span {
-  display: inline-block;
-  color: #ffffff5b;
-  margin: 3vw 4vw 4vw;
-}
-
-footer .direito {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.356);
-}
 
 @media only screen and (min-width: 600px) {
   .beneficios {
@@ -159,9 +95,6 @@ footer .direito {
     font-size: 0.5rem;
   }
 
-.part-dois {
-  width: 631;
-}
 
   .part-dois h2 {
     padding: 2vw;
@@ -188,51 +121,5 @@ footer .direito {
     max-width: none;
     margin-bottom: 2vw;
   }
-/* footer */
 
-footer {
-  .footer {
-    display: flex;
-    justify-content: center;
-
-    h3 {
-      font-size: 0.5rem;
-    }
-
-    a,
-    p,
-    span {
-      font-size: 0.4rem;
-    }
-
-    .paginas ul {
-      margin: 1vw 0 0 1vw;
-
-      li {
-        margin: 0vw;
-      }
-    }
-
-    .sigaNos ul {
-      margin: 1vw 1vw 1vw 3vw;
-      gap: 0vw;
-
-      li a {
-        margin: 1vw;
-      }
-    }
-
-    .fala {
-      width: 600px;
-
-      img {
-        margin: 1vw;
-      }
-    }
-  }
-
-  p {
-    font-size: 0.6rem;
-  }
-}
 }

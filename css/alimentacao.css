@@ -334,43 +334,72 @@ html {
     background-color: #d2e2cd;
 }
 
-/*        novooooooo                */
+/* === footer === */
 
-.prato-saudavel {
-  background-color: #cfebc050;
-  padding-top: 3vh;
-  padding-bottom: 4vh;
+footer {
+  background-color: #7fa853;
+  padding: 2vw;
+}
 
-h2 {
-  font-size: 1.3rem;
-  font-weight: 600;
+footer p,
+footer a,
+footer span {
+  color: white;
+  font-size: 0.8rem;
   margin: 3vw;
- 
 }
 
-h2 span{
-  color: #7fa853;
+footer h3 {
+  display: inline;
+  color: white;
+  font-size: 1.2rem;
+  margin: 4vw 0 4vw 3vw;
+  font-weight: 600;
 }
 
-  h3 {
-    color: #63783D;
-    font-weight: 600;
-  }
-
-  h4 {
-    font-weight: 600;
-  }
-
-  ul li {
-    background-color: white;
-    border-radius: 10px;
-    padding: 2vw;
-    margin: 4vw;
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.295);
-  }
-
-
+footer .paginas ul {
+  margin: 2vw;
 }
+
+footer .paginas ul li {
+  margin: 1vw;
+}
+
+footer .footer div {
+  margin: 5vw 2vw;
+}
+
+footer .footer div span {
+  color: white;
+  margin: 0;
+}
+
+footer .footer .sigaNos img {
+  width: 20px;
+}
+
+footer .footer div .whats img {
+  width: 25px;
+}
+
+footer .sigaNos ul {
+  display: flex;
+  align-items: center;
+  margin: 3vw;
+}
+
+footer span {
+  display: inline-block;
+  color: #ffffff5b;
+  margin: 3vw 4vw 4vw;
+}
+
+footer .direito {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.356);
+}
+
+
 
 
 @media only screen and (min-width: 600px) {
@@ -386,77 +415,54 @@ h2 span{
     gap: 20px;
 }
 
-.secao2 {
-    margin: 40px auto;
-    background-color: #f1f8f3;
-    border: 1px solid #e0ebd9;
-    border-radius: 16px;
-    width: calc(100% - 40px);
-    max-width: 950px;
-    min-height: 280px;
-
-    display: flex;
-    align-items: center;
-
-    overflow: hidden;
-    position: relative;
-
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-}
-
-.prato-imagem {
-    width: 45%;
-    height: 280px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    overflow: hidden;
-}
-
-.prato-imagem img {
-    width: 270px;
-    height: 330px;
-    object-fit: contain;
-    margin-bottom: 20px;
-}
 
 
-/* SEÇÃO PRATO-SÁUDAVEL       */
+  /* footer */
 
-.prato-saudavel {
-    padding: 6vw;
-    margin-bottom: 2vw;
-     text-align: center;
+  footer {
 
-    h3 {
-     text-align: center;
-    }
+    .footer {
+      display: flex;
+      justify-content: center;
 
-      h4 {
-    font-weight: 600;
-  }
+      h3 {
+        font-size: 0.8rem;
+      }
 
-    ul {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
+      a,
+      p,
+      span {
+        font-size: 0.6rem;
+      }
 
-    ul li {
-      margin: 2vw;
-      padding: 1.5vw;
+      .paginas ul {
+        margin: 1vw 0 0 1vw;
+
+        li {
+          margin: 0vw;
+        }
+      }
+
+      .sigaNos ul {
+        margin: 1vw 1vw 1vw 3vw;
+        gap: 0vw;
+
+        li a {
+          margin: 1vw;
+        }
+      }
+
+      .fala {
+        width: 600px;
+
+        img {
+          margin: 1vw
+        }
+      }
     }
 
     p {
-      font-size: 0.7rem;
-      margin-top: 1.5vw;
-      margin-bottom: 1vw;
-        text-align:left;
-    }
-
-    a {
-      font-size: 0.8rem;
+      font-size: 0.6rem;
     }
   }
 

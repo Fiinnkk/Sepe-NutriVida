@@ -222,45 +222,104 @@ section.home4 {
   background-color: #cfebc050;
   padding-top: 3vh;
   padding-bottom: 4vh;
-
-  h3 {
-    color: #63783D;
-    font-weight: 600;
-  }
-
-  ul li {
-    background-color: white;
-    border-radius: 10px;
-    padding: 2vw;
-    margin: 4vw;
-    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.295);
-    transition: 100ms ease-in-out;
-  }
-  
-  ul li:hover {
-    transform: scale(101%);
-    box-shadow: 3px 4px 8px 10px rgba(0, 0, 0, 0.295);
-  }
-
-  a {
-    display: inline-block;
-    margin: 3vw;
-    color: #7fa853;
-    text-decoration: underline;
-    font-weight: 600;
-  }
 }
 
+.acoes h3 {
+  color: #63783D;
+  font-weight: 600;
+}
 
-
-
-.line {
+.acoes ul li {
   background-color: white;
-  height: 1px;
-  border: 1px dashed rgba(0, 0, 0, 0.644);
-  margin: 20vh 0;
+  border-radius: 10px;
+  padding: 2vw;
+  margin: 4vw;
+  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.295);
+  transition: 100ms ease-in-out;
 }
 
+<<<<<<< HEAD
+=======
+.acoes ul li:hover {
+  transform: scale(101%);
+  box-shadow: 3px 4px 8px 10px rgba(0, 0, 0, 0.295);
+}
+
+.acoes a {
+  display: inline-block;
+  margin: 3vw;
+  color: #7fa853;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+
+
+/* === footer === */
+
+footer {
+  background-color: #7fa853;
+  padding: 2vw;
+}
+
+footer p,
+footer a,
+footer span {
+  color: white;
+  font-size: 0.8rem;
+  margin: 3vw;
+}
+
+footer h3 {
+  display: inline;
+  color: white;
+  font-size: 1.2rem;
+  margin: 4vw 0 4vw 3vw;
+  font-weight: 600;
+}
+
+footer .paginas ul {
+  margin: 2vw;
+}
+
+footer .paginas ul li {
+  margin: 1vw;
+}
+
+footer .footer div {
+  margin: 5vw 2vw;
+}
+
+footer .footer div span {
+  color: white;
+  margin: 0;
+}
+
+footer .footer .sigaNos img {
+  width: 20px;
+}
+
+footer .footer div .whats img {
+  width: 25px;
+}
+
+footer .sigaNos ul {
+  display: flex;
+  align-items: center;
+  margin: 3vw;
+}
+
+footer span {
+  display: inline-block;
+  color: #ffffff5b;
+  margin: 3vw 4vw 4vw;
+}
+
+footer .direito {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.356);
+}
+>>>>>>> fe4abfb5525b9c52ff43a8251aa0c8b40e63199b
 
 
 
@@ -353,103 +412,61 @@ section.home4 {
 
   .home4 {
     padding: 6vw;
+  }
 
-    h2 {
-      margin-top: 4vw;
-      margin-bottom: 0vw;
-    }
+  .home4 h2 {
+    margin-top: 4vw;
+    margin-bottom: 0vw;
+  }
+
+  .home4 ul li p {
+    font-size: 0.6rem;
   }
 
   .home4 ul li {
     padding: 2vw 0.5vw;
     margin: 2vw;
-
-    p {
-      font-size: 0.6rem;
-    }
-
   }
+
+  .home4 p {
+    font-size: 0.6rem;
+  }
+
+
 
 
   /* === Acoes === */
 
   .acoes {
     padding: 6vw;
-
-    h3 {
-      text-align: left;
-      margin-left: 2vw;
-    }
-
-    ul {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-    }
-
-    ul li {
-      margin: 2vw;
-      padding: 1.5vw;
-    }
-
-    p {
-      font-size: 0.7rem;
-      margin-top: 1.5vw;
-      margin-bottom: 1vw;
-      text-align: justify;
-    }
-
-    a {
-      font-size: 0.8rem;
-    }
   }
 
+  .acoes h3 {
+    text-align: left;
+    margin-left: 2vw;
+  }
 
-  /* footer */
+  .acoes ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 2vw;
+  }
 
-  footer {
+  .acoes ul li {
+    margin: 2vw;
+    padding: 1.5vw;
+  }
 
-    .footer {
-      display: flex;
-      justify-content: center;
+  .acoes p {
+    font-size: 0.7rem;
+    margin-top: 1.5vw;
+    margin-bottom: 1vw;
+    text-align: justify;
+  }
 
-      h3 {
-        font-size: 0.8rem;
-      }
-
-      a,
-      p,
-      span {
-        font-size: 0.6rem;
-      }
-
-      .paginas ul {
-        margin: 1vw 0 0 1vw;
-
-        li {
-          margin: 0vw;
-        }
-      }
-
-      .sigaNos ul {
-        margin: 1vw 1vw 1vw 3vw;
-        gap: 0vw;
-
-        li a {
-          margin: 1vw;
-        }
-      }
-
-      .fala {
-        width: 600px;
-
-        img {
-          margin: 1vw
-        }
-      }
-    }
-
-    p {
-      font-size: 0.6rem;
-    }
+  .acoes a {
+    display: inline-block;
+    font-size: 0.8rem;
+    margin-top: 3vw;
   }
 }
