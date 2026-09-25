@@ -7,6 +7,14 @@ a:hover {
   cursor: pointer;
 }
 
+/* === scroll Reveaw === */
+
+html.sr .hidden {
+  visibility: hidden;
+}
+
+
+
 /* === Header === */
 
 
@@ -173,6 +181,10 @@ footer .direito {
   color: rgba(255, 255, 255, 0.356);
 }
 
+.fala img {
+  width: 60px;
+}
+
 
 
 @media only screen and (min-width: 600px) {
@@ -209,6 +221,7 @@ footer .direito {
     margin: 0 1vw;
     font-size: 0.4rem;
     padding: 0;
+
   }
 
 
@@ -251,7 +264,8 @@ footer .direito {
         width: 600px;
 
         img {
-          margin: 1vw
+          margin: 1vw;
+          width: 90px;
         }
       }
     }

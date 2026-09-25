@@ -3,6 +3,10 @@ html {
   font-family: "Heebo", sans-serif;
 }
 
+/* <<<<<<< HEAD
+========= */
+
+
 /* === CELULAR === */
 @media only screen and (max-width: 599px) {
 
@@ -56,14 +60,14 @@ html {
 .ajuda {
   background:
     radial-gradient(circle at 85% 20%,#50aa6226,transparent 30%),linear-gradient(135deg,#f5fbf5,#fff 65%);
-  padding: 72px 24px 55px;
+  padding: 72px 72px;
 }
 
 .ajuda-texto {
   max-width: 1180px;
   margin: auto;
-  display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 70px;
 }
@@ -88,7 +92,8 @@ html {
 
 .ajuda h1 {
   font-family: "Poppins", sans-serif;
-  font-size: clamp(34px, 4vw, 52px);
+  font-size: 2rem;
+  color: #000000;
   line-height: 1.13;
   letter-spacing: -1.3px;
   color: #000000;
@@ -107,11 +112,6 @@ html {
   line-height: 1.75;
 }
 
-.ajuda-imagem img{
-  width: 100%;
-  display: block;
-  margin-top: 50px;
-}
 
 /* === FORMULARIO === */
 
@@ -129,13 +129,13 @@ html {
 .contato-texto h2 {
   font-family: "Poppins", sans-serif;
   color: #1B5E20;
-  font-size: 30px;
+  font-size: 32px;
   margin-bottom: 8px;
 }
 
 .contato-texto p {
   color: #000000;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .contact-grid {
@@ -156,14 +156,14 @@ html {
 
 .contact-form h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 21px;
+  font-size: 24px;
   color: #1B5E20;
   margin-bottom: 7px;
 }
 
 .contact-form>p {
   color: #000000;
-  font-size: 14px;
+  font-size: 16px;
   margin-bottom: 28px;
 }
 
@@ -179,7 +179,7 @@ html {
 
 label {
   display: block;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   margin-bottom: 7px;
   color: #35453c;
@@ -195,6 +195,7 @@ textarea {
   color: #000000;
   outline: none;
   transition: 0.2s ease;
+  font-size: 16px;
 }
 
 input {
@@ -209,6 +210,7 @@ textarea {
 input::placeholder,
 textarea::placeholder {
   color: #a3afa7;
+  font-size: 16px;
 }
 
 input:focus,
@@ -227,7 +229,7 @@ textarea:focus {
   padding: 14px;
   cursor: pointer;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
   transition: 0.2s ease;
 }
 
@@ -255,6 +257,7 @@ textarea:focus {
 }
 
 .info-icon {
+  align-items: center;
   flex: 0 0 45px;
   height: 45px;
   display: grid;
@@ -262,19 +265,19 @@ textarea:focus {
   background: white;
   border-radius: 13px;
   color: #7FA853;
-  font-size: 25px;
+  font-size: 24px;
 }
 
 .info-card h4 {
   color: #1B5E20;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   margin-bottom: 3px;
 }
 
 .info-card p {
   color: #000000;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -301,7 +304,7 @@ textarea:focus {
 
 .card p {
   color: #cfe5d5;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .card-button {
@@ -310,7 +313,7 @@ textarea:focus {
   color: #1B5E20;
   padding: 13px 21px;
   border-radius: 50px;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   transition: 0.2s ease;
 }
@@ -363,12 +366,6 @@ textarea:focus {
     margin: auto;
   }
 
-  .ajuda-imagem {
-    min-height: 250px;
-    display: flex;
-    justify-content: center;
-  }
-
   .contact-grid {
     grid-template-columns: 1fr;
   }
@@ -379,6 +376,8 @@ textarea:focus {
   }
 
 }
+
+/* === CELULAR === */
 
 @media (max-width: 600px) {
 
@@ -498,59 +497,4 @@ footer .direito {
   .ajuda-paragrafo {
     margin: 0;
   }
-  .ajuda-imagem {
-    flex: 0 0 300px;
-  }
-  .ajuda-imagem img {
-    width: 100%;
-    min-height: 250px;
-    display: block;
-  }
-
-  footer {
-
-    .footer {
-      display: flex;
-      justify-content: center;
-
-      h3 {
-        font-size: 0.8rem;
-      }
-
-      a,
-      p,
-      span {
-        font-size: 0.6rem;
-      }
-
-      .paginas ul {
-        margin: 1vw 0 0 1vw;
-
-        li {
-          margin: 0vw;
-        }
-      }
-
-      .sigaNos ul {
-        margin: 1vw 1vw 1vw 3vw;
-        gap: 0vw;
-
-        li a {
-          margin: 1vw;
-        }
-      }
-
-      .fala {
-        width: 600px;
-
-        img {
-          margin: 1vw
-        }
-      }
-    }
-
-    p {
-      font-size: 0.6rem;
-    }
-  }
-}
+}  
