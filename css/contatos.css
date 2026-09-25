@@ -418,7 +418,7 @@ textarea:focus {
 
 }
 
-<<<<<<< HEAD
+
 /* === FOOTER === */
 
 footer {
@@ -484,8 +484,8 @@ footer .direito {
   color: rgba(255, 255, 255, 0.356);
 }
 
-=======
->>>>>>> fe4abfb5525b9c52ff43a8251aa0c8b40e63199b
+
+
 @media only screen and (min-width: 600px) {
   
   .ajuda{
@@ -500,9 +500,5 @@ footer .direito {
   .ajuda-paragrafo {
     margin: 0;
   }
-<<<<<<< HEAD
-}  
-=======
 
-}
->>>>>>> fe4abfb5525b9c52ff43a8251aa0c8b40e63199b
+}  
