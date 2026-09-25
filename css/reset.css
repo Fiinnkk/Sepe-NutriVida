@@ -1,6 +1,8 @@
 html {
   font-family: 'inter', sans-serif;
   scrollbar-width: none;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 a:hover {
