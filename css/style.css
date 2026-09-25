@@ -326,11 +326,27 @@ footer .direito {
   .home4 ul {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .home4 ul li {
+    padding: 2vw 0;
+  }
+
+  .home4 ul li p {
+    font-size: 0.6rem;
+  }
 }
 
 @media (max-width: 400px) {
   .home4 ul {
     grid-template-columns: 1fr;
+  }
+
+  .home4 ul li {
+    padding: 4vw 1vw;
+  }
+
+  .home4 ul li p {
+    font-size: 0.9rem;
   }
 }
 
