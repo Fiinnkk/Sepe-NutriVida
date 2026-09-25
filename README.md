@@ -172,3 +172,33 @@ Araquari, 17 de agosto de 2026, às 14 horas e 30 minutos.
 - Sobre o Item 2 : cada integrante fez seu documento que foi proposto no sigaa.
 
 Araquari, 24 de agosto de 2026, às 14 horas e 30 minutos.
+
+---
+
+## ATA DA 11ª REUNIÃO 
+### 1. Presença
+- Presidente/Coordenadora: Maria Lucia Feltrim.
+- Secretário(a): Luciana Falk de Almeida.
+- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink.
+- Membros ausentes: Alice Cristini e Matheus Hilário.
+### 2. Ordem do Dia (Assuntos)
+- Item 1: criação de conteúdo para o instagram.
+### 3. Discussões e Deliberações
+- Sobre o Item 1: Foi criado posts para o instagram do site por meio da ferramenta do canva
+  
+Araquari, 24 de agosto de 2026, às 14 horas e 30 minutos.
+
+---
+
+## ATA DA 12ª REUNIÃO 
+### 1. Presença
+- Presidente/Coordenadora: Maria Lucia Feltrim.
+- Secretário(a): Luciana Falk de Almeida.
+- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
+- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
+### 2. Ordem do Dia (Assuntos)
+- Item 1: Planejamento das apresentações.
+### 3. Discussões e Deliberações
+- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
+
+Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
