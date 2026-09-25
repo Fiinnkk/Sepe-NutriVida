@@ -4,7 +4,7 @@ html {
 }
 
 /* <<<<<<< HEAD
-======= == */
+========= */
 
 
 /* === CELULAR === */
@@ -56,6 +56,7 @@ html {
 }
 
 /* === AJUDA === */
+
 .ajuda {
   background:
     radial-gradient(circle at 85% 20%,#50aa6226,transparent 30%),linear-gradient(135deg,#f5fbf5,#fff 65%);
@@ -113,6 +114,7 @@ html {
 
 
 /* === FORMULARIO === */
+
 .formulario {
   max-width: 1180px;
   margin: 0 auto;
@@ -237,6 +239,7 @@ textarea:focus {
 }
 
 /* === INFORMAÇÕES === */
+
 .info-column {
   display: flex;
   flex-direction: column;
@@ -279,6 +282,7 @@ textarea:focus {
 }
 
 /* === CARD === */
+
 .card {
   max-width: 1124px;
   margin: 0 auto 75px;
@@ -348,6 +352,7 @@ textarea:focus {
 }
 
 @media (max-width: 900px) {
+
   .menu {
     display: none;
   }
@@ -375,49 +380,6 @@ textarea:focus {
 /* === CELULAR === */
 
 @media (max-width: 600px) {
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
-  }
-
-  .menu-btn {
-    display: block;
-    margin: 0;
-    padding: 0;
-    background: transparent;
-    border: none;
-    color: black;
-    font-size: 2rem;
-    cursor: pointer;
-  }
-
-  header nav ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    right: 0;
-    width: 200px;
-    background-color: white;
-    border: 1px solid #00000033;
-    border-radius: 10px;
-    padding: 10px;
-    z-index: 1000;
-  }
-
-  header nav ul.ativo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  header nav ul li {
-    width: 100%;
-    text-align: center;
-    margin: 5px 0;
-  }
 
   .navbar {
     padding: 0 18px;
@@ -456,6 +418,74 @@ header {
 
 }
 
+
+/* === FOOTER === */
+
+footer {
+  background-color: #7fa853;
+  padding: 2vw;
+}
+
+footer p,
+footer a,
+footer span {
+  color: white;
+  font-size: 0.8rem;
+  margin: 3vw;
+}
+
+footer h3 {
+  display: inline;
+  color: white;
+  font-size: 1.2rem;
+  margin: 4vw 0 4vw 3vw;
+  font-weight: 600;
+}
+
+footer .paginas ul {
+  margin: 2vw;
+}
+
+footer .paginas ul li {
+  margin: 1vw;
+}
+
+footer .footer div {
+  margin: 5vw 2vw;
+}
+
+footer .footer div span {
+  color: white;
+  margin: 0;
+}
+
+footer .footer .sigaNos img {
+  width: 20px;
+}
+
+footer .footer div .whats img {
+  width: 25px;
+}
+
+footer .sigaNos ul {
+  display: flex;
+  align-items: center;
+  margin: 3vw;
+}
+
+footer span {
+  display: inline-block;
+  color: #ffffff5b;
+  margin: 3vw 4vw 4vw;
+}
+
+footer .direito {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.356);
+}
+
+
+
 @media only screen and (min-width: 600px) {
   
   .ajuda{
@@ -471,4 +501,4 @@ header {
     margin: 0;
   }
 
-}
+}  
