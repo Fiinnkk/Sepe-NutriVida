@@ -238,8 +238,7 @@ section.home4 {
   transition: 100ms ease-in-out;
 }
 
-<<<<<<< HEAD
-=======
+
 .acoes ul li:hover {
   transform: scale(101%);
   box-shadow: 3px 4px 8px 10px rgba(0, 0, 0, 0.295);
@@ -319,7 +318,7 @@ footer .direito {
   text-align: center;
   color: rgba(255, 255, 255, 0.356);
 }
->>>>>>> fe4abfb5525b9c52ff43a8251aa0c8b40e63199b
+
 
 
 
