@@ -237,7 +237,11 @@ section.home4 {
   transition: 100ms ease-in-out;
 }
 
-
+.acoes a {
+  color: #7fa653;
+  font-weight: bold;
+  text-decoration: underline;
+}
 
 
 @media (max-width: 768px) {

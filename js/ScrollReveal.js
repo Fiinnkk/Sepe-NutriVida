@@ -12,7 +12,7 @@ ScrollReveal().reveal('.home .revelarBaixo', {
     origin: "bottom",
     scale: 0.95,
     interval: 200,
-    delay: 200
+    delay: 200,
 });
 
 
@@ -21,7 +21,7 @@ ScrollReveal().reveal('.home2 h2, .home2 p', {
     origin: "bottom",
     scale: 0.95,
     interval: 200,
-    delay: 200
+    delay: 200,
 });
 
 
@@ -30,7 +30,7 @@ ScrollReveal().reveal('.home3 h2, .home3 p, .home3 ul li', {
     origin: "left",
     scale: 0.95,
     interval: 200,
-    delay: 200
+    delay: 200,
 });
 
 
@@ -39,7 +39,7 @@ ScrollReveal().reveal('.Alice, .Felipe, .Luciana, .Maria, .Matheus, .Pedro', {
     origin: "bottom",
     scale: 0.95,
     interval: 200,
-    delay: 200
+    delay: 200,
 });
 
 
@@ -48,7 +48,7 @@ ScrollReveal().reveal('.acoes h2, .acoes p, ', {
     origin: "bottom",
     scale: 0.95,
     interval: 200,
-    delay: 200
+    delay: 200,
 });
 
 
@@ -58,7 +58,7 @@ ScrollReveal().reveal('.acoes ul li', {
     origin: "right",
     scale: 0.95,
     interval: 200,
-    delay: 200
+    delay: 200,
 });
 
 ScrollReveal().reveal('.acoes ul .esquerda', {
@@ -66,11 +66,11 @@ ScrollReveal().reveal('.acoes ul .esquerda', {
     origin: "left",
     scale: 0.95,
     interval: 200,
-    delay: 200
+    delay: 200,
 });
 
-/* === Benefícios === */
 
+/* === Benefícios === */
 
 
 ScrollReveal().reveal('.beneficios h1, .beneficios p', {
