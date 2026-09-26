@@ -1,6 +1,15 @@
 html {
   font-size: clamp(0.9rem, calc(0.5rem + 1.6vw), 2.5rem);
   font-family: "Heebo", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  max-width: 100vw;
 }
 
 
@@ -71,7 +80,7 @@ main {
 }
 
 section.home {
-  min-height: 350px;
+  min-height: 84vh;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://file-cdn.mercyforanimals.org/mercy4animals.wpengine.com/sites/451/2021/10/Hero-ACB.png);
@@ -92,24 +101,14 @@ section.home {
 }
 
 .home h1 {
-  margin: 5vw;
-  font-size: 1.3rem;
+  margin: auto;
+  font-size: 1.4rem;
 }
 
-.home a {
-  display: inline-block;
-  margin: 3vw;
-  font-size: 0.9rem;
-  border: white solid 2px;
-  padding: 2vw 3vw;
-  border-radius: 10px;
-  transition: 0.3s;
+.home img {
+  width: 60px;
 }
 
-.home a:hover {
-  background-color: white;
-  color: #7fa853;
-}
 
 /* home2 */
 
@@ -245,11 +244,27 @@ section.home4 {
   .home4 ul {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .home4 ul li {
+    padding: 2vw 0;
+  }
+
+  .home4 ul li p {
+    font-size: 0.6rem;
+  }
 }
 
 @media (max-width: 400px) {
   .home4 ul {
     grid-template-columns: 1fr;
+  }
+
+  .home4 ul li {
+    padding: 4vw 1vw;
+  }
+
+  .home4 ul li p {
+    font-size: 0.9rem;
   }
 }
 
@@ -262,17 +277,12 @@ section.home4 {
   /* home */
 
   .home {
-    padding: 4vw 25vw;
+    padding: 1vw 25vw;
   }
 
 
   .home h1 {
-    font-size: 1rem;
-  }
-
-  .home a {
-    font-size: 0.5rem;
-    padding: 1vw;
+    font-size: 1.2rem;
   }
 
   .home4 ul {
@@ -338,7 +348,7 @@ section.home4 {
   }
 
   .home4 ul li p {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
 
   .home4 ul li {
