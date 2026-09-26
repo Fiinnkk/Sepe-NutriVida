@@ -7,7 +7,6 @@ html {
 /* === CELULAR === */
 
 @media only screen and (max-width: 599px) {
-
     header {
         display: flex;
         align-items: center;
@@ -62,409 +61,225 @@ html {
         margin: 5px 0;
     }
 
-        /* HERO NO CELULAR */
-
-    .inicio {
-        flex-direction: column;
-        padding: 40px 25px;
-    }
-
-    .inicio-conteudo {
-        max-width: 100%;
-        text-align: center;
-    }
-
-    .inicio-imagem {
-        width: 100%;
-        margin-top: 25px;
-    }
-
-    .inicio-imagem img {
-        width: 100%;
-        height: 250px;
-        object-fit: cover;
-    }
-
-    .grupos-alimentares {
-        flex-direction: column;
-        padding: 30px 25px;
-        gap: 20px;
-    }
-
-    .card {
-        width: 100%;
-        box-sizing: border-box;
-    }
-    
+    /* Container Geral da Página */
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f1f8f3;
+  color: #2c4224;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-    /*  INICIO  */
-.inicio {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 60px 50px;
-    max-width: 1200px;
-    margin: 0 auto;
+/* Base das Seções */
+.secao-pilares,
+.secao-prato,
+.secao-dicas,
+.secao-mitos {
+  margin-bottom: 40px;
 }
 
-
-.inicio-conteudo {
-    max-width: 50%;
+.secao-titulo {
+  color: #2c4224;
+  font-size: 1.5rem;
+  margin-bottom: 6px;
 }
 
-
-.inicio-conteudo h1 {
-    font-size: 48px;
-    color: #2c4224;
-    margin-bottom: 20px;
+.secao-subtitulo {
+  font-size: 0.9rem;
+  color: #536e4b;
+  margin-bottom: 20px;
+  line-height: 1.4;
 }
 
-
-.inicio-conteudo .destaque {
-    color: #7fa66d; 
-    font-style: italic;
-}
-
-
-.inicio-conteudo p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: #666;
-}
-
-/* IMAGEM  */
-
-.inicio-imagem img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-
-/* SEÇÃO DE GRUPOS ALIMENTARES */
-
-.grupos-alimentares {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 50px;
-    max-width: 1200px;
-    margin: 0 auto;
-    gap: 20px;
-}
-
-
-.card {
-    background-color: #f1f8f3; 
-    border: 1px solid #e0ebd9;  
-    padding: 30px 20px;
-    border-radius: 8px;
-    text-align: center;
-    flex: 1;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
-}
-
-
-.icone {
-    font-size: 32px;
-    margin-bottom: 15px;
-}
-
-
-.card h3 {
-    font-size: 18px;
-    color: #2c4224;
-    margin-bottom: 10px;
-}
-
-
-.card p {
-    font-size: 14px;
-    color: #777;
-    line-height: 1.4;
-}
-
-.porcentagem {
-  width: 40px;
-  height: 40px;
-  margin: 0 auto 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  background: #79ad4d;
-  color: white;
-  border-radius: 50%;
-  font-size: 16px;
-  font-weight: bold;
-}
-
-/* SEÇÃO PRATO SAUDÁVEL */
-
-    .grupo-bolinhas {
-        width: 100%;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        gap: 10px;
-    }
-
-    .separacao-bolinhas {
-        width: 80px;
-    }
-
-    .circulo {
-        width: 50px;
-        height: 50px;
-        font-size: 14px;
-    }
-
-    .p-texto {
-        font-size: 12px;
-    }
-
-    .linha-divisao {
-        height: 55px;
-        flex-shrink: 0;
-    }
-
-    .prato-imagem {
-        width: 100%;
-        height: 180px;
-       
-
-        box-sizing: border-box;
-
-        overflow: hidden;
-    }
-
-    .prato-imagem img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        border-radius: 8px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-    }
-
-
-/* LADO ESQUERDO -- IMAGEM DO PRATO */
-.regra-prato {
-    flex: 1.2;
-    padding: 40px 20px 40px 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.secao2-titulo {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    margin-bottom: 6px;
-}
-
-.icone-folha {
-    font-size: 24px;
-    color: #4a7c59;
-}
-
-.secao2-titulo h1 {
-    font-size: 28px;
-    color: #2d3e2d;
-    font-weight: 500;
-}
-
-.secao2-titulo h1 strong {
-    color: #619b6c; 
-    font-weight: 700;
-}
-
-.secao2-subtitulo {
-    color: #556b55;
-    font-size: 14px;
-    margin-bottom: 30px;
-}
-
-/* CIRCULOS */
-.grupo-bolinhas{
-    display: flex;
-    align-items: center;
-    gap: 25px;
-}
-
-.separacao-bolinhas {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    width: 100px;
-}
-
-.circulo {
-    background-color: #43814f; 
-    color: #ffffff;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    font-size: 16px;
-    margin-bottom: 12px;
-}
-
-.p-texto {
-    color: #2d3e2d;
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 1.3;
-}
-
-
-.linha-divisao {
-    width: 1px;
-    height: 60px;
-    background-color: #d2e2cd;
-}
-
-/* === footer === */
-
-footer {
-  background-color: #7fa853;
-  padding: 2vw;
-}
-
-footer p,
-footer a,
-footer span {
-  color: white;
-  font-size: 0.8rem;
-  margin: 3vw;
-}
-
-footer h3 {
-  display: inline;
-  color: white;
-  font-size: 1.2rem;
-  margin: 4vw 0 4vw 3vw;
-  font-weight: 600;
-}
-
-footer .paginas ul {
-  margin: 2vw;
-}
-
-footer .paginas ul li {
-  margin: 1vw;
-}
-
-footer .footer div {
-  margin: 5vw 2vw;
-}
-
-footer .footer div span {
-  color: white;
-  margin: 0;
-}
-
-footer .footer .sigaNos img {
-  width: 20px;
-}
-
-footer .footer div .whats img {
-  width: 25px;
-}
-
-footer .sigaNos ul {
-  display: flex;
-  align-items: center;
-  margin: 3vw;
-}
-
-footer span {
-  display: inline-block;
-  color: #ffffff5b;
-  margin: 3vw 4vw 4vw;
-}
-
-footer .direito {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.356);
-}
-
-
-
-
-@media only screen and (min-width: 600px) {
-
-/* === CARDS === */
-
-.grupos-alimentares {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 50px;
-    max-width: 1200px;
-    margin: 0 auto;
-    gap: 20px;
-}
-
-
-
-  /* footer */
-
-  footer {
-
-    .footer {
-      display: flex;
-      justify-content: center;
-
-      h3 {
-        font-size: 0.8rem;
-      }
-
-      a,
-      p,
-      span {
-        font-size: 0.6rem;
-      }
-
-      .paginas ul {
-        margin: 1vw 0 0 1vw;
-
-        li {
-          margin: 0vw;
-        }
-      }
-
-      .sigaNos ul {
-        margin: 1vw 1vw 1vw 3vw;
-        gap: 0vw;
-
-        li a {
-          margin: 1vw;
-        }
-      }
-
-      .fala {
-        width: 600px;
-
-        img {
-          margin: 1vw
-        }
-      }
-    }
-
-    p {
-      font-size: 0.6rem;
-    }
+  main {
+    padding: 16px;
   }
 
-}
+  /* --- HERO SECTION --- */
+  .hero-section {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 24px 16px;
+    text-align: center;
+    margin-bottom: 35px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  }
 
+  .tagline {
+    display: inline-block;
+    background-color: #f1f8f3;
+    color: #7fa66d;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 20px;
+    margin-bottom: 12px;
+  }
+
+  .hero-title {
+    font-size: 1.7rem;
+    line-height: 1.2;
+    color: #2c4224;
+    margin-bottom: 12px;
+  }
+
+  .hero-description {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #4a5d43;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    background-color: #2c4224;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 0.9rem;
+  }
+
+  /* --- SEÇÃO 1: CARDS DOS PILARES --- */
+  .cards-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    border-left: 4px solid #7fa66d;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  }
+
+  .card-icon {
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+  }
+
+  .card h3 {
+    font-size: 1.05rem;
+    color: #2c4224;
+    margin-bottom: 6px;
+  }
+
+  .card p {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: #4a5d43;
+  }
+
+  /* --- SEÇÃO 2: GUIA DO PRATO --- */
+  .prato-guia {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .divisao-item {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 12px;
+  }
+
+  .divisao-item {
+    border: 2px solid #7fa66d;
+  }
+
+  .badge {
+    display: inline-block;
+    background-color: #7fa66d;
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+  }
+
+  .divisao-item h3 {
+    font-size: 1rem;
+    color: #2c4224;
+    margin-bottom: 4px;
+  }
+
+  .divisao-item p {
+    font-size: 0.85rem;
+    line-height: 1.3;
+    color: #4a5d43;
+  }
+
+  /* --- SEÇÃO DE DICAS (AÇÚCAR E INDUSTRIALIZADOS) --- */
+  .lista-dicas {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    list-style: none;
+  }
+
+  .dica-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  }
+
+  .dica-numero {
+    background-color: #f1f8f3;
+    color: #7fa66d;
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding: 6px 10px;
+    border-radius: 8px;
+  }
+
+  .dica-card h3 {
+    font-size: 0.95rem;
+    color: #2c4224;
+    margin-bottom: 4px;
+  }
+
+  .dica-card p {
+    font-size: 0.85rem;
+    line-height: 1.3;
+    color: #4a5d43;
+  }
+
+  /* --- SEÇÃO 3: MITOS E VERDADES --- */
+  .mitos-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mito-item {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 12px 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+  }
+
+  .mito-item summary {
+    font-weight: bold;
+    font-size: 0.9rem;
+    color: #2c4224;
+    cursor: pointer;
+  }
+
+  .mito-resposta {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid #f1f8f3;
+    font-size: 0.85rem;
+    line-height: 1.4;
+    color: #4a5d43;
+  }
+}

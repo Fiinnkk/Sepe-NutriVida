@@ -16,19 +16,23 @@
 </head>
 
 <body>
-  <header>
-    <a href="index.html"><img src="imagens/logo-nutrrivida1.png" alt="logo" /></a>
-    <nav class="nav">
+   <header>
+      <a href="index.html"
+        ><img src="imagens/logo-nutrrivida1.png" alt="logo"/>
+      </a>
+      <nav class="nav">
+
+        <button id="menu-btn" class="menu-btn">☰</button>
 
         <ul id="menu">
           <li>
-            <a href="index.html">Início</a>
+            <a href="index.html" class="atual">Início</a>
           </li>
           <li>
             <a href="beneficios.html">Beneficios</a>
           </li>
           <li>
-            <a href="alimentacao.html" class="atual">Alimentação</a>
+            <a href="alimentacao.html">Alimentação</a>
           </li>
           <li>
             <a href="imc.html">Imc</a>
@@ -43,73 +47,145 @@
       </nav>
     </header>
    <main>
+   
 
-    <!-- 3. GRADE DE BENEFÍCIOS -->
-    <section class="grupos-alimentares">
-       
-        <!-- Cartão 1 -->
-        <div class="card">
-            <div class="icone">🍃</div>
-            <h3>Vegetais e Frutas</h3>
-            <p>Ricas em vitaminas, fibras e antioxidantes que protegem as células.</p>
-        </div>
+  <!-- HERO SECTION -->
+  <section class="hero-section">
+    <span class="tagline">Vida Saudável</span>
+    <h1 class="hero-title">Nutrição Descomplicada para o Seu Dia a Dia</h1>
+    <p class="hero-description">
+      Pequenas mudanças na sua alimentação geram grandes transformações na sua saúde e disposição.
+    </p>
+    <a href="#pilares" class="btn-primary">Começar Agora</a>
+  </section>
 
+  <!-- SEÇÃO 1: OS PILARES DA NUTRIÇÃO -->
+  <section id="pilares" class="secao-pilares">
+    <h2 class="secao-titulo">Os Pilares da Nutrição</h2>
+    <p class="secao-subtitulo">Entenda o papel fundamental de cada grupo de alimentos no seu corpo.</p>
 
-        <!-- Cartão 2 -->
-        <div class="card">
-            <div class="icone">🌾</div>
-            <h3>Cereais e Leguminosas</h3>
-            <p>Fornecem energia, fibras e proteínas vegetais.</p>
-        </div>
+    <div class="cards-grid">
+      <article class="card">
+        <div class="card-icon">🍎</div>
+        <h3>Vitaminas e Fibras</h3>
+        <p>Encontradas em frutas e vegetais. Protegem as células e mantêm o intestino saudável.</p>
+      </article>
 
-        <!-- Cartão 3 -->
-        <div class="card">
-            <div class="icone">🐟</div>
-            <h3>Proteínas</h3>
-            <p>Constroem e renovam os tecidos, além de ajudarem na saciedade.</p>
-        </div>
+      <article class="card">
+        <div class="card-icon">🍗</div>
+        <h3>Proteínas</h3>
+        <p>Essenciais para a reconstrução dos tecidos, massa muscular e sensação prolongada de saciedade.</p>
+      </article>
 
-        <!-- Cartão 4 -->
-        <div class="card">
-            <div class="icone">💧</div>
-            <h3>Gorduras Boas</h3>
-            <p>Essenciais para o cérebro, hormônios e absorção de vitaminas.</p>
-        </div>
-    </section>
+      <article class="card">
+        <div class="card-icon">🌾</div>
+        <h3>Carboidratos Complexos</h3>
+        <p>Nossa principal fonte de energia. Prefira opções integrais e tubérculos para energia constante.</p>
+      </article>
 
-<section class="prato-saudavel">
-        <h2>O Prato <span>Sáudavel</span></h2>
-        <p>
-          A regra simples para montar refeições equilibradas.
-        </p>
-        <ul>
-          <li>
-            <h3>1/2</h3>
-            <h4>Vegetais</h4>
-            <p>
-            50% deve ser preenchida com vegetais
-            </p>
-          </li>
-          <li>
-            <h3>1/4</h3>
-            <h4>Proteínas</h4>
-            <p>
-            25% do prato deve ter proteínas: carnes, peixes, ovos, leguminosas ou tofu.
-            </p>
-          </li>
-          <li>
-            <h3>1/4</h3>
-            <h4>Carboidratos</h4>
-            <p>
-              25% do prato deve ser composto por carboidratos: arroz, batata inglesa, batata-doce, mandioca e outros.
-            </p>
-          </li>
-        </ul>
-      
-      <div class="prato-imagem">
-        <img src="imagens/prato-dividido.jpg" alt="Prato saudável">
+      <article class="card">
+        <div class="card-icon">🥑</div>
+        <h3>Gorduras Boas</h3>
+        <p>Cruciais para a saúde do cérebro, produção hormonal e absorção de vitaminas essenciais.</p>
+      </article>
     </div>
   </section>
+
+  <!-- SEÇÃO 2: GUIA VISUAL DO PRATO IDEAL -->
+  <section class="secao-prato">
+    <h2 class="secao-titulo">O Prato Proporcional</h2>
+    <p class="secao-subtitulo">A fórmula simples para montar refeições equilibradas sem neura.</p>
+
+    <div class="prato-guia">
+      <div class="divisao-item">
+        <span class="badge">50% Do Prato</span>
+        <h3>Vegetais e Saladas</h3>
+        <p>Abuse das cores! Metade do seu prato deve ser composta por folhosos e legumes crus ou cozidos.</p>
+      </div>
+
+      <div class="divisao-item">
+        <span class="badge">25% Do Prato</span>
+        <h3>Proteínas</h3>
+        <p>Carnes magras, peixes, ovos, frango, ou opções vegetais como feijão, lentilha e tofu.</p>
+      </div>
+
+      <div class="divisao-item">
+        <span class="badge">25% Do Prato</span>
+        <h3>Carboidratos</h3>
+        <p>Arroz integral, batata-doce, mandioca, mandioquinha ou quinoa.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO DE DICAS PRÁTICAS: EVITANDO AÇÚCAR E INDUSTRIALIZADOS -->
+  <section class="secao-dicas">
+    <h2 class="secao-titulo">Dicas para Mudar Hábitos</h2>
+    <p class="secao-subtitulo">Estratégias simples para diminuir o açúcar e os ultraprocessados.</p>
+
+    <ul class="lista-dicas">
+      <li class="dica-card">
+        <span class="dica-numero">01</span>
+        <div>
+          <h3>Leia a lista de ingredientes</h3>
+          <p>Se o primeiro item for açúcar (ou nomes como xarope de milho, maltodextrina e sacarose), evite. Quanto menos ingredientes, melhor.</p>
+        </div>
+      </li>
+
+      <li class="dica-card">
+        <span class="dica-numero">02</span>
+        <div>
+          <h3>Troque o refrigerante aos poucos</h3>
+          <p>Experimente água com gás aromatizada com rodelas de limão, laranja ou folhas de hortelã para acostumar o paladar.</p>
+        </div>
+      </li>
+
+      <li class="dica-card">
+        <span class="dica-numero">03</span>
+        <div>
+          <h3>Descasque mais, embale menos</h3>
+          <p>Baseie suas compras na feira e no açougue, priorizando comida de verdade e reduzindo os produtos de prateleira.</p>
+        </div>
+      </li>
+
+      <li class="dica-card">
+        <span class="dica-numero">04</span>
+        <div>
+          <h3>Substitua doces por frutas doces</h3>
+          <p>Quando bater a vontade de açúcar, opte por banana assada com canela, uvas congeladas ou tâmaras com pasta de amendoim.</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- SEÇÃO 3: MITOS E VERDADES -->
+  <section class="secao-mitos">
+    <h2 class="secao-titulo">Mitos e Verdades</h2>
+    <p class="secao-subtitulo">Esclarecendo as dúvidas mais comuns sobre alimentação.</p>
+
+    <div class="mitos-lista">
+      <details class="mito-item">
+        <summary>Carboidrato à noite engorda?</summary>
+        <div class="mito-resposta">
+          <p><strong>Mito!</strong> O ganho de peso está atrelado ao excesso de calorias consumidas ao longo de todo o dia, e não ao horário em que você come o carboidrato.</p>
+        </div>
+      </details>
+
+      <details class="mito-item">
+        <summary>Suco natural é tão saudável quanto a fruta inteira?</summary>
+        <div class="mito-resposta">
+          <p><strong>Mito!</strong> Ao espremer a fruta, você retira a maior parte das fibras e concentra a frutose (açúcar natural), o que aumenta a velocidade de absorção da glicose.</p>
+        </div>
+      </details>
+
+      <details class="mito-item">
+        <summary>Beber água durante as refeições faz mal?</summary>
+        <div class="mito-resposta">
+          <p><strong>Depende!</strong> Pequenos goles (até 200ml) não atrapalham a digestão. O problema é consumir grandes volumes, o que pode diluir os sucos gástricos.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
   </main>
 
   <footer>
