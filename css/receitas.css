@@ -658,7 +658,8 @@ html {
     ============================== */
 
     .card {
-        height: 115px;
+        height: 140px;
+        align-items: center;
 
         display: flex;
 
@@ -687,7 +688,7 @@ html {
         width: 78px;
         min-width: 78px;
 
-        height: 95px;
+        height: 110px;
 
         display: flex;
         align-items: center;
@@ -701,8 +702,8 @@ html {
     }
 
     .imagem-receita img {
-        width: 110%;
-        height: 110%;
+        width: 120%;
+        height: 120%;
 
         object-fit: cover;
     }
@@ -717,7 +718,7 @@ html {
     }
 
     .conteudo-card h3 {
-        font-size: 0.5rem;
+        font-size: 0.6rem;
         font-weight: 600;
 
         color: #293629;
@@ -730,7 +731,7 @@ html {
     .conteudo-card p {
         font-family: Arial, sans-serif;
 
-        font-size: 0.4rem;
+        font-size: 0.5rem;
         line-height: 1.45;
 
         color: #5b6756;
