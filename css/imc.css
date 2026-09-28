@@ -1,13 +1,13 @@
 html {
-    font-size: clamp(0.9rem, calc(0.5rem + 1.6vw), 2.5rem);
-    font-family: "Heebo", sans-serif;
+  font-size: clamp(0.9rem, calc(0.5rem + 1.6vw), 2.5rem);
+  font-family: "Heebo", sans-serif;
 }
 
 
 /* === BOTÃO HAMBÚRGUER === */
 
 .menu-btn {
-    display: none;
+  display: none;
 }
 
 
@@ -15,61 +15,61 @@ html {
 
 @media only screen and (max-width: 599px) {
 
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: relative;
-    }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
 
-    .menu-btn {
-        display: block;
+  .menu-btn {
+    display: block;
 
-        margin: 0;
-        padding: 0;
+    margin: 0;
+    padding: 0;
 
-        background: transparent;
-        border: none;
+    background: transparent;
+    border: none;
 
-        color: black;
-        font-size: 2rem;
+    color: black;
+    font-size: 2rem;
 
-        cursor: pointer;
-    }
+    cursor: pointer;
+  }
 
 
-    header nav ul {
-        display: none;
+  header nav ul {
+    display: none;
 
-        position: absolute;
+    position: absolute;
 
-        top: 100%;
-        right: 0;
+    top: 100%;
+    right: 0;
 
-        width: 200px;
+    width: 200px;
 
-        background-color: white;
+    background-color: white;
 
-        border: 1px solid #00000033;
-        border-radius: 10px;
+    border: 1px solid #00000033;
+    border-radius: 10px;
 
-        padding: 10px;
+    padding: 10px;
 
-        z-index: 1000;
-    }
+    z-index: 1000;
+  }
 
-    header nav ul.ativo {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  header nav ul.ativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    header nav ul li {
-        width: 100%;
-        text-align: center;
-        margin: 5px 0;
-    }
-    
+  header nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
+
 }
 
 
@@ -77,17 +77,17 @@ html {
 
 @media only screen and (min-width: 600px) {
 
-    header nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 0.5rem;
-    }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.5rem;
+  }
 
-    header nav ul {
-        display: flex;
-        align-items: center;
-    }
+  header nav ul {
+    display: flex;
+    align-items: center;
+  }
 }
 
 
@@ -95,173 +95,187 @@ html {
 /* ===fórmula=== */
 
 h1 {
-    font-size: 1.7rem;
-    font-weight: bolder;
-    text-align: center;
-    margin-bottom: 20px;
+  font-size: 1.7rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 h2 {
-    font-size: 1.2rem;
-    font-weight: bolder;
-    text-align: center;
-    color: #1b5e20;
-    margin-bottom: 20px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-align: center;
+  color: #7fa653;
+  margin-bottom: 20px;
 }
 
 div.formula {
-    align-items: center;
-    gap: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 1rem;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1rem;
 }
-.imc-banner{
-    text-align: center;
-    padding: 10px;
-  }
-  .imc-banner img{
-    width: 80%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 20px;
-  }
-      .imc-banner ul li{
-        background-color: #cfebc07a;
-        border-radius: 20px;
-        padding: 10px;
-        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
-        margin: 2vw;
-    }
 
-  
-  
-  
-  
-  main h3 {
-    text-align: center;
-    display: inline-block;
-    border-bottom: 5px solid #000000;
-  }
-  
-  h4 {
-    padding-left: 10px;
-  }
-  
-  
-  /* ===formulario=== */
-  
-  fieldset {
-    background-color: #cfebc07a;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 5px;
-    max-width: 400px;
-    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
-    margin: 0 auto;
-  }
-  
+.imc-banner {
+  text-align: center;
+  padding: 10px;
+}
+
+.imc-banner img {
+  width: 80%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 20px;
+}
+
+.imc-banner ul li {
+  background-color: #cfebc07a;
+  border-radius: 20px;
+  padding: 1vw;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+  margin: 2vw;
+}
+
+
+
+
+
+main h3 {
+  text-align: center;
+  display: inline-block;
+  border-bottom: 5px solid #000000;
+}
+
+h4 {
+  padding-left: 10px;
+}
+
+
+/* ===formulario=== */
+
+fieldset {
+  background-color: #cfebc07a;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 400px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
 legend {
-    font-size: 1rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    background-color: #1b5e20;
-    color: white;
-    padding: 10px 50px;
-    border-radius: 20px;
-    display: inline-block;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  background-color: #1b5e20;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 20px;
+  display: inline-block;
 }
 
 label {
-    display: block;
-    margin-bottom: 10px;
-    font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 input {
-    margin-bottom: 15px;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    box-sizing: border-box;
+  margin-bottom: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
 
 button {
-    display: block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    background-color: #1b5e20;
-    color: white;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: ease-out 250ms;
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #1b5e20;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: ease-out 250ms;
 }
-button:hover{
+
+button:hover {
   transform: scale(0.9);
   background-color: white;
   color: #1b5e20;
 }
 
 @media only screen and (min-width: 600px) {
-    header nav h1 {
-        font-size: 1.2rem;
-    }
-    header nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 0.5rem;
-    }
-    header nav ul {
-        display: flex;
-        align-items: center;
-    }
-    .imc-banner ul{
-        display: flex;
- justify-content: center;
-        gap: 20px;
-    }
-    .imc-banner ul li{
-        list-style: none;
-        width: 600px;
-        height: 600px;
-        background-color: #cfebc07a;
-        border-radius: 20px;
-        padding: 20px;
-        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
-    }
-      .imc-banner img{
+  header nav h1 {
+    font-size: 1.2rem;
+  }
+
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.5rem;
+  }
+
+  header nav ul {
+    display: flex;
+    align-items: center;
+  }
+
+  .imc-banner ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .imc-banner ul li {
+    list-style: none;
+    width: 600px;
+    height: 600px;
+    background-color: #cfebc07a;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+  }
+
+  .imc-banner img {
     width: 100%;
     max-width: 800px;
     height: auto;
     border-radius: 20px;
   }
-.imc-banner ul li h1 {
+
+  .imc-banner ul li h1 {
     font-size: 2rem;
     font-weight: bolder;
     text-align: center;
     margin-bottom: 20px;
-}
-.imc-banner ul li p {
+  }
+
+  .imc-banner ul li p {
     font-size: 0.8rem;
-    text-align: center;
+    text-align: justify;
     margin-bottom: 20px;
-}
+    margin: 2vw;
+  }
 }
 
 @media only screen and (max-width: 599px) {
-    fieldset {
-        border: 1px solid #ccc;
-        padding: 20px;
-        border-radius: 5px;
-        max-width: 40px;
-        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
-        margin: 0 auto;
-    }
-}
-main {
+  fieldset {
+    border: 1px solid #ccc;
     padding: 20px;
-    text-align: center;
+    border-radius: 5px;
+    max-width: 40px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+  }
 }
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
 /* === footer === */
 footer {
   background-color: #7fa853;
@@ -325,4 +339,3 @@ footer .direito {
   text-align: center;
   color: rgba(255, 255, 255, 0.356);
 }
-
