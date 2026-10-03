@@ -1,0 +1,824 @@
+/* =========================
+   CONFIGURAÇÕES GERAIS
+========================= */
+
+html {
+    font-size: clamp(0.9rem, calc(0.5rem + 1.6vw), 2.5rem);
+    font-family: "Heebo", sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f4f7f4;
+    color: #263626;
+}
+
+
+
+/* =========================
+   PÁGINA
+========================= */
+
+.pagina-receita {
+
+    width: 100%;
+
+    max-width: 1100px;
+
+    margin: 0 auto;
+
+    background-color: #ffffff;
+
+    min-height: 100vh;
+
+    padding: 25px 45px 40px;
+
+}
+
+
+
+/* =========================
+   VOLTAR
+========================= */
+
+.voltar {
+
+    display: inline-block;
+
+    margin-bottom: 20px;
+
+    padding: 5px 12px;
+
+    background-color: #5b755b;
+
+    border-radius: 12px;
+
+    color: #dee4da;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 8px;
+
+    text-decoration: none;
+
+    transition: 0.2s;
+
+}
+
+
+.voltar:hover {
+
+    background-color: #e0e8dc;
+
+    color: #526f4b;
+
+}
+
+
+
+/* =========================
+   TOPO DA RECEITA
+========================= */
+
+.receita-topo {
+
+    display: grid;
+
+    grid-template-columns: 45% 1fr;
+
+    gap: 35px;
+
+    align-items: center;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+/* =========================
+   IMAGEM PRINCIPAL
+========================= */
+
+.imagem-principal {
+
+    width: 100%;
+
+    height: 230px;
+
+    background-color: #d9d9d9;
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+}
+
+
+.imagem-principal img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+}
+
+
+
+/* =========================
+   INFORMAÇÕES
+========================= */
+
+.informacoes {
+
+    padding-right: 15px;
+
+}
+
+
+.categoria {
+
+    font-family: Arial, sans-serif;
+
+    font-size: 8px;
+
+    font-weight: bold;
+
+    letter-spacing: 1px;
+
+    color: #70845e;
+
+    margin-bottom: 7px;
+
+}
+
+
+.informacoes h1 {
+
+    font-size: 28px;
+
+    font-weight: 500;
+
+    line-height: 1.15;
+
+    color: #293629;
+
+    margin-bottom: 12px;
+
+}
+
+
+.descricao {
+
+    font-family: Arial, sans-serif;
+
+    font-size: 9px;
+
+    line-height: 1.5;
+
+    color: #596654;
+
+    max-width: 360px;
+
+}
+
+
+
+/* =========================
+   DETALHES
+========================= */
+
+.detalhes {
+
+    display: flex;
+
+    gap: 10px;
+
+    margin-top: 18px;
+
+}
+
+
+.detalhe {
+
+    min-width: 75px;
+
+    padding: 8px 10px;
+
+    background-color: #e7f8e3;
+
+    border-radius: 8px;
+
+    text-align: center;
+
+}
+
+
+.detalhe strong {
+
+    display: block;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    color: #55764e;
+
+}
+
+
+.detalhe span {
+
+    display: block;
+
+    margin-top: 2px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 6px;
+
+    color: #596654;
+
+}
+
+
+
+/* =========================
+   CONTEÚDO DA RECEITA
+========================= */
+
+.receita-conteudo {
+
+    display: grid;
+
+    grid-template-columns: 0.8fr 1.2fr;
+
+    gap: 15px;
+
+    margin-bottom: 30px;
+
+}
+
+
+.ingredientes,
+.preparo {
+
+    background-color: #e7f8e3;
+
+    border-radius: 9px;
+
+    padding: 18px;
+
+}
+
+
+.ingredientes h2,
+.preparo h2 {
+
+    font-size: 15px;
+
+    font-weight: 500;
+
+    color: #526f4b;
+
+    margin-bottom: 10px;
+
+}
+
+
+.texto-introducao {
+
+    font-family: Arial, sans-serif;
+
+    font-size: 7px;
+
+    color: #596654;
+
+    margin-bottom: 8px;
+
+}
+
+
+
+/* =========================
+   INGREDIENTES
+========================= */
+
+.ingredientes ul {
+
+    list-style: none;
+
+    padding: 0;
+
+    margin: 0;
+
+}
+
+
+.ingredientes li {
+
+    padding: 7px 0;
+
+    border-bottom: 1px solid #d4e8cf;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 8px;
+
+    color: #4f5f4c;
+
+}
+
+
+.ingredientes li::before {
+
+    content: "•";
+
+    color: #63805b;
+
+    font-weight: bold;
+
+    margin-right: 7px;
+
+}
+
+
+
+/* =========================
+   DICA
+========================= */
+
+.dica {
+
+    margin-top: 15px;
+
+    padding: 12px;
+
+    background-color: #d7f2d2;
+
+    border-radius: 8px;
+
+}
+
+
+.dica h3 {
+
+    font-size: 10px;
+
+    font-weight: 600;
+
+    color: #4f684a;
+
+    margin-bottom: 5px;
+
+}
+
+
+.dica p {
+
+    font-family: Arial, sans-serif;
+
+    font-size: 7px;
+
+    line-height: 1.45;
+
+    color: #596654;
+
+}
+
+
+
+/* =========================
+   MODO DE PREPARO
+========================= */
+
+.passo {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 10px;
+
+    margin-bottom: 12px;
+
+}
+
+
+.passo span {
+
+    flex-shrink: 0;
+
+    width: 22px;
+
+    height: 22px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background-color: #63805b;
+
+    color: #ffffff;
+
+    border-radius: 50%;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 7px;
+
+    font-weight: bold;
+
+}
+
+
+.passo p {
+
+    margin-top: 3px;
+
+    font-family: Arial, sans-serif;
+
+    font-size: 8px;
+
+    line-height: 1.5;
+
+    color: #4f5f4c;
+
+}
+
+
+
+/* =========================
+   OUTRAS RECEITAS
+========================= */
+
+.outras-receitas {
+
+    margin-top: 10px;
+
+}
+
+
+.outras-receitas > h2 {
+
+    font-size: 15px;
+
+    font-weight: 500;
+
+    color: #687d5b;
+
+    margin-bottom: 10px;
+
+}
+
+
+.outras-grid {
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 12px;
+
+}
+
+
+.mini-card {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 9px;
+
+    min-height: 80px;
+
+    padding: 7px;
+
+    background-color: #e7f8e3;
+
+    border-radius: 8px;
+
+}
+
+
+.mini-card img {
+
+    width: 65px;
+
+    height: 65px;
+
+    min-width: 65px;
+
+    object-fit: cover;
+
+    border-radius: 4px;
+
+}
+
+
+.mini-card h3 {
+
+    font-size: 8px;
+
+    line-height: 1.3;
+
+    color: #293629;
+
+    margin-bottom: 7px;
+
+}
+
+
+.mini-card a {
+
+    font-family: Arial, sans-serif;
+
+    font-size: 6px;
+
+    color: #ffffff;
+
+    text-decoration: none;
+
+    background-color: #63805b;
+
+    padding: 4px 7px;
+
+    border-radius: 8px;
+
+}
+
+
+
+/* ==================================================
+   CELULAR
+================================================== */
+
+@media only screen and (max-width: 599px) {
+
+
+    .pagina-receita {
+
+        width: 100%;
+
+        padding: 20px;
+
+    }
+
+
+    /* =========================
+       VOLTAR
+    ========================== */
+
+    .voltar {
+
+        font-size: 10px;
+
+        padding: 6px 12px;
+
+        margin-bottom: 18px;
+
+    }
+
+
+    /* =========================
+       TOPO
+    ========================== */
+
+    .receita-topo {
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 20px;
+
+        margin-bottom: 25px;
+
+    }
+
+
+    .imagem-principal {
+
+        width: 100%;
+
+        height: 230px;
+
+    }
+
+
+    .informacoes {
+
+        padding: 0;
+
+        text-align: center;
+
+    }
+
+
+    .categoria {
+
+        font-size: 9px;
+
+    }
+
+
+    .informacoes h1 {
+
+        font-size: 27px;
+
+        line-height: 1.2;
+
+    }
+
+
+    .descricao {
+
+        font-size: 10px;
+
+        max-width: 100%;
+
+        margin: 0 auto;
+
+    }
+
+
+    /* =========================
+       DETALHES
+    ========================== */
+
+    .detalhes {
+
+        justify-content: center;
+
+        gap: 8px;
+
+    }
+
+
+    .detalhe {
+
+        min-width: 75px;
+
+    }
+
+
+    /* =========================
+       INGREDIENTES + PREPARO
+    ========================== */
+
+    .receita-conteudo {
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 15px;
+
+    }
+
+
+    .ingredientes,
+    .preparo {
+
+        padding: 18px;
+
+    }
+
+
+    .ingredientes h2,
+    .preparo h2 {
+
+        font-size: 18px;
+
+    }
+
+
+    .ingredientes li {
+
+        font-size: 10px;
+
+    }
+
+
+    .texto-introducao {
+
+        font-size: 9px;
+
+    }
+
+
+    .passo p {
+
+        font-size: 10px;
+
+    }
+
+
+    .passo span {
+
+        width: 25px;
+
+        height: 25px;
+
+        font-size: 8px;
+
+    }
+
+
+    .dica p {
+
+        font-size: 9px;
+
+    }
+
+
+    /* =========================
+       OUTRAS RECEITAS
+    ========================== */
+
+    .outras-receitas > h2 {
+
+        font-size: 18px;
+
+    }
+
+
+    .outras-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .mini-card {
+
+        min-height: 85px;
+
+    }
+
+
+    .mini-card img {
+
+        width: 70px;
+
+        height: 70px;
+
+        min-width: 70px;
+
+    }
+
+
+    .mini-card h3 {
+
+        font-size: 10px;
+
+    }
+
+
+    .mini-card a {
+
+        font-size: 8px;
+
+    }
+
+}
+
+
+
+/* ==================================================
+   DESKTOP
+================================================== */
+
+@media only screen and (min-width: 600px) {
+
+
+    .pagina-receita {
+
+        margin: 0 auto;
+
+        background-color: #ffffff;
+
+    }
+
+
+    .receita-topo {
+
+        grid-template-columns: 45% 1fr;
+
+    }
+
+}
