@@ -582,40 +582,30 @@ html {
     ============================== */
 
     .filtros {
-        width: 330px;
+        width: 11rem;
 
         display: flex;
         justify-content: center;
         align-items: center;
-
         gap: 15px;
-
         margin: 8px auto 16px;
-
         padding: 4px 10px;
-
         background-color: #eeeeee;
         border-radius: 15px;
     }
 
     .filtros a {
         font-family: Arial, sans-serif;
-
         font-size: 0.4rem;
-
         color: #4c5d45;
-
         text-decoration: none;
-
         white-space: nowrap;
     }
 
     .filtros .ativo {
         padding: 3px 7px;
-
         background-color: #79936c;
         color: white;
-
         border-radius: 10px;
     }
 
@@ -626,16 +616,13 @@ html {
 
     .categoria {
         padding: 0 45px;
-
         margin-bottom: 13px;
     }
 
     .categoria h2 {
         font-size: 0.7rem;
         font-weight: 400;
-
         color: #687d5b;
-
         margin-bottom: 6px;
     }
 
@@ -672,6 +659,7 @@ html {
         border-radius: 9px;
 
         box-shadow: none;
+
     }
 
     .card:hover {
@@ -812,7 +800,7 @@ html {
     }
 
     .frase p {
-        font-size: 0.4rem;
+        font-size: 0.5rem;
         line-height: 1.45;
 
         color: #4f654a;

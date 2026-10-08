@@ -131,10 +131,15 @@ div.formula {
 
 .imc-banner ul li {
   background-color: #cfebc07a;
+  border: 2px solid #cfebc0;
   border-radius: 20px;
   padding: 1vw;
   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
   margin: 2vw;
+}
+
+.imc-banner span {
+  color: #7fa653;
 }
 
 
@@ -253,7 +258,7 @@ button:hover {
   }
 
   .imc-banner ul li p {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     text-align: justify;
     margin-bottom: 20px;
     margin: 2vw;
