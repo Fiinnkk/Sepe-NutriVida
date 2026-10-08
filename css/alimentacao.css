@@ -314,10 +314,6 @@ main {
         color: #31462e;
     }
 
-    .plate-list small {
-        color: #73816f;
-    }
-
 
     /* Prato */
 
@@ -357,10 +353,6 @@ main {
 
     .plate-part span {
         font-size: 28px;
-    }
-
-    .plate-part small {
-        font-size: 12px;
     }
 
     .vegetables {
@@ -660,4 +652,21 @@ main {
   .secao-titulo {
     font-size: 1.5rem;
   }
+
+  .plate-section {
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+}
+
+.plate-content {
+    width: 100%;
+}
+
+.plate {
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+}
+
 }
