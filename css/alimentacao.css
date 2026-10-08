@@ -13,6 +13,10 @@ html {
   font-weight: 600;
 }
 
+p{
+   font-size: 0.95rem;
+}
+
 
 @media only screen and (max-width: 599px) {
     header {
@@ -232,65 +236,194 @@ main {
   
 }
 
-/* =========================
-   GUIA DO PRATO
-========================= */
 
-.prato-guia {
-  display: grid;
+    /* =====================================================
+       PRATO EQUILIBRADO
+    ===================================================== */
 
-  grid-template-columns: repeat(3, 1fr);
+    .plate-section {
+        background-color: #ffffff;
+        display: flex;
 
-  gap: 20px;
-}
+        align-items: center;
+        justify-content: space-between;
 
-.divisao-item {
-  background-color: #ffffff;
+        gap: 80px;
 
-  padding: 25px;
+        padding: 8vw 3vw 8vw 5vw;
+      
+        margin: 0 0 5vw 0;
+    }
 
-  border-radius: 15px;
+    .plate-content {
+        width: 50%; 
 
-  border: 2px solid #7fa66d;
+    }
 
-  transition: transform 0.3s ease;
-}
+    .plate-content h2 {
+       text-align: left;
+    }
 
-.divisao-item:hover {
-  transform: translateY(-5px);
-}
+    .plate-content p {
+       font-size: 0.9rem;
+       line-height: 1.4;
+        margin-top: 20px;
+    }
 
-.badge {
-  display: inline-block;
+    .plate-list {
+        display: flex;
+        flex-direction: column;
 
-  background-color: #7fa66d;
-  color: #ffffff;
+        gap: 15px;
 
-  font-size: 0.75rem;
-  font-weight: bold;
+        margin-top: 30px;
+    }
 
-  padding: 4px 10px;
+    .plate-list > div {
+        display: grid;
 
-  border-radius: 10px;
+        grid-template-columns: 14px 1fr;
 
-  margin-bottom: 12px;
-}
+        column-gap: 12px;
+    }
 
-.divisao-item h3 {
-  font-size: 1.2rem;
+    .dot {
+        width: 12px;
+        height: 12px;
 
-  color: #2c4224;
+        border-radius: 50%;
 
-  margin-bottom: 8px;
-}
+        grid-row: span 2;
 
-.divisao-item p {
-  font-size: 0.9rem;
+        margin-top: 5px;
+    }
 
-  line-height: 1.5;
+    .parte-verde {
+        background: #66a84e;
+    }
 
-  color: #4a5d43;
-}
+    .parte-amarela {
+        background: #e7c34b;
+    }
+
+    .parte-laranja {
+        background: #e89348;
+    }
+
+    .plate-list strong {
+        color: #31462e;
+    }
+
+    .plate-list small {
+        color: #73816f;
+    }
+
+
+    /* Prato */
+
+    .plate {
+        width: 350px;
+        height: 350px;
+
+        border-radius: 50%;
+
+        position: relative;
+
+        overflow: hidden;
+        margin: 0 5vw;
+
+        background: white;
+
+        border: 15px solid #fff;
+
+        box-shadow:
+            0 15px 45px rgba(31, 72, 42, 0.15);
+    }
+
+    .plate-part {
+        position: absolute;
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: column;
+
+        color: white;
+
+        font-weight: bold;
+    }
+
+    .plate-part span {
+        font-size: 28px;
+    }
+
+    .plate-part small {
+        font-size: 12px;
+    }
+
+    .vegetables {
+        width: 100%;
+        height: 50%;
+
+        left: 0;
+        top: 0;
+
+        background: #69a84f;
+    }
+
+    .protein {
+        width: 50%;
+        height: 50%;
+
+        left: 0;
+        bottom: 0;
+
+        background: #e7c34b;
+    }
+
+    .carbs {
+        width: 50%;
+        height: 50%;
+
+        right: 0;
+        bottom: 0;
+
+        background: #e89348;
+    }
+
+    .plate-center {
+        position: absolute;
+
+        width: 105px;
+        height: 105px;
+
+        border-radius: 50%;
+
+        background: white;
+
+        color: #34502f;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+
+        font-size: 11px;
+
+        font-weight: bold;
+
+        z-index: 3;
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+
+        box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+    }
 
 /* =========================
    DICAS
