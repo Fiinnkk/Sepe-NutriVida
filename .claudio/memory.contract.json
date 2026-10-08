@@ -1,0 +1,34 @@
+{
+  "version": "1",
+  "workspaceId": "dbab4e88c8791429",
+  "workspaceName": "Sepe-NutriVida",
+  "enabled": true,
+  "updatedAt": "2026-10-04T00:13:45.995Z",
+  "detectedStack": {
+    "languages": [],
+    "frameworks": [],
+    "uiLibraries": [],
+    "orm": [],
+    "authLibraries": [],
+    "validationLibraries": [],
+    "paymentLibraries": [],
+    "testTools": [],
+    "scripts": {},
+    "importantDirs": [],
+    "sensitiveFiles": []
+  },
+  "sections": {
+    "stack": [],
+    "packageManager": [],
+    "architectureRules": [],
+    "codingConventions": [],
+    "sensitiveFiles": [],
+    "forbiddenActions": [],
+    "allowedCommands": [],
+    "businessRules": [],
+    "integrationRules": [],
+    "testingExpectations": [],
+    "agentInstructions": [],
+    "openQuestions": []
+  }
+}

@@ -1,0 +1,663 @@
+html {
+    font-size: clamp(0.9rem, calc(0.5rem + 1.6vw), 2.5rem);
+    font-family: "Heebo", sans-serif;
+}
+
+
+/* === CELULAR === */
+
+/*   GERAL     */
+
+.destaque {
+  color: #1B5E20;
+  font-weight: 600;
+}
+
+p{
+   font-size: 0.95rem;
+}
+
+
+@media only screen and (max-width: 599px) {
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+
+
+    .menu-btn {
+        display: block;
+
+
+        margin: 0;
+        padding: 0;
+
+
+        background: transparent;
+        border: none;
+
+
+        color: black;
+        font-size: 2rem;
+
+
+        cursor: pointer;
+    }
+
+
+    header nav ul {
+        display: none;
+
+
+        position: absolute;
+
+
+        top: 100%;
+        right: 0;
+
+
+        width: 200px;
+
+
+        background-color: white;
+
+
+        border: 1px solid #00000033;
+        border-radius: 10px;
+
+
+        padding: 10px;
+
+
+        z-index: 1000;
+    }
+
+
+    header nav ul.ativo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    header nav ul li {
+        width: 100%;
+        text-align: center;
+        margin: 5px 0;
+    }
+  }
+  /* =========================
+   CONTAINER GERAL
+========================= */
+
+main {
+  padding: 40px 28px;
+
+  background-color: #f1f8f3;
+  color: #2c4224;
+
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =========================
+   SEÇÕES
+========================= */
+
+.secao-pilares,
+.secao-prato,
+.secao-dicas,
+.secao-mitos {
+  margin-bottom: 70px;
+}
+
+ h2{
+  color: #000000;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.subtitulo{
+  font-size: 1rem;
+  color: #536e4b;
+  margin-bottom: 30px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.inicio {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 70px 0;
+  text-align: center;
+  margin-bottom: 70px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+.inicio h1 {
+  max-width: 850px;
+  margin: 0 auto 20px;
+
+  font-size: 2rem;
+  line-height: 1.15;
+  color: #000000;
+}
+
+.inicio p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+
+  font-size: 0.9rem;
+  line-height: 1.4;
+
+  color: #4a5d43;
+}
+
+.btn-primary {
+  display: inline-block;
+
+  background-color:  #1B5E20;
+  color: #ffffff;
+
+  text-decoration: none;
+  font-weight: bold;
+
+  padding: 14px 30px;
+  border-radius: 25px;
+
+  font-size: 1rem;
+
+  transition: background-color 0.3s ease,
+              transform 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #7fa66d;
+  transform: translateY(-2px);
+}
+
+/* =========================
+   PILARES DA NUTRIÇÃO
+========================= */
+
+.cards {
+  display: grid;
+  margin: 0 2vw;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  text-align: center;
+
+  border-radius: 15px;
+  padding: 10px 5px 5px 5px;
+
+  border-left: 4px solid #7fa66d;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+
+  transition: transform 0.3s ease,
+              box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+}
+
+.card-icon {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  font-size: 1rem;
+  color: #2c4224;
+
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 0.7rem;
+  line-height: 1.5;
+  color: #4a5d43;
+  padding: 0 5px;
+  
+}
+
+
+    /* =====================================================
+       PRATO EQUILIBRADO
+    ===================================================== */
+
+    .plate-section {
+        background-color: #ffffff;
+        display: flex;
+
+        align-items: center;
+        justify-content: space-between;
+
+        gap: 80px;
+
+        padding: 8vw 3vw 8vw 5vw;
+      
+        margin: 0 0 5vw 0;
+    }
+
+    .plate-content {
+        width: 50%; 
+
+    }
+
+    .plate-content h2 {
+       text-align: left;
+    }
+
+    .plate-content p {
+       font-size: 0.9rem;
+       line-height: 1.4;
+        margin-top: 20px;
+    }
+
+    .plate-list {
+        display: flex;
+        flex-direction: column;
+
+        gap: 15px;
+
+        margin-top: 30px;
+    }
+
+    .plate-list > div {
+        display: grid;
+
+        grid-template-columns: 14px 1fr;
+
+        column-gap: 12px;
+    }
+
+    .dot {
+        width: 12px;
+        height: 12px;
+
+        border-radius: 50%;
+
+        grid-row: span 2;
+
+        margin-top: 5px;
+    }
+
+    .parte-verde {
+        background: #66a84e;
+    }
+
+    .parte-amarela {
+        background: #e7c34b;
+    }
+
+    .parte-laranja {
+        background: #e89348;
+    }
+
+    .plate-list strong {
+        color: #31462e;
+    }
+
+    .plate-list small {
+        color: #73816f;
+    }
+
+
+    /* Prato */
+
+    .plate {
+        width: 350px;
+        height: 350px;
+
+        border-radius: 50%;
+
+        position: relative;
+
+        overflow: hidden;
+        margin: 0 5vw;
+
+        background: white;
+
+        border: 15px solid #fff;
+
+        box-shadow:
+            0 15px 45px rgba(31, 72, 42, 0.15);
+    }
+
+    .plate-part {
+        position: absolute;
+
+        display: flex;
+
+        align-items: center;
+        justify-content: center;
+
+        flex-direction: column;
+
+        color: white;
+
+        font-weight: bold;
+    }
+
+    .plate-part span {
+        font-size: 28px;
+    }
+
+    .plate-part small {
+        font-size: 12px;
+    }
+
+    .vegetables {
+        width: 100%;
+        height: 50%;
+
+        left: 0;
+        top: 0;
+
+        background: #69a84f;
+    }
+
+    .protein {
+        width: 50%;
+        height: 50%;
+
+        left: 0;
+        bottom: 0;
+
+        background: #e7c34b;
+    }
+
+    .carbs {
+        width: 50%;
+        height: 50%;
+
+        right: 0;
+        bottom: 0;
+
+        background: #e89348;
+    }
+
+    .plate-center {
+        position: absolute;
+
+        width: 105px;
+        height: 105px;
+
+        border-radius: 50%;
+
+        background: white;
+
+        color: #34502f;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+
+        font-size: 11px;
+
+        font-weight: bold;
+
+        z-index: 3;
+
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+
+        box-shadow: 0 5px 15px rgba(0,0,0,0.12);
+    }
+
+/* =========================
+   DICAS
+========================= */
+
+.lista-dicas {
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 20px;
+
+  list-style: none;
+
+  padding: 0;
+  margin: 0;
+}
+
+.lista-dicas li {
+  background-color: #ffffff;
+
+  border-radius: 15px;
+
+  padding: 22px;
+
+  display: flex;
+  align-items: flex-start;
+
+  gap: 15px;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.04);
+
+  transition: transform 0.3s ease;
+}
+
+.lista-dicas li:hover {
+  transform: translateY(-4px);
+}
+
+.dica-numero {
+  flex-shrink: 0;
+
+  background-color: #f1f8f3;
+  color: #7fa66d;
+
+  font-weight: bold;
+  font-size: 0.95rem;
+
+  padding: 7px 11px;
+
+  border-radius: 8px;
+}
+
+.lista-dicas li h3 {
+  font-size: 1.05rem;
+
+  color: #2c4224;
+
+  margin-bottom: 6px;
+}
+
+.lista-dicas li p {
+  font-size: 0.9rem;
+
+  line-height: 1.5;
+
+  color: #4a5d43;
+}
+
+/* =========================
+   MITOS E VERDADES
+========================= */
+
+.mitos-lista {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 20px;
+}
+
+.mito-item {
+  background-color: #ffffff;
+
+  border-radius: 12px;
+
+  padding: 18px 20px;
+
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.04);
+
+  transition: box-shadow 0.3s ease;
+}
+
+.mito-item:hover {
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.07);
+}
+
+.mito-item summary {
+  font-weight: bold;
+
+  font-size: 1rem;
+
+  color: #2c4224;
+
+  cursor: pointer;
+}
+
+.mito-resposta {
+  margin-top: 12px;
+
+  padding-top: 10px;
+
+  border-top: 1px solid #f1f8f3;
+
+  font-size: 0.9rem;
+
+  line-height: 1.5;
+
+  color: #4a5d43;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media only screen and (max-width: 900px) {
+
+  .inicio {
+    padding: 50px 0;
+  }
+
+  .inicio h1 {
+    font-size: 2.4rem;
+  }
+
+  .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .prato-guia {
+    grid-template-columns: 1fr;
+  }
+
+  .mitos-lista {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================
+   CELULAR
+========================= */
+
+@media only screen and (max-width: 599px) {
+
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .menu-btn {
+    display: block;
+
+    margin: 0;
+    padding: 0;
+
+    background: transparent;
+    border: none;
+
+    color: black;
+    font-size: 2rem;
+
+    cursor: pointer;
+  }
+
+  header nav ul {
+    display: none;
+
+    position: absolute;
+
+    top: 100%;
+    right: 0;
+
+    width: 200px;
+
+    background-color: white;
+
+    border: 1px solid #00000033;
+    border-radius: 10px;
+
+    padding: 10px;
+
+    z-index: 1000;
+  }
+
+  header nav ul.ativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header nav ul li {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0;
+  }
+
+
+  main {
+    padding: 16px 4px;
+  }
+
+  .inicio {
+    padding: 24px 8px;
+  }
+
+  .inicio h1 {
+    font-size: 1.7rem;
+  }
+
+  .inicio p {
+    font-size: 0.95rem;
+  }
+
+  .cards,
+  .prato-guia,
+  .lista-dicas,s
+  .mitos-lista {
+    grid-template-columns: 1fr;
+  }
+
+  .secao-titulo {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NutriVida - Receitas</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/receitas.css" />
+    <link rel="icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="imagens/logo-nutrrivida1.png" alt="logo" /></a>
+        <nav class="nav">
+
+            <button id="menu-btn" class="menu-btn">☰</button>
+
+            <ul id="menu">
+                <li>
+                    <a href="index.html">Início</a>
+                </li>
+                <li>
+                    <a href="beneficios.html">Beneficios</a>
+                </li>
+                <li>
+                    <a href="alimentacao.html">Alimentação</a>
+                </li>
+                <li>
+                    <a href="imc.html">Imc</a>
+                </li>
+                <li>
+                    <a href="receitas.html" class="atual">Receitas</a>
+                </li>
+                <li>
+                    <a href="contatos.html">Contatos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="pagina">
+
+        <!-- CABEÇALHO -->
+        <ul class="hero">
+
+            <li class="hero-texto">
+                <h1>Receitas <span>Saudáveis</span></h1>
+
+                <p>
+                    Opções simples e saborosas para diferentes
+                    momentos do dia. Descubra como é fácil
+                    incluir mais variedade e alimentos naturais
+                    na sua rotina.
+                </p>
+            </li>
+
+            <li class="hero-imagem">
+                <img src="imagens/image receitas.png" alt="Prato com alimentos saudáveis">
+            </li>
+
+        </ul>
+
+
+        <!-- FILTROS -->
+        <ul class="filtros">
+            <a href="#" class="ativo" onclick="filtrar('todos', this)">Todos</a>
+            <a href="#" id="C" onclick="filtrar('cafe', this)">Café da manhã</a>
+            <a href="#" id="A" onclick="filtrar('almoco', this)">Almoço</a>
+            <a href="#" id="L" onclick="filtrar('lanches', this)">Lanches</a>
+            <a href="#" id="J" onclick="filtrar('jantar', this)">Jantar</a>
+        </ul>
+
+
+        <!-- CAFÉ DA MANHÃ -->
+        <section class="categoria" id="cafe">
+
+            <h2>Café da manhã</h2>
+
+            <div class="grid-receitas">
+
+                <article class="card">
+
+                    <div class="imagem-receita">
+                        <img src="imagens/image panqueca de banana.jpg" alt="Panqueca de banana e aveia">
+                    </div>
+
+                    <div class="conteudo-card">
+                        <h3>Panqueca de Banana e Aveia</h3>
+
+                        <p>
+                            Uma opção simples e prática para começar
+                            o dia, preparada com banana, ovo e aveia.
+                        </p>
+
+                        <a href="receitas/panqueca.html" class="botao">Ver receita →</a>
+                    </div>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="imagem-receita">
+                        <img src="imagens/image iogurte.avif" alt="Iogurte com frutas e aveia">
+                    </div>
+
+                    <div class="conteudo-card">
+                        <h3>Iogurte com Frutas e Aveia</h3>
+
+                        <p>
+                            Uma opção rápida para o café da manhã
+                            ou lanche, combinando iogurte, frutas e aveia.
+                        </p>
+
+                        <a href="receitas/iogurte.html" class="botao">Ver receita →</a>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ALMOÇO -->
+        <section class="categoria" id="almoco">
+
+            <h2>Almoço</h2>
+
+            <div class="grid-receitas">
+
+                <article class="card">
+
+                    <div class="imagem-receita">
+                        <img src="imagens/image salada colorida.jpg" alt="Salada colorida">
+                    </div>
+
+                    <div class="conteudo-card">
+                        <h3>Salada Colorida</h3>
+
+                        <p>
+                            Uma combinação de diferentes vegetais
+                            que traz variedade, sabor e diferentes
+                            cores para a refeição.
+                        </p>
+
+                        <a href="receitas/salada.html" class="botao">Ver receita →</a>
+                    </div>
+
+                </article>
+
+
+                <article class="card">
+
+                    <div class="imagem-receita">
+                        <img src="imagens/image bowl.jpg" alt="Bowl de frango com legumes">
+                    </div>
+
+                    <div class="conteudo-card">
+                        <h3>Bowl de Frango com Legumes</h3>
+
+                        <p>
+                            Uma refeição prática que combina frango,
+                            arroz e diferentes legumes em uma única
+                            preparação.
+                        </p>
+
+                        <a href="receitas/bowl-frango.html" class="botao">Ver receita →</a>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- LANCHES -->
+        <section class="categoria categoria-destaque" id="lanches">
+
+            <h2>Lanches</h2>
+
+            <div class="grid-receitas">
+
+                <!-- SANDUÍCHE NATURAL -->
+                <article class="card">
+
+                    <div class="imagem-receita">
+
+                        <img src="imagens/image sanduiche.avif" alt="Sanduíche natural">
+
+                    </div>
+
+                    <div class="conteudo-card">
+
+                        <h3>
+                            Sanduíche Natural
+                        </h3>
+
+                        <p>
+                            Uma opção prática para o lanche,
+                            combinando pão, vegetais e um recheio
+                            de sua preferência.
+                        </p>
+
+                        <a href="receitas/sanduiche.html" class="botao">
+                            Ver receita →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- CUPCAKES DE MAÇÃ -->
+                <article class="card">
+
+                    <div class="imagem-receita">
+
+                <img
+                    src="imagens/cupcake-maçã.webp"
+                    alt="Cupcakes de maçã"
+                >
+
+                    </div>
+
+                    <div class="conteudo-card">
+
+                        <h3>
+                            Cupcakes de Maçã
+                        </h3>
+
+                        <p>
+                            Cupcakes macios e saborosos preparados
+                            com maçã, aveia, canela e farinha sem
+                            glúten.
+                        </p>
+
+                <a
+                    href="receitas/cupcakes-maca.html"
+                    class="botao"
+                >
+                    Ver receita →
+                </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- SEGUNDO CUPCAKE -->
+                <article class="card">
+
+                    <div class="imagem-receita">
+
+                <img
+                    src="imagens/cupcake-banana.jpg"
+                    alt="Cupcakes de Banana"
+                >
+
+                    </div>
+
+                    <div class="conteudo-card">
+
+                        <h3>
+                            Cupcakes de Banana
+                        </h3>
+
+                        <p>
+                            Uma opção caseira e saborosa para o
+                            lanche, perfeita para compartilhar
+                            com a família.
+                        </p>
+
+                        <a href="receitas/cupcake-banana.html" class="botao">
+                            Ver receita →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- JANTAR -->
+        <section class="categoria" id="jantar">
+
+            <h2>Jantar</h2>
+
+            <div class="linha-receita">
+
+                <article class="card card-jantar">
+
+                    <div class="imagem-receita">
+                        <img src="imagens/image omelete.jpg" alt="Omelete com legumes">
+                    </div>
+
+                    <div class="conteudo-card">
+                        <h3>Omelete com Legumes</h3>
+
+                        <p>
+                            Uma preparação simples e versátil
+                            que pode ser feita com diferentes
+                            vegetais disponíveis em casa.
+                        </p>
+
+                        <a href="receitas/omelete.html" class="botao">Ver receita →</a>
+                    </div>
+
+                </article>
+
+
+                <div class="frase">
+                    <p>
+                        Cozinhar também é um
+                        ato de cuidado com você!
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="fala">
+                <img src="imagens/logo-nutriVida.png" alt="logo" />
+                <p>
+                    Educação nutricional <span>acessível</span> para quem quer viver com
+                    mais <span>saúde</span> e <span>qualidade de vida</span>.
+                </p>
+            </div>
+            <div class="paginas">
+                <h3>Páginas</h3>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="beneficios.html">Benefícios</a></li>
+                    <li><a href="alimentacao.html">Alimentação</a></li>
+                    <li><a href="imc.html">Imc</a></li>
+                    <li><a href="receitas.html">Receitas</a></li>
+                    <li><a href="contatos.html">Contatos</a></li>
+                </ul>
+            </div>
+            <div class="sigaNos">
+                <h3>Siga-nos</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/nutrivida_ifc?stkn=MW9kajV4MDNva3hpbw=="><img
+                                src="imagens/image24.svg" alt="instagram" /></a>
+                    </li>
+                    <li>
+                        <a href="www.whatsapp.com" class="whats"><img src="imagens/image25.svg" alt="whatsapp" /></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="direito">© 2026 NutriVida. Todos os direitos reservados.</p>
+    </footer>
+
+    <!--Deixa esse script por ultimo-->
+
+    <script src="js/receitas.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/ScrollReveal.js"></script>
+
+</body>
+
+</html>

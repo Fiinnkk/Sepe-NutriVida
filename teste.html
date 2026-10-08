@@ -1,0 +1,161 @@
+ /* =====================================================
+       RESET
+    ===================================================== */
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f2f8f4;
+        color: #111;
+        line-height: 1.6;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    button {
+        font-family: inherit;
+    }
+
+
+    /* =====================================================
+       CORES
+    ===================================================== */
+
+    :root {
+        --green-dark: #176b25;
+        --green: #76a94e;
+        --green-light: #e8f2e5;
+
+        --background: #f2f8f4;
+
+        --text: #111;
+        --text-light: #50664e;
+
+        --white: #fff;
+
+        --red: #d84c45;
+        --red-light: #fff0ef;
+
+        --orange: #ef9d45;
+
+        --blue: #5597c7;
+
+        --shadow:
+            0 12px 35px rgba(31, 72, 42, 0.08);
+    }
+
+
+    /* =====================================================
+       HEADER
+    ===================================================== */
+
+    .header {
+        height: 98px;
+
+        background: #fff;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 0 3.5%;
+
+        border-bottom: 1px solid #e7e7e7;
+
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+
+    /* Logo */
+
+    .logo {
+        display: flex;
+        align-items: center;
+
+        color: var(--green-dark);
+
+        font-size: 22px;
+
+        line-height: 1;
+    }
+
+    .logo strong {
+        font-size: 20px;
+    }
+
+    .logo span {
+        font-weight: 300;
+    }
+
+    .logo-icon {
+        width: 45px;
+        height: 45px;
+
+        margin-right: 8px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border-radius: 50%;
+
+        color: var(--green-dark);
+
+        font-size: 28px;
+    }
+
+
+    /* Navegação */
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .navbar a {
+        font-size: 13px;
+        font-weight: 600;
+
+        color: #666;
+
+        transition: 0.25s;
+    }
+
+    .navbar a:hover {
+        color: var(--green-dark);
+    }
+
+    .navbar a.active {
+        color: var(--green);
+    }
+
+    .menu-mobile {
+        display: none;
+
+        border: none;
+        background: transparent;
+
+        font-size: 25px;
+
+        color: var(--green-dark);
+
+        cursor: pointer;
+    }
+
+
+ 

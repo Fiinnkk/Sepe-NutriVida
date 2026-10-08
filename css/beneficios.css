@@ -1,0 +1,442 @@
+html {
+  font-size: clamp(0.9rem, calc(0.5rem + 1.6vw), 2.5rem);
+  font-family: "Heebo", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* =========================
+   SEÇÕES
+========================= */
+
+.secao {
+    margin-bottom: 75px;
+}
+
+.secao h2,
+.beneficios h2,
+.maleficios h2 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.secao h2 span,
+.beneficios h2 span,
+.maleficios h2 span {
+    color: #176329;
+    font-weight: 700;
+}
+
+.descricao {
+    text-align: center;
+    color: #587052;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+
+
+/* =========================
+   CARDS
+========================= */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 28px 22px;
+    text-align: center;
+    min-height: 290px;
+
+    box-shadow: 0 5px 18px rgba(50, 90, 60, 0.07);
+
+    transition: transform 0.25s ease,
+                box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(50, 90, 60, 0.13);
+}
+
+.card-positivo {
+    border-left: 4px solid #7da967;
+}
+
+.card-negativo {
+    border-left: 4px solid #d66b5d;
+}
+
+.icone {
+    font-size: 52px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 23px;
+    font-weight: 400;
+    color: #304d2c;
+    margin-bottom: 13px;
+}
+
+.card p {
+    color: #50634c;
+    font-size: 17px;
+    line-height: 1.55;
+}
+
+
+/* =========================
+   BENEFÍCIOS
+========================= */
+
+.beneficios {
+    background: #e4f1e7;
+    border-radius: 20px;
+    padding: 55px 45px;
+    margin-bottom: 75px;
+}
+
+.lista-beneficios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+    margin-top: 35px;
+}
+
+.beneficio {
+    background: white;
+    border-radius: 14px;
+    padding: 25px;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+.beneficio strong {
+    background: #1b6b2a;
+    color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 19px;
+    flex-shrink: 0;
+}
+
+.beneficio h3 {
+    color: #294b28;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+.beneficio p {
+    color: #566951;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
+/* =========================
+   ALIMENTAÇÃO RUIM
+========================= */
+
+.alimentacao-ruim {
+    margin-bottom: 75px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.alimentacao-ruim h2 span {
+    color: #c75143;
+}
+
+.alimentacao-ruim .card {
+    border-left-color: #d66b5d;
+}
+
+.alimentacao-ruim .card h3 {
+    color: #66352f;
+}
+
+
+/* =========================
+   MALEFÍCIOS
+========================= */
+
+.maleficios {
+    background: #fff5f2;
+    border-radius: 20px;
+    padding: 55px 45px;
+    margin-bottom: 75px;
+}
+
+.maleficios h2 span {
+    color: #c75143;
+}
+
+.maleficios-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.maleficio {
+    background: white;
+    padding: 28px 22px;
+    border-radius: 14px;
+    border-top: 4px solid #d66b5d;
+}
+
+.maleficio span {
+    display: inline-block;
+    color: #c75143;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.maleficio h3 {
+    color: #54332e;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.maleficio p {
+    color: #66514d;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+
+/* =========================
+   COMPARAÇÃO
+========================= */
+
+.comparacao {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.comparacao h2 {
+    font-size: 40px;
+    color: #1b5f29;
+    margin-bottom: 12px;
+}
+
+.comparacao > p {
+    color: #566951;
+    font-size: 19px;
+    margin-bottom: 35px;
+}
+
+.trocas {
+    display: grid;
+    grid-template-columns: 1fr 60px 1fr;
+    gap: 15px;
+    max-width: 850px;
+    margin: auto;
+    align-items: center;
+}
+
+.troca {
+    background: white;
+    border-radius: 13px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: left;
+
+    box-shadow: 0 4px 15px rgba(50, 90, 60, 0.07);
+}
+
+.troca > span {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+    font-size: 20px;
+    flex-shrink: 0;
+}
+
+.ruim {
+    border-left: 4px solid #d66b5d;
+}
+
+.ruim > span {
+    background: #f9dfdb;
+    color: #c75143;
+}
+
+.boa {
+    border-left: 4px solid #6b9e59;
+}
+
+.boa > span {
+    background: #dcebd9;
+    color: #34702d;
+}
+
+.troca strong {
+    display: block;
+    color: #304d2c;
+    margin-bottom: 4px;
+}
+
+.troca small {
+    color: #687766;
+}
+
+.seta {
+    color: #4f8344;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+/* =========================
+   FINAL
+========================= */
+
+.final {
+    background: #196529;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding: 60px 25px;
+    margin: 3vw 2vw;
+}
+
+.final-icone {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.final h2 {
+    font-size: 38px;
+    line-height: 1.25;
+    margin-bottom: 18px;
+}
+
+.final h2 span {
+    color: #b8dc9f;
+}
+
+.final p {
+    max-width: 650px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #dcebd8;
+}
+
+
+/* =========================
+   RESPONSIVIDADE
+========================= */
+
+@media (max-width: 1000px) {
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .maleficios-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .introducao h1 {
+        font-size: 48px;
+    }
+}
+
+
+@media (max-width: 700px) {
+
+    .pagina {
+        padding: 20px 15px 50px;
+    }
+
+    .introducao {
+        padding: 45px 20px;
+        margin-bottom: 50px;
+    }
+
+    .introducao h1 {
+        font-size: 38px;
+    }
+
+    .introducao p {
+        font-size: 18px;
+    }
+
+    .secao h2,
+    .beneficios h2,
+    .maleficios h2 {
+        font-size: 32px;
+    }
+
+    .descricao {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        min-height: auto;
+    }
+
+    .beneficios,
+    .maleficios {
+        padding: 40px 20px;
+    }
+
+    .lista-beneficios {
+        grid-template-columns: 1fr;
+    }
+
+    .maleficios-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .comparacao h2 {
+        font-size: 30px;
+    }
+
+    .trocas {
+        grid-template-columns: 1fr;
+    }
+
+    .seta {
+        transform: rotate(90deg);
+    }
+
+    .final {
+        padding: 45px 20px;
+    }
+
+    .final h2 {
+        font-size: 30px;
+    }
+}
