@@ -243,7 +243,7 @@ Araquari, 19 de outubro de 2026, às 14 horas e 30 minutos.
 - Item 1: Decidimos que vamos adicionar mais coisas em JS, melhorar nossas páginas e planejamos as nossas apresentações.
 ### 3. Discussões e Deliberações
 - Sobre o Item 1: Ficou decidido que vamos dividir as tarefas de programação em JavaScript para melhorar o funcionamento e o visual das páginas. Também combinamos de realizar treinos para organizar e melhorar as nossas apresentações.
-- 
+
 Araquari, 26 de outubro de 2026, às 14 horas e 30 minutos.
 
 ---
