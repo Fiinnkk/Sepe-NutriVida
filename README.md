@@ -205,97 +205,97 @@ Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
 
 ---
 
-## ATA DA 12ª REUNIÃO 
-### 1. Presença
-- Presidente/Coordenadora: Maria Lucia Feltrim.
-- Secretário(a): Luciana Falk de Almeida.
-- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
-- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
-### 2. Ordem do Dia (Assuntos)
-- Item 1: Planejamento das apresentações.
-### 3. Discussões e Deliberações
-- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
-
-Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
-
----
-
-## ATA DA 12ª REUNIÃO 
-### 1. Presença
-- Presidente/Coordenadora: Maria Lucia Feltrim.
-- Secretário(a): Luciana Falk de Almeida.
-- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
-- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
-### 2. Ordem do Dia (Assuntos)
-- Item 1: Planejamento das apresentações.
-### 3. Discussões e Deliberações
-- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
-
-Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
-
----
-
-## ATA DA 12ª REUNIÃO 
-### 1. Presença
-- Presidente/Coordenadora: Maria Lucia Feltrim.
-- Secretário(a): Luciana Falk de Almeida.
-- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
-- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
-### 2. Ordem do Dia (Assuntos)
-- Item 1: Planejamento das apresentações.
-### 3. Discussões e Deliberações
-- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
-
-Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
-
----
-
-## ATA DA 12ª REUNIÃO 
-### 1. Presença
-- Presidente/Coordenadora: Maria Lucia Feltrim.
-- Secretário(a): Luciana Falk de Almeida.
-- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
-- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
-### 2. Ordem do Dia (Assuntos)
-- Item 1: Planejamento das apresentações.
-### 3. Discussões e Deliberações
-- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
-
-Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
-
----
-
-## ATA DA 12ª REUNIÃO 
-### 1. Presença
-- Presidente/Coordenadora: Maria Lucia Feltrim.
-- Secretário(a): Luciana Falk de Almeida.
-- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
-- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
-### 2. Ordem do Dia (Assuntos)
-- Item 1: Planejamento das apresentações.
-### 3. Discussões e Deliberações
-- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
-
-Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
-
----
-
-## ATA DA 12ª REUNIÃO 
-### 1. Presença
-- Presidente/Coordenadora: Maria Lucia Feltrim.
-- Secretário(a): Luciana Falk de Almeida.
-- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
-- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
-### 2. Ordem do Dia (Assuntos)
-- Item 1: Planejamento das apresentações.
-### 3. Discussões e Deliberações
-- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
-
-Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
-
----
-
 ## ATA DA 13ª REUNIÃO 
+### 1. Presença
+- Presidente/Coordenadora: Maria Lucia Feltrim.
+- Secretário(a): Luciana Falk de Almeida.
+- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
+- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
+### 2. Ordem do Dia (Assuntos)
+- Item 1: Planejamento das apresentações.
+### 3. Discussões e Deliberações
+- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
+
+Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
+
+---
+
+## ATA DA 14ª REUNIÃO 
+### 1. Presença
+- Presidente/Coordenadora: Maria Lucia Feltrim.
+- Secretário(a): Luciana Falk de Almeida.
+- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
+- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
+### 2. Ordem do Dia (Assuntos)
+- Item 1: Planejamento das apresentações.
+### 3. Discussões e Deliberações
+- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
+
+Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
+
+---
+
+## ATA DA 15ª REUNIÃO 
+### 1. Presença
+- Presidente/Coordenadora: Maria Lucia Feltrim.
+- Secretário(a): Luciana Falk de Almeida.
+- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
+- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
+### 2. Ordem do Dia (Assuntos)
+- Item 1: Planejamento das apresentações.
+### 3. Discussões e Deliberações
+- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
+
+Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
+
+---
+
+## ATA DA 16ª REUNIÃO 
+### 1. Presença
+- Presidente/Coordenadora: Maria Lucia Feltrim.
+- Secretário(a): Luciana Falk de Almeida.
+- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
+- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
+### 2. Ordem do Dia (Assuntos)
+- Item 1: Planejamento das apresentações.
+### 3. Discussões e Deliberações
+- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
+
+Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
+
+---
+
+## ATA DA 17ª REUNIÃO 
+### 1. Presença
+- Presidente/Coordenadora: Maria Lucia Feltrim.
+- Secretário(a): Luciana Falk de Almeida.
+- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
+- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
+### 2. Ordem do Dia (Assuntos)
+- Item 1: Planejamento das apresentações.
+### 3. Discussões e Deliberações
+- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
+
+Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
+
+---
+
+## ATA DA 18ª REUNIÃO 
+### 1. Presença
+- Presidente/Coordenadora: Maria Lucia Feltrim.
+- Secretário(a): Luciana Falk de Almeida.
+- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
+- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
+### 2. Ordem do Dia (Assuntos)
+- Item 1: Planejamento das apresentações.
+### 3. Discussões e Deliberações
+- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
+
+Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
+
+---
+
+## ATA DA 19ª REUNIÃO 
 ### 1. Presença
 - Presidente/Coordenadora: Maria Lucia Feltrim.
 - Secretário(a): Luciana Falk de Almeida.
@@ -309,7 +309,7 @@ Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
 
 ---
 
-## ATA DA 14ª REUNIÃO 
+## ATA DA 20ª REUNIÃO 
 ### 1. Presença
 - Presidente/Coordenadora: Maria Lucia Feltrim.
 - Secretário(a): Luciana Falk de Almeida.
@@ -324,7 +324,7 @@ Araquari, 19 de outubro de 2026, às 14 horas e 30 minutos.
 
 ---
 
-## ATA DA 15ª REUNIÃO 
+## ATA DA 21ª REUNIÃO 
 ### 1. Presença
 - Presidente/Coordenadora: Maria Lucia Feltrim.
 - Secretário(a): Luciana Falk de Almeida.
