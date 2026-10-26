@@ -138,7 +138,8 @@ Araquari, 03 de agosto de 2026, às 11 horas e 55 minutos.
 - Item 1: Continuação do html e CSS.
 - Item 2: Melhoria do Figma.
 ### 3. Discussões e Deliberações
-- Sobre o Item 1:
+- Sobre o Item 1: Demos continuidade aos códigos do projeto.
+- Sobre o Item 2: A equipe revisou o protótipo e identificou melhorias no visual e na navegação do usuário. Foi decidido que o layout passará por ajustes para se alinhar ao projeto.
 
 Araquari, 10 de agosto de 2026, às 14 horas e 30 minutos.
 
@@ -150,10 +151,9 @@ Araquari, 10 de agosto de 2026, às 14 horas e 30 minutos.
 - Secretário(a): Luciana Falk de Almeida.
 - Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Alice Cristini, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
 ### 2. Ordem do Dia (Assuntos)
-- Item 1: Continuação do html e CSS.
-- Item 2: Melhoria do Figma.
+- Item 1: Continuação do html e CSS e melhoria do Figma.
 ### 3. Discussões e Deliberações
-- Sobre o Item 1: 
+- Sobre o Item 1: Fizemos os últimos ajustes necessários no Figma e continuamos os códigos.
 
 Araquari, 17 de agosto de 2026, às 14 horas e 30 minutos.
 
@@ -209,96 +209,6 @@ Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
 ### 1. Presença
 - Presidente/Coordenadora: Maria Lucia Feltrim.
 - Secretário(a): Luciana Falk de Almeida.
-- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
-- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
-### 2. Ordem do Dia (Assuntos)
-- Item 1: Planejamento das apresentações.
-### 3. Discussões e Deliberações
-- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
-
-Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
-
----
-
-## ATA DA 14ª REUNIÃO 
-### 1. Presença
-- Presidente/Coordenadora: Maria Lucia Feltrim.
-- Secretário(a): Luciana Falk de Almeida.
-- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
-- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
-### 2. Ordem do Dia (Assuntos)
-- Item 1: Planejamento das apresentações.
-### 3. Discussões e Deliberações
-- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
-
-Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
-
----
-
-## ATA DA 15ª REUNIÃO 
-### 1. Presença
-- Presidente/Coordenadora: Maria Lucia Feltrim.
-- Secretário(a): Luciana Falk de Almeida.
-- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
-- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
-### 2. Ordem do Dia (Assuntos)
-- Item 1: Planejamento das apresentações.
-### 3. Discussões e Deliberações
-- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
-
-Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
-
----
-
-## ATA DA 16ª REUNIÃO 
-### 1. Presença
-- Presidente/Coordenadora: Maria Lucia Feltrim.
-- Secretário(a): Luciana Falk de Almeida.
-- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
-- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
-### 2. Ordem do Dia (Assuntos)
-- Item 1: Planejamento das apresentações.
-### 3. Discussões e Deliberações
-- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
-
-Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
-
----
-
-## ATA DA 17ª REUNIÃO 
-### 1. Presença
-- Presidente/Coordenadora: Maria Lucia Feltrim.
-- Secretário(a): Luciana Falk de Almeida.
-- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
-- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
-### 2. Ordem do Dia (Assuntos)
-- Item 1: Planejamento das apresentações.
-### 3. Discussões e Deliberações
-- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
-
-Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
-
----
-
-## ATA DA 18ª REUNIÃO 
-### 1. Presença
-- Presidente/Coordenadora: Maria Lucia Feltrim.
-- Secretário(a): Luciana Falk de Almeida.
-- Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
-- Membros ausentes: Alice Cristini ausentou-se da aula pois passou mal, necessitando de atendimento na enfermaria e posteriormente foi levada pelos pais. O membro se comprometeu a apresentar atestado médico.
-### 2. Ordem do Dia (Assuntos)
-- Item 1: Planejamento das apresentações.
-### 3. Discussões e Deliberações
-- Sobre o Item 1: Começamos o planejamento das apresentações dando ideias como cartazes, maquetes e lembrancinhas para os avaliadores.
-
-Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
-
----
-
-## ATA DA 19ª REUNIÃO 
-### 1. Presença
-- Presidente/Coordenadora: Maria Lucia Feltrim.
-- Secretário(a): Luciana Falk de Almeida.
 - Membros presentes: Luciana Falk de Almeida, Maria Lucia Feltrim, Alice Cristini, Pedro Barrim, Felipe Gabriel Fink e Matheus Hilário.
 ### 2. Ordem do Dia (Assuntos)
 - Item 1: Apresentar a sepe para turma.
@@ -309,7 +219,7 @@ Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
 
 ---
 
-## ATA DA 20ª REUNIÃO 
+## ATA DA 14ª REUNIÃO 
 ### 1. Presença
 - Presidente/Coordenadora: Maria Lucia Feltrim.
 - Secretário(a): Luciana Falk de Almeida.
@@ -324,7 +234,7 @@ Araquari, 19 de outubro de 2026, às 14 horas e 30 minutos.
 
 ---
 
-## ATA DA 21ª REUNIÃO 
+## ATA DA 15ª REUNIÃO 
 ### 1. Presença
 - Presidente/Coordenadora: Maria Lucia Feltrim.
 - Secretário(a): Luciana Falk de Almeida.
