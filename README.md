@@ -186,7 +186,7 @@ Araquari, 24 de agosto de 2026, às 14 horas e 30 minutos.
 ### 3. Discussões e Deliberações
 - Sobre o Item 1: Foi criado posts para o instagram do site por meio da ferramenta do canva
   
-Araquari, 24 de agosto de 2026, às 14 horas e 30 minutos.
+Araquari, 31 de agosto de 2026, às 14 horas e 30 minutos.
 
 ---
 
@@ -215,7 +215,7 @@ Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
 ### 3. Discussões e Deliberações
 - Sobre o Item 1: Apresentamos para a turma o nosso projeto.
   
-Araquari, 21 de setembro de 2026, às 14 horas e 30 minutos.
+Araquari, 28 de setembro de 2026, às 14 horas e 30 minutos.
 
 ---
 
