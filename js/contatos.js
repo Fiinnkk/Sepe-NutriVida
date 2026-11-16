@@ -1,20 +1,17 @@
-const form = document.getElementById('formulario');
+const formulario = document.getElementById("formulario");
+const confirmacao = document.getElementById("confirmacao");
 
-form.addEventListener('submit', function (event) {
+formulario.addEventListener("submit", function (event) {
+
     event.preventDefault();
 
-  
-    emailjs.init({
-        publicKey: "mW73NoAKaurl0f90l",
-    });
+    const nome = document.getElementById("nome").value;
+    const email = document.getElementById("email").value;
 
-   
-    emailjs.sendForm('service_2dvg1j8', 'template_4b86qhi', form)
-        .then((response) => {
-            alert('Mensagem enviada com sucesso!');
-        })
-        .catch((error) => {
-            console.error('Erro ao enviar:', error);
-            alert('Erro ao enviar a mensagem.');
-        });
+    document.getElementById("nome-confirmacao").textContent = nome;
+    document.getElementById("email-confirmacao").textContent = email;
+
+    formulario.style.display = "none";
+    confirmacao.style.display = "block";
 });
+
