@@ -87,7 +87,7 @@ html {
 .secao h2 span,
 .beneficios h2 span,
 .maleficios h2 span {
-    color: #176329;
+    color:#7fa653;
     font-weight: 700;
 }
 
@@ -198,14 +198,14 @@ html {
 
 .beneficio h3 {
     color: #294b28;
-    font-size: 20px;
+    font-size: 0.9rem;
     margin-bottom: 7px;
 }
 
 .beneficio p {
     color: #566951;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 0.8rem;
 }
 
 
@@ -384,11 +384,6 @@ html {
     text-align: center;
     padding: 60px 25px;
     margin: 3vw 2vw;
-}
-
-.final-icone {
-    font-size: 45px;
-    margin-bottom: 15px;
 }
 
 .final h2 {

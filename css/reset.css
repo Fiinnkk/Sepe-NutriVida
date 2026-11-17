@@ -146,7 +146,7 @@ footer .paginas ul {
 }
 
 footer .paginas ul li {
-  margin: 1vw;
+  margin: 3vw 0;
 }
 
 footer .footer div {
@@ -234,7 +234,7 @@ footer .direito {
     justify-content: center;
   }
 
-  .footer h3 {
+  .paginas h3 {
     font-size: 0.8rem;
   }
 
