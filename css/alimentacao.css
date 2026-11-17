@@ -107,8 +107,7 @@ main {
 
 .secao-pilares,
 .secao-prato,
-.secao-dicas,
-.secao-mitos {
+.secao-dicas{
   margin-bottom: 70px;
 }
 
@@ -493,57 +492,6 @@ main {
   color: #4a5d43;
 }
 
-/* =========================
-   MITOS E VERDADES
-========================= */
-
-.mitos-lista {
-  display: grid;
-
-  grid-template-columns: repeat(3, 1fr);
-
-  gap: 20px;
-}
-
-.mito-item {
-  background-color: #ffffff;
-
-  border-radius: 12px;
-
-  padding: 18px 20px;
-
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.04);
-
-  transition: box-shadow 0.3s ease;
-}
-
-.mito-item:hover {
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.07);
-}
-
-.mito-item summary {
-  font-weight: bold;
-
-  font-size: 1rem;
-
-  color: #2c4224;
-
-  cursor: pointer;
-}
-
-.mito-resposta {
-  margin-top: 12px;
-
-  padding-top: 10px;
-
-  border-top: 1px solid #f1f8f3;
-
-  font-size: 0.9rem;
-
-  line-height: 1.5;
-
-  color: #4a5d43;
-}
 
 /* =========================
    TABLET
@@ -652,8 +600,7 @@ main {
 
   .cards,
   .prato-guia,
-  .lista-dicas,s
-  .mitos-lista {
+  .lista-dicas,s{
     grid-template-columns: 1fr;
   }
 
