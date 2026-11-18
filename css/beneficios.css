@@ -215,6 +215,8 @@ html {
     margin-bottom: 75px;
     margin-left: 75px;
     margin-right: 75px;
+    align-items: center;
+    text-align: center;
 }
 
 .alimentacao-ruim h2 span {

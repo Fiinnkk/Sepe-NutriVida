@@ -73,14 +73,20 @@ ScrollReveal().reveal('.acoes ul .esquerda', {
 /* === Benefícios === */
 
 
-ScrollReveal().reveal('.beneficios h1, .beneficios p', {
+ScrollReveal().reveal('.beneficios h1, .beneficios h2, .beneficios h3, .beneficios p', {
     ...configBase,
     origin: "bottom",
     scale: 0.95,
     interval: 200,
     delay: 200
 });
-
+ScrollReveal().reveal('.alimentacao-ruim h2,.alimentacao-ruim p ',{
+...configBase,
+    origin: "bottom",
+    scale: 0.95,
+    interval: 200,
+    delay: 200
+});
 
 ScrollReveal().reveal('.part-dois .card-beneficio, .part-dois h2', {
     ...configBase,
@@ -89,6 +95,49 @@ ScrollReveal().reveal('.part-dois .card-beneficio, .part-dois h2', {
     interval: 200,
     delay: 200
 });
+ScrollReveal().reveal('.maleficios h2, .maleficios h3, .maleficios p', {
+    ...configBase,
+    origin: "bottom",
+    scale: 0.95,
+    interval: 200,
+    delay: 200
+});
+ScrollReveal().reveal('.comparacao h2, .comparacao h3, .comparacao p', {
+    ...configBase,
+    origin: "bottom",
+    scale: 0.95,
+    interval: 200,
+    delay: 200
+});
+ScrollReveal().reveal(' .ruim', {
+    ...configBase,
+    origin: "left",
+    scale: 0.95,
+    interval: 200,
+    delay: 200
+});
+ScrollReveal().reveal(' .boa', {
+    ...configBase,
+    origin: "right",
+    scale: 0.95,
+    interval: 200,
+    delay: 200
+});
+ScrollReveal().reveal('.final', {
+    ...configBase,
+    origin: "bottom",
+    scale: 0.95,
+    interval: 200,
+    delay: 200
+})
+ScrollReveal().reveal(' .final h2, .final h3, .final p', {
+    ...configBase,
+    origin: "bottom",
+    scale: 0.95,
+    interval: 200,
+    delay: 200
+});
+
 
 
 /* === Alimentação === */
